@@ -1,0 +1,40 @@
+2024-11-27 20:23:02.650 +01:00 [INF] User profile is available. Using '/Users/libansulub/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-27 20:23:03.049 +01:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-11-27 20:23:03.075 +01:00 [INF] Now listening on: https://localhost:7135
+2024-11-27 20:23:03.076 +01:00 [INF] Now listening on: http://localhost:5214
+2024-11-27 20:23:03.081 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-27 20:23:03.082 +01:00 [INF] Hosting environment: Development
+2024-11-27 20:23:03.083 +01:00 [INF] Content root path: /Users/libansulub/Documents/Sub-Application 2 - React/api
+2024-11-27 20:23:14.154 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/ - null null
+2024-11-27 20:23:14.207 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-11-27 20:23:14.241 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/ - 404 0 null 89.1689ms
+2024-11-27 20:23:14.244 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/, Response status code: 404
+2024-11-27 20:23:58.285 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/swagger/index.html - null null
+2024-11-27 20:23:58.332 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/swagger/index.html - 200 null text/html;charset=utf-8 47.9029ms
+2024-11-27 20:23:58.398 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/swagger/swagger-ui.css - null null
+2024-11-27 20:23:58.398 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/swagger/swagger-ui-bundle.js - null null
+2024-11-27 20:23:58.398 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/swagger/swagger-ui-standalone-preset.js - null null
+2024-11-27 20:23:58.674 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-11-27 20:23:58.674 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-11-27 20:23:58.674 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-11-27 20:23:58.676 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/swagger/swagger-ui.css - 200 152034 text/css 277.3718ms
+2024-11-27 20:23:58.676 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 277.2859ms
+2024-11-27 20:23:58.676 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 277.2872ms
+2024-11-27 20:23:58.798 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/swagger/v1/swagger.json - null null
+2024-11-27 20:23:58.808 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/swagger/favicon-32x32.png - null null
+2024-11-27 20:23:58.808 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-11-27 20:23:58.808 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/swagger/favicon-32x32.png - 200 628 image/png 0.739ms
+2024-11-27 20:23:58.827 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - Aplzz.Controllers.AccountProfileController.Index (api). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-27 20:23:58.830 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 32.4264ms

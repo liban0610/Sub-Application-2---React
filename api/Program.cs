@@ -51,6 +51,9 @@ var loggerConfiguration = new LoggerConfiguration()
 var logger = loggerConfiguration.CreateLogger();
 builder.Logging.AddSerilog(logger);
 
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
@@ -58,7 +61,6 @@ if (app.Environment.IsDevelopment())
     DBInit.Seed(app);
     app.UseSwagger();
     app.UseSwaggerUI();
-    
 }
 
 app.UseAuthentication();

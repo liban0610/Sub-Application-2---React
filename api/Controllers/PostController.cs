@@ -7,8 +7,33 @@ using System.IO;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 
-namespace Aplzz.Controllers
+namespace Aplzz.Controllers;
+
+[ApiController]
+[Route("api/[controller]")]
+public class PostAPIController : Controller
 {
+    private readonly IPostRepository _postRepository;
+    private readonly ILogger<PostController> _logger;
+
+    public PostAPIController(IPostRepository postRepository, ILogger<PostController> logger)
+    {
+        _postRepository = postRepository;
+        _logger = logger;
+    }
+
+    [HttpGet("posts")]
+    public async Task<IActionResult> GetPosts()
+    {
+        var posts = await _postRepository.GetAll();
+        if (posts == null)
+        {
+            _logger.LogError("[PostAPIController] Post list not found while executing _postRepository.GetAll()");
+            return NotFound("Post list not found");
+        }
+        return Ok(posts);
+    }
+}
     public class PostController : Controller
     {
         private readonly IPostRepository _postRepository; // Legg til en privat felt for konteksten
@@ -243,4 +268,4 @@ namespace Aplzz.Controllers
             }
         }
     }
-}
+
