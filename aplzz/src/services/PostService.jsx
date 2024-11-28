@@ -38,7 +38,17 @@ const PostService = {
     const response = await fetch(`${API_URL}/api/postapi/delete/${postId}`, {
       method: 'DELETE'
     });
-    return handleResponse(response);
+    
+    if (!response.ok) {
+      const error = await response.json();
+      throw new Error(error.error || 'Kunne ikke slette innlegget');
+    }
+    
+    if (response.status === 204) {
+      return true;
+    }
+    
+    return response.json();
   },
 
   addComment: async (postId, commentText) => {

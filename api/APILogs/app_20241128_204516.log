@@ -63,3 +63,426 @@ System.Security.Cryptography.CryptographicException: The payload was invalid. Fo
    at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
 2024-11-28 20:51:41.823 +01:00 [INF] The file /images/mountain.png was not modified
 2024-11-28 20:51:41.824 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/images/mountain.png - 304 null image/png 65.8095ms
+2024-11-28 20:58:34.108 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-11-28 20:58:34.114 +01:00 [INF] CORS policy execution successful.
+2024-11-28 20:58:34.114 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 20:58:34.116 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 20:58:34.138 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-28 20:58:34.139 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 23.191ms
+2024-11-28 20:58:34.139 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 20:58:34.139 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 3413 application/json; charset=utf-8 31.4995ms
+2024-11-28 20:58:34.140 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-11-28 20:58:34.140 +01:00 [INF] CORS policy execution successful.
+2024-11-28 20:58:34.141 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 20:58:34.141 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 20:58:34.150 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-28 20:58:34.150 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 9.7201ms
+2024-11-28 20:58:34.150 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 20:58:34.151 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 3413 application/json; charset=utf-8 10.6882ms
+2024-11-28 20:59:39.020 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - application/x-www-form-urlencoded 8
+2024-11-28 20:59:39.025 +01:00 [INF] CORS policy execution successful.
+2024-11-28 20:59:39.026 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 20:59:39.026 +01:00 [INF] Route matched with {action = "LikePost", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LikePost(Int32) on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 20:59:39.046 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`3[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-11-28 20:59:39.046 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.LikePost (api) in 19.5846ms
+2024-11-28 20:59:39.046 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 20:59:39.046 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - 200 43 application/json; charset=utf-8 28.5018ms
+2024-11-28 20:59:40.014 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - application/x-www-form-urlencoded 8
+2024-11-28 20:59:40.015 +01:00 [INF] CORS policy execution successful.
+2024-11-28 20:59:40.016 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 20:59:40.016 +01:00 [INF] Route matched with {action = "LikePost", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LikePost(Int32) on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 20:59:40.032 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`3[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-11-28 20:59:40.033 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.LikePost (api) in 16.8985ms
+2024-11-28 20:59:40.033 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 20:59:40.033 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - 200 42 application/json; charset=utf-8 18.9275ms
+2024-11-28 20:59:45.985 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/postapi/addcomment - application/x-www-form-urlencoded 24
+2024-11-28 20:59:45.986 +01:00 [INF] CORS policy execution successful.
+2024-11-28 20:59:45.986 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.AddComment (api)'
+2024-11-28 20:59:45.997 +01:00 [INF] Route matched with {action = "AddComment", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddComment(Int32, System.String) on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 20:59:46.026 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`5[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-11-28 20:59:46.029 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.AddComment (api) in 32.2355ms
+2024-11-28 20:59:46.029 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.AddComment (api)'
+2024-11-28 20:59:46.029 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/postapi/addcomment - 200 113 application/json; charset=utf-8 44.7464ms
+2024-11-28 21:00:05.852 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/postapi/create - multipart/form-data; boundary=----WebKitFormBoundary5kshHZHb5s4KEcJ8 40525
+2024-11-28 21:00:05.857 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:00:05.857 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.CreatePost (api)'
+2024-11-28 21:00:05.887 +01:00 [INF] Route matched with {action = "CreatePost", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePost(Aplzz.Models.Post, Microsoft.AspNetCore.Http.IFormFile) on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 21:00:06.087 +01:00 [INF] Executing OkObjectResult, writing value of type 'Aplzz.Models.Post'.
+2024-11-28 21:00:06.090 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.CreatePost (api) in 202.6533ms
+2024-11-28 21:00:06.090 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.CreatePost (api)'
+2024-11-28 21:00:06.090 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/postapi/create - 200 191 application/json; charset=utf-8 239.0029ms
+2024-11-28 21:00:06.124 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-11-28 21:00:06.127 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:00:06.127 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 21:00:06.127 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 21:00:06.133 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-28 21:00:06.134 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 6.5178ms
+2024-11-28 21:00:06.134 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 21:00:06.134 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 4172 application/json; charset=utf-8 9.3574ms
+2024-11-28 21:00:06.162 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-11-28 21:00:06.162 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:00:06.162 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 21:00:06.162 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 21:00:06.167 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-28 21:00:06.167 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 4.5945ms
+2024-11-28 21:00:06.167 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 21:00:06.167 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 4172 application/json; charset=utf-8 6.673ms
+2024-11-28 21:00:06.173 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/images/b5f05370-2d0c-4ba2-bf64-323dcf303ad2.png - null null
+2024-11-28 21:00:06.181 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-11-28 21:00:06.204 +01:00 [INF] Sending file. Request path: '/images/b5f05370-2d0c-4ba2-bf64-323dcf303ad2.png'. Physical path: '/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/b5f05370-2d0c-4ba2-bf64-323dcf303ad2.png'
+2024-11-28 21:00:06.212 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/images/b5f05370-2d0c-4ba2-bf64-323dcf303ad2.png - 200 40000 image/png 38.9286ms
+2024-11-28 21:00:10.039 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - application/x-www-form-urlencoded 8
+2024-11-28 21:00:10.041 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:00:10.041 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 21:00:10.042 +01:00 [INF] Route matched with {action = "LikePost", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LikePost(Int32) on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 21:00:10.058 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`3[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-11-28 21:00:10.058 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.LikePost (api) in 16.1037ms
+2024-11-28 21:00:10.058 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 21:00:10.058 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - 200 42 application/json; charset=utf-8 19.0895ms
+2024-11-28 21:13:10.563 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/4 - null null
+2024-11-28 21:13:10.570 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:13:10.573 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPost (api)'
+2024-11-28 21:13:10.588 +01:00 [INF] Route matched with {action = "GetPost", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPost(Int32) on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 21:13:10.640 +01:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2024-11-28 21:13:10.651 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.PostProxy'.
+2024-11-28 21:13:10.651 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPost (api) in 63.0282ms
+2024-11-28 21:13:10.652 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPost (api)'
+2024-11-28 21:13:10.652 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/4 - 200 695 application/json; charset=utf-8 89.2801ms
+2024-11-28 21:13:10.654 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/4 - null null
+2024-11-28 21:13:10.654 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:13:10.654 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPost (api)'
+2024-11-28 21:13:10.654 +01:00 [INF] Route matched with {action = "GetPost", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPost(Int32) on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 21:13:10.658 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.PostProxy'.
+2024-11-28 21:13:10.658 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPost (api) in 3.913ms
+2024-11-28 21:13:10.658 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPost (api)'
+2024-11-28 21:13:10.658 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/4 - 200 695 application/json; charset=utf-8 4.5568ms
+2024-11-28 21:14:06.524 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/postapi/update/4 - null null
+2024-11-28 21:14:06.530 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:14:06.537 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/postapi/update/4 - 204 null null 13.9078ms
+2024-11-28 21:14:06.540 +01:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5214/api/postapi/update/4 - multipart/form-data; boundary=----WebKitFormBoundaryguNBEdAdwwdI6TXm 119139
+2024-11-28 21:14:06.540 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:14:06.541 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.Update (api)'
+2024-11-28 21:14:06.548 +01:00 [INF] Route matched with {action = "Update", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(Int32, Aplzz.Models.Post, Microsoft.AspNetCore.Http.IFormFile) on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 21:14:06.655 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.PostProxy'.
+2024-11-28 21:14:06.656 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.Update (api) in 107.706ms
+2024-11-28 21:14:06.656 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.Update (api)'
+2024-11-28 21:14:06.658 +01:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5214/api/postapi/update/4 - 200 695 application/json; charset=utf-8 118.7133ms
+2024-11-28 21:14:06.680 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-11-28 21:14:06.681 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:14:06.681 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 21:14:06.681 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 21:14:06.688 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-28 21:14:06.688 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 6.9014ms
+2024-11-28 21:14:06.688 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 21:14:06.688 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 4451 application/json; charset=utf-8 8.3924ms
+2024-11-28 21:14:06.689 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-11-28 21:14:06.788 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:14:06.788 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/images/b0934778-1662-4f75-924c-4b2512774bd1.jpg - null null
+2024-11-28 21:14:06.788 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 21:14:06.788 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 21:14:06.792 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-11-28 21:14:06.794 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-28 21:14:06.795 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 6.2305ms
+2024-11-28 21:14:06.795 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 21:14:06.795 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 4451 application/json; charset=utf-8 105.3476ms
+2024-11-28 21:14:06.854 +01:00 [INF] Sending file. Request path: '/images/b0934778-1662-4f75-924c-4b2512774bd1.jpg'. Physical path: '/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/b0934778-1662-4f75-924c-4b2512774bd1.jpg'
+2024-11-28 21:14:06.854 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/images/b0934778-1662-4f75-924c-4b2512774bd1.jpg - 200 118763 image/jpeg 66.2205ms
+2024-11-28 21:14:11.042 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - application/x-www-form-urlencoded 8
+2024-11-28 21:14:11.044 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:14:11.044 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 21:14:11.044 +01:00 [INF] Route matched with {action = "LikePost", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LikePost(Int32) on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 21:14:11.060 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`3[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-11-28 21:14:11.061 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.LikePost (api) in 16.538ms
+2024-11-28 21:14:11.061 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 21:14:11.061 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - 200 43 application/json; charset=utf-8 19.4012ms
+2024-11-28 21:14:13.943 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - application/x-www-form-urlencoded 8
+2024-11-28 21:14:13.945 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:14:13.945 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 21:14:13.946 +01:00 [INF] Route matched with {action = "LikePost", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LikePost(Int32) on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 21:14:13.960 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`3[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-11-28 21:14:13.960 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.LikePost (api) in 14.4952ms
+2024-11-28 21:14:13.960 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 21:14:13.960 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - 200 42 application/json; charset=utf-8 17.1952ms
+2024-11-28 21:14:21.163 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/postapi/addcomment - application/x-www-form-urlencoded 27
+2024-11-28 21:14:21.164 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:14:21.164 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.AddComment (api)'
+2024-11-28 21:14:21.165 +01:00 [INF] Route matched with {action = "AddComment", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddComment(Int32, System.String) on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 21:14:21.179 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`5[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-11-28 21:14:21.179 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.AddComment (api) in 14.4901ms
+2024-11-28 21:14:21.179 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.AddComment (api)'
+2024-11-28 21:14:21.179 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/postapi/addcomment - 200 116 application/json; charset=utf-8 16.4771ms
+2024-11-28 21:14:52.112 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/postapi/delete/4 - null null
+2024-11-28 21:14:52.116 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:14:52.121 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/postapi/delete/4 - 204 null null 8.9344ms
+2024-11-28 21:14:52.214 +01:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5214/api/postapi/delete/4 - null null
+2024-11-28 21:14:52.216 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:14:52.217 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.Delete (api)'
+2024-11-28 21:14:52.232 +01:00 [INF] Route matched with {action = "Delete", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(Int32) on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 21:14:52.261 +01:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-11-28 21:14:52.262 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.Delete (api) in 29.9117ms
+2024-11-28 21:14:52.262 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.Delete (api)'
+2024-11-28 21:14:52.262 +01:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5214/api/postapi/delete/4 - 204 null null 48.4215ms
+2024-11-28 21:14:54.803 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/4 - null null
+2024-11-28 21:14:54.805 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:14:54.805 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPost (api)'
+2024-11-28 21:14:54.806 +01:00 [INF] Route matched with {action = "GetPost", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPost(Int32) on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 21:14:54.814 +01:00 [ERR] [PostAPIController] Post not found for the PostId 0004
+2024-11-28 21:14:54.816 +01:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-11-28 21:14:54.818 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPost (api) in 12.7677ms
+2024-11-28 21:14:54.819 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPost (api)'
+2024-11-28 21:14:54.819 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/4 - 404 null text/plain; charset=utf-8 16.0141ms
+2024-11-28 21:14:54.843 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/4 - null null
+2024-11-28 21:14:54.844 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:14:54.844 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPost (api)'
+2024-11-28 21:14:54.844 +01:00 [INF] Route matched with {action = "GetPost", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPost(Int32) on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 21:14:54.852 +01:00 [ERR] [PostAPIController] Post not found for the PostId 0004
+2024-11-28 21:14:54.852 +01:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-11-28 21:14:54.852 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPost (api) in 8.2307ms
+2024-11-28 21:14:54.852 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPost (api)'
+2024-11-28 21:14:54.852 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/4 - 404 null text/plain; charset=utf-8 9.7908ms
+2024-11-28 21:14:55.790 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-11-28 21:14:55.791 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:14:55.791 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 21:14:55.791 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 21:14:55.800 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-28 21:14:55.802 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 10.524ms
+2024-11-28 21:14:55.802 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 21:14:55.802 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 3755 application/json; charset=utf-8 12.0056ms
+2024-11-28 21:14:55.803 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-11-28 21:14:55.803 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:14:55.803 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 21:14:55.803 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 21:14:55.812 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-28 21:14:55.812 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 9.0779ms
+2024-11-28 21:14:55.812 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 21:14:55.813 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 3755 application/json; charset=utf-8 9.9442ms
+2024-11-28 21:14:59.524 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-11-28 21:14:59.525 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:14:59.526 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 21:14:59.526 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 21:14:59.531 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-28 21:14:59.532 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 5.9236ms
+2024-11-28 21:14:59.532 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 21:14:59.532 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 3755 application/json; charset=utf-8 7.8065ms
+2024-11-28 21:14:59.533 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-11-28 21:14:59.533 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:14:59.533 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 21:14:59.533 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 21:14:59.537 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-28 21:14:59.538 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 4.627ms
+2024-11-28 21:14:59.538 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 21:14:59.538 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 3755 application/json; charset=utf-8 5.2497ms
+2024-11-28 21:15:03.770 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/postapi/delete/1 - null null
+2024-11-28 21:15:03.771 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:15:03.771 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/postapi/delete/1 - 204 null null 1.3475ms
+2024-11-28 21:15:03.772 +01:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5214/api/postapi/delete/1 - null null
+2024-11-28 21:15:03.773 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:15:03.773 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.Delete (api)'
+2024-11-28 21:15:03.773 +01:00 [INF] Route matched with {action = "Delete", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(Int32) on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 21:15:03.788 +01:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-11-28 21:15:03.788 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.Delete (api) in 15.107ms
+2024-11-28 21:15:03.788 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.Delete (api)'
+2024-11-28 21:15:03.789 +01:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5214/api/postapi/delete/1 - 204 null null 16.2295ms
+2024-11-28 21:15:10.684 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-11-28 21:15:10.684 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:15:10.684 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 21:15:10.684 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 21:15:10.690 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-28 21:15:10.691 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 6.4508ms
+2024-11-28 21:15:10.691 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 21:15:10.692 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 2712 application/json; charset=utf-8 7.6012ms
+2024-11-28 21:15:10.693 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-11-28 21:15:10.693 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:15:10.693 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 21:15:10.693 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 21:15:10.698 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-28 21:15:10.699 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 5.3935ms
+2024-11-28 21:15:10.699 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 21:15:10.699 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 2712 application/json; charset=utf-8 6.2815ms
+2024-11-28 21:17:25.310 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-11-28 21:17:25.314 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:17:25.315 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 21:17:25.317 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 21:17:25.329 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-28 21:17:25.330 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 12.973ms
+2024-11-28 21:17:25.330 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 21:17:25.330 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 2712 application/json; charset=utf-8 20.7831ms
+2024-11-28 21:18:07.764 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-11-28 21:18:07.767 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:18:07.767 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 21:18:07.768 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 21:18:07.782 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-28 21:18:07.783 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 15.3428ms
+2024-11-28 21:18:07.783 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 21:18:07.783 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 2712 application/json; charset=utf-8 19.5045ms
+2024-11-28 21:18:07.808 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-11-28 21:18:07.808 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:18:07.808 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 21:18:07.808 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 21:18:07.812 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-28 21:18:07.813 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 4.6231ms
+2024-11-28 21:18:07.813 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 21:18:07.813 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 2712 application/json; charset=utf-8 5.1817ms
+2024-11-28 21:18:09.784 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-11-28 21:18:09.784 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:18:09.784 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 21:18:09.785 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 21:18:09.792 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-28 21:18:09.795 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 7.9536ms
+2024-11-28 21:18:09.796 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 21:18:09.801 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 2712 application/json; charset=utf-8 16.5779ms
+2024-11-28 21:18:09.801 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-11-28 21:18:09.802 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:18:09.802 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 21:18:09.802 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 21:18:09.813 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-28 21:18:09.813 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 11.0496ms
+2024-11-28 21:18:09.813 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 21:18:09.814 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 2712 application/json; charset=utf-8 12.4879ms
+2024-11-28 21:18:13.865 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-11-28 21:18:13.869 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:18:13.869 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 21:18:13.870 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 21:18:13.881 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-28 21:18:13.882 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 12.1005ms
+2024-11-28 21:18:13.882 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 21:18:13.883 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 2712 application/json; charset=utf-8 17.6468ms
+2024-11-28 21:18:13.884 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-11-28 21:18:13.885 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:18:13.885 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 21:18:13.885 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 21:18:13.891 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-28 21:18:13.891 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 5.6512ms
+2024-11-28 21:18:13.891 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 21:18:13.891 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 2712 application/json; charset=utf-8 7.5099ms
+2024-11-28 21:18:19.365 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/postapi/delete/2 - null null
+2024-11-28 21:18:19.366 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:18:19.366 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/postapi/delete/2 - 204 null null 1.596ms
+2024-11-28 21:18:19.367 +01:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5214/api/postapi/delete/2 - null null
+2024-11-28 21:18:19.368 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:18:19.368 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.Delete (api)'
+2024-11-28 21:18:19.368 +01:00 [INF] Route matched with {action = "Delete", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(Int32) on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 21:18:19.386 +01:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-11-28 21:18:19.386 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.Delete (api) in 17.3782ms
+2024-11-28 21:18:19.386 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.Delete (api)'
+2024-11-28 21:18:19.386 +01:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5214/api/postapi/delete/2 - 204 null null 18.6043ms
+2024-11-28 21:18:34.614 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/postapi/create - multipart/form-data; boundary=----WebKitFormBoundary5UhA3YCNdzhZ5VXq 356
+2024-11-28 21:18:34.618 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:18:34.619 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.CreatePost (api)'
+2024-11-28 21:18:34.619 +01:00 [INF] Route matched with {action = "CreatePost", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePost(Aplzz.Models.Post, Microsoft.AspNetCore.Http.IFormFile) on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 21:18:34.645 +01:00 [INF] Executing OkObjectResult, writing value of type 'Aplzz.Models.Post'.
+2024-11-28 21:18:34.645 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.CreatePost (api) in 25.6141ms
+2024-11-28 21:18:34.645 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.CreatePost (api)'
+2024-11-28 21:18:34.645 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/postapi/create - 200 147 application/json; charset=utf-8 31.3018ms
+2024-11-28 21:18:34.663 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-11-28 21:18:34.664 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:18:34.664 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 21:18:34.664 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 21:18:34.670 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-28 21:18:34.671 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 6.6933ms
+2024-11-28 21:18:34.671 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 21:18:34.671 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 2038 application/json; charset=utf-8 8.1597ms
+2024-11-28 21:18:34.672 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-11-28 21:18:34.673 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:18:34.673 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 21:18:34.673 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 21:18:34.681 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-28 21:18:34.681 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 7.8256ms
+2024-11-28 21:18:34.681 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 21:18:34.681 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 2038 application/json; charset=utf-8 8.4247ms
+2024-11-28 21:18:38.276 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - application/x-www-form-urlencoded 8
+2024-11-28 21:18:38.277 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:18:38.278 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 21:18:38.278 +01:00 [INF] Route matched with {action = "LikePost", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LikePost(Int32) on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 21:18:38.291 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`3[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-11-28 21:18:38.291 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.LikePost (api) in 13.5602ms
+2024-11-28 21:18:38.292 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 21:18:38.292 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - 200 42 application/json; charset=utf-8 15.272ms
+2024-11-28 21:18:40.774 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/5 - null null
+2024-11-28 21:18:40.775 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:18:40.775 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPost (api)'
+2024-11-28 21:18:40.776 +01:00 [INF] Route matched with {action = "GetPost", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPost(Int32) on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 21:18:40.786 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.PostProxy'.
+2024-11-28 21:18:40.787 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPost (api) in 10.9741ms
+2024-11-28 21:18:40.787 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPost (api)'
+2024-11-28 21:18:40.787 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/5 - 200 651 application/json; charset=utf-8 12.6825ms
+2024-11-28 21:18:40.788 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/5 - null null
+2024-11-28 21:18:40.789 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:18:40.789 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPost (api)'
+2024-11-28 21:18:40.789 +01:00 [INF] Route matched with {action = "GetPost", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPost(Int32) on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 21:18:40.794 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.PostProxy'.
+2024-11-28 21:18:40.794 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPost (api) in 5.3555ms
+2024-11-28 21:18:40.794 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPost (api)'
+2024-11-28 21:18:40.794 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/5 - 200 651 application/json; charset=utf-8 6.154ms
+2024-11-28 21:18:45.495 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/postapi/update/5 - null null
+2024-11-28 21:18:45.496 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:18:45.496 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/postapi/update/5 - 204 null null 1.7072ms
+2024-11-28 21:18:45.497 +01:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5214/api/postapi/update/5 - multipart/form-data; boundary=----WebKitFormBoundaryOwDrKABYG8sRQsoe 238
+2024-11-28 21:18:45.498 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:18:45.499 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.Update (api)'
+2024-11-28 21:18:45.499 +01:00 [INF] Route matched with {action = "Update", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(Int32, Aplzz.Models.Post, Microsoft.AspNetCore.Http.IFormFile) on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 21:18:45.513 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.PostProxy'.
+2024-11-28 21:18:45.513 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.Update (api) in 14.2313ms
+2024-11-28 21:18:45.513 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.Update (api)'
+2024-11-28 21:18:45.513 +01:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5214/api/postapi/update/5 - 200 653 application/json; charset=utf-8 15.709ms
+2024-11-28 21:18:45.527 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-11-28 21:18:45.527 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:18:45.527 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 21:18:45.527 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 21:18:45.532 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-28 21:18:45.532 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 4.9617ms
+2024-11-28 21:18:45.534 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 21:18:45.534 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 2319 application/json; charset=utf-8 7.5012ms
+2024-11-28 21:18:45.534 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-11-28 21:18:45.534 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:18:45.534 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 21:18:45.535 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 21:18:45.540 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-28 21:18:45.540 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 5.688ms
+2024-11-28 21:18:45.541 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 21:18:45.541 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 2319 application/json; charset=utf-8 6.4611ms
+2024-11-28 21:18:51.064 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/postapi/addcomment - application/x-www-form-urlencoded 23
+2024-11-28 21:18:51.065 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:18:51.065 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.AddComment (api)'
+2024-11-28 21:18:51.065 +01:00 [INF] Route matched with {action = "AddComment", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddComment(Int32, System.String) on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 21:18:51.078 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`5[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-11-28 21:18:51.078 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.AddComment (api) in 12.5363ms
+2024-11-28 21:18:51.078 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.AddComment (api)'
+2024-11-28 21:18:51.078 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/postapi/addcomment - 200 112 application/json; charset=utf-8 14.3016ms
+2024-11-28 21:18:53.840 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/postapi/delete/5 - null null
+2024-11-28 21:18:53.841 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:18:53.842 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/postapi/delete/5 - 204 null null 2.3109ms
+2024-11-28 21:18:53.843 +01:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5214/api/postapi/delete/5 - null null
+2024-11-28 21:18:53.843 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:18:53.843 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.Delete (api)'
+2024-11-28 21:18:53.844 +01:00 [INF] Route matched with {action = "Delete", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(Int32) on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 21:18:53.858 +01:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-11-28 21:18:53.858 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.Delete (api) in 14.4555ms
+2024-11-28 21:18:53.858 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.Delete (api)'
+2024-11-28 21:18:53.858 +01:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5214/api/postapi/delete/5 - 204 null null 15.3074ms
+2024-11-28 21:18:57.279 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - application/x-www-form-urlencoded 8
+2024-11-28 21:18:57.280 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:18:57.280 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 21:18:57.280 +01:00 [INF] Route matched with {action = "LikePost", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LikePost(Int32) on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 21:18:57.296 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`3[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-11-28 21:18:57.296 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.LikePost (api) in 16.1912ms
+2024-11-28 21:18:57.296 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 21:18:57.297 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - 200 43 application/json; charset=utf-8 17.6241ms
+2024-11-28 21:18:59.073 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - application/x-www-form-urlencoded 8
+2024-11-28 21:18:59.074 +01:00 [INF] CORS policy execution successful.
+2024-11-28 21:18:59.074 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 21:18:59.074 +01:00 [INF] Route matched with {action = "LikePost", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LikePost(Int32) on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 21:18:59.087 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`3[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-11-28 21:18:59.087 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.LikePost (api) in 13.2108ms
+2024-11-28 21:18:59.087 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 21:18:59.087 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - 200 42 application/json; charset=utf-8 14.7761ms

@@ -39,8 +39,11 @@ const HomePage = () => {
   const handlePostDelete = async (postId) => {
     if (window.confirm('Er du sikker på at du vil slette dette innlegget?')) {
       try {
-        await PostService.deletePost(postId);
-        setPosts(posts.filter(post => post.postId !== postId));
+        const result = await PostService.deletePost(postId);
+        if (result) {
+          setPosts(posts.filter(post => post.postId !== postId));
+          setError(null);
+        }
       } catch (error) {
         console.error('Feil ved sletting av innlegg:', error);
         setError('Kunne ikke slette innlegget');
