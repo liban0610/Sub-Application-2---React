@@ -15,15 +15,27 @@ namespace Aplzz.DAL
 
             var users = new List<User>
             {
-                new User {
-                    IdUser = 1, 
-                    Firstname = "Ahmad", 
-                    Aftername = "Faryabi",
-                    Username = "ahmad", 
-                    Password = "1234", 
-                    Phone = "12345678", 
-                    Email = "email@email.com",
-                    ProfilePicture = "images/profile.jpeg"
+                new User
+                {
+                    Username = "ahmadfdawah",
+                    Email = "ahmad@example.com",
+                    Password = "Test12345",
+                    Firstname = "Ahmad",
+                    Aftername = "Dawah",
+                    Phone = "12345678",
+                    Date_Started = DateTime.Now,
+                    ProfilePicture = "/images/profile.jpg"
+                },
+                new User
+                {
+                    Username = "mariasmith",
+                    Email = "maria@example.com",
+                    Password = "Test12345",
+                    Firstname = "Maria",
+                    Aftername = "Smith",
+                    Phone = "87654321",
+                    Date_Started = DateTime.Now,
+                    ProfilePicture = "/images/profile.jpg"
                 }
             };
             context.Users.AddRange(users);
@@ -44,6 +56,13 @@ namespace Aplzz.DAL
                     CreatedAt = DateTime.Now,
                     ImageUrl = "/images/scott.jpg",
                     UserId = users[0].IdUser
+                },
+                new Post
+                {
+                    Content = "Nydelig dag på fjellet! 🏔️",
+                    CreatedAt = DateTime.Now,
+                    ImageUrl = "/images/mountain.png",
+                    UserId = users[1].IdUser
                 }
             };
             context.Posts.AddRange(posts);
@@ -62,6 +81,12 @@ namespace Aplzz.DAL
                     CommentedAt = DateTime.Now, 
                     PostId = posts[1].PostId,
                     UserId = users[0].IdUser 
+                },
+                new Comment { 
+                    Text = "Så nydelig utsikt! 😍", 
+                    CommentedAt = DateTime.Now, 
+                    PostId = posts[2].PostId,
+                    UserId = users[0].IdUser 
                 }
             };
             context.Comments.AddRange(comments);
@@ -76,6 +101,14 @@ namespace Aplzz.DAL
                 new Like { 
                     PostId = posts[1].PostId, 
                     UserId = users[0].IdUser 
+                },
+                new Like { 
+                    PostId = posts[2].PostId, 
+                    UserId = users[0].IdUser 
+                },
+                new Like { 
+                    PostId = posts[2].PostId, 
+                    UserId = users[1].IdUser 
                 }
             };
             context.Likes.AddRange(likes);

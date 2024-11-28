@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CIuYP2FZVlcE/8MXEikFQPgBe2uGtzBpsuM0axl8b4g=",
+  "Hash": "wkKEpjomyG5peP6o76bsrcf0pPzl7kMliiqLbIYeXNI=",
   "Source": "api",
   "BasePath": "_content/api",
   "Mode": "Default",
@@ -376,6 +376,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/losning2.png"
+    },
+    {
+      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/mountain.png",
+      "SourceId": "api",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "BasePath": "_content/api",
+      "RelativePath": "images/mountain.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/mountain.png"
     },
     {
       "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/pexels.jpg",

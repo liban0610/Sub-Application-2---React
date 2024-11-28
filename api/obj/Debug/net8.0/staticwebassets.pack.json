@@ -93,6 +93,10 @@
       "PackagePath": "staticwebassets/images/losning2.png"
     },
     {
+      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/mountain.png",
+      "PackagePath": "staticwebassets/images/mountain.png"
+    },
+    {
       "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/pexels.jpg",
       "PackagePath": "staticwebassets/images/pexels.jpg"
     },
