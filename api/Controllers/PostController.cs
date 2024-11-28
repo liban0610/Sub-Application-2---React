@@ -123,6 +123,40 @@ public class PostAPIController : Controller
         }
         return NoContent();
     }
+
+    [HttpPost("addcomment")]
+public async Task<IActionResult> AddComment([FromForm] int postId, [FromForm] string commentText)
+{
+    if (string.IsNullOrEmpty(commentText))
+    {
+        return BadRequest(new { error = "Kommentartekst kan ikke være tom" });
+    }
+
+    var comment = new Comment
+    {
+        Text = commentText,
+        CommentedAt = DateTime.Now,
+        PostId = postId,
+        UserId = 1 // Midlertidig bruker-ID
+    };
+
+    var result = await _postRepository.AddComment(comment);
+    if (!result)
+    {
+        return BadRequest(new { error = "Kunne ikke legge til kommentar" });
+    }
+
+    // Hent brukernavnet fra databasen
+    var user = await _postRepository.GetUserById(comment.UserId);
+    
+    return Ok(new { 
+        commentId = comment.CommentId,
+        text = comment.Text,
+        commentedAt = comment.CommentedAt,
+        userId = comment.UserId,
+        username = user?.Username ?? "Anonym" // Fallback til "Anonym" hvis ingen bruker funnet
+    });
+}
 }
     
     public class PostController : Controller

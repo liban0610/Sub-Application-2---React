@@ -1,14 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import { Card, Container, Form, Button } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
-
-const API_URL = 'http://localhost:5214'
+import API_URL from '../config/api';
 
 const HomePage = () => {
   const [posts, setPosts] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const [searchQuery, setSearchQuery] = useState('');
+  const [commentText, setCommentText] = useState('');
+  const [commentError, setCommentError] = useState('');
   const navigate = useNavigate();
   
   const fetchPosts = async () => {
@@ -55,6 +56,51 @@ const HomePage = () => {
         console.error('Feil ved sletting av innlegg:', error);
         setError('Kunne ikke slette innlegget');
       }
+    }
+  };
+
+  const handleAddComment = async (postId) => {
+    if (!commentText.trim()) {
+      setCommentError('Kommentaren kan ikke være tom');
+      return;
+    }
+
+    try {
+      const response = await fetch(`${API_URL}/api/postapi/addcomment`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded',
+        },
+        body: `postId=${postId}&commentText=${encodeURIComponent(commentText.trim())}`
+      });
+
+      if (!response.ok) {
+        throw new Error('Kunne ikke legge til kommentar');
+      }
+
+      const newComment = await response.json();
+
+      setPosts(posts.map(post => {
+        if (post.postId === postId) {
+          return {
+            ...post,
+            comments: [...(post.comments || []), {
+              ...newComment,
+              text: commentText.trim(),
+              commentId: Date.now(),
+              getUser: { username: newComment.username },
+              commentedAt: new Date()
+            }]
+          };
+        }
+        return post;
+      }));
+
+      setCommentText('');
+      setCommentError('');
+    } catch (error) {
+      console.error('Feil ved posting av kommentar:', error);
+      setCommentError('Kunne ikke legge til kommentar');
     }
   };
 
@@ -180,14 +226,6 @@ const HomePage = () => {
                         <span className="ms-1">❤️</span>
                       </button>
                     </div>
-                    <div className="d-flex align-items-center">
-                      <button 
-                        className="btn btn-link p-0 text-dark text-decoration-none" 
-                        style={{ fontSize: '1.1rem' }}
-                      >
-                        <span>💬</span>
-                      </button>
-                    </div>
                   </div>
                   <div className="text-muted mb-2">
                     Kommentarer:
@@ -203,6 +241,28 @@ const HomePage = () => {
                       <div>{comment.text}</div>
                     </div>
                   ))}
+                  <Form onSubmit={(e) => {
+                    e.preventDefault();
+                    handleAddComment(post.postId);
+                  }}>
+                    <Form.Group className="mt-3">
+                      <Form.Control
+                        type="text"
+                        placeholder="Skriv en kommentar..."
+                        value={commentText}
+                        onChange={(e) => setCommentText(e.target.value)}
+                      />
+                      {commentError && <Form.Text className="text-danger">{commentError}</Form.Text>}
+                    </Form.Group>
+                    <Button 
+                      variant="primary" 
+                      size="sm" 
+                      type="submit" 
+                      className="mt-2"
+                    >
+                      Legg til kommentar
+                    </Button>
+                  </Form>
                 </div>
               </Card.Body>
             </Card>

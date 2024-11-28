@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5rT/wmjvosDYnYa1O7hZgqCKPafOvi66m1QmHdeMhxA=",
+  "Hash": "HjCfNNv+4rigkAiv/HqPunIusZMmgL6aGl8gwS2bgAM=",
   "Source": "api",
   "BasePath": "_content/api",
   "Mode": "Default",
@@ -74,6 +74,25 @@
       "OriginalItemSpec": "wwwroot/images/0e931c77-b5a7-4e7b-a009-9e79be1b5402.png"
     },
     {
+      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/2e0432fe-2d11-400d-97d1-cf5a18fc70e2.jpeg",
+      "SourceId": "api",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "BasePath": "_content/api",
+      "RelativePath": "images/2e0432fe-2d11-400d-97d1-cf5a18fc70e2.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/2e0432fe-2d11-400d-97d1-cf5a18fc70e2.jpeg"
+    },
+    {
       "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/384e9f1b-3f57-4955-9965-ae0aeeb4ad31.jpeg",
       "SourceId": "api",
       "SourceType": "Discovered",
@@ -110,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/62c17747-a633-492b-ac70-8ce751eb8b89.png"
+    },
+    {
+      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/7f4f9137-fb04-440a-8dae-a472b0f2cf4b.jpeg",
+      "SourceId": "api",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "BasePath": "_content/api",
+      "RelativePath": "images/7f4f9137-fb04-440a-8dae-a472b0f2cf4b.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/7f4f9137-fb04-440a-8dae-a472b0f2cf4b.jpeg"
     },
     {
       "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/99a459bb96829d1c01030a763d3146ed~c5_1080x1080.jpeg",

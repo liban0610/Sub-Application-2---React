@@ -15,4 +15,5 @@ public interface IPostRepository
     Task<bool> RemoveLike(int postId, int userId);
     Task<int> GetLikeCount(int postId);
     Task<bool> HasUserLikedPost(int postId, int userId);
+    Task<User?> GetUserById(int userId);
 }

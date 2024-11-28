@@ -1,8 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import PostForm from './PostForm';
-
-const API_URL = 'http://localhost:5214';
+import API_URL from '../config/api';
 
 const PostCreatePage = () => {
   const handlePostCreated = async (formData) => {

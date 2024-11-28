@@ -192,4 +192,17 @@ public class PostRepository : IPostRepository
             throw;
         }
     }
+
+    public async Task<User?> GetUserById(int userId)
+    {
+        try
+        {
+            return await _db.Users.FirstOrDefaultAsync(u => u.IdUser == userId);
+        }
+        catch (Exception e)
+        {
+            _logger.LogError("[PostRepository] Failed to get user by id: {e}", e.Message);
+            return null;
+        }
+    }
 }
