@@ -1,28 +1,56 @@
 import React from 'react';
-import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Nav, Navbar, Container } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
 
 const NavMenu = () => {
+  const navigate = useNavigate();
+
+  const handleHomeClick = () => {
+    window.location.href = '/';
+  };
+
   return (
-    <Navbar expand="lg">
-      <Navbar.Brand href="/">Aplzz</Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="me-auto">
-          <Nav.Link href="/">Home</Nav.Link>
-          <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">
-              Another action
-            </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.4">
-              Separated link
-            </NavDropdown.Item>
-          </NavDropdown>
-        </Nav>
-      </Navbar.Collapse>
-  </Navbar>
+    <Navbar 
+      fixed="top" 
+      bg="white" 
+      expand="lg" 
+      className="shadow-sm py-1"
+    >
+      <Container>
+        <Navbar.Brand 
+          onClick={handleHomeClick}
+          className="brand-logo-enhanced py-0"
+          style={{ cursor: 'pointer' }}
+        >
+          <span className="logo-text">Aplzz</span>
+          <div className="logo-dot"></div>
+        </Navbar.Brand>
+        
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="ms-auto">
+            <Nav.Link 
+              onClick={handleHomeClick}
+              className="mx-2 fw-medium py-1"
+            >
+              <i className="bi bi-house-door me-2"></i>
+              Hjem
+            </Nav.Link>
+            <Nav.Link 
+              onClick={() => navigate('/posts/create')}
+              className="mx-2 fw-medium py-1"
+            >
+              <i className="bi bi-plus-lg me-2"></i>
+              Nytt innlegg
+            </Nav.Link>
+            <Nav.Link className="mx-2 fw-medium py-1">
+              <i className="bi bi-person-circle me-2"></i>
+              Profil
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 };
 

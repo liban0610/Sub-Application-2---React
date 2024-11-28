@@ -50,7 +50,7 @@ const PostUpdatePage = () => {
   if (!post) return <div className="text-center">Fant ikke innlegget</div>;
 
   return (
-    <Container className="py-4">
+    <Container className="py-4 content-under-navbar">
       <h2 className="mb-4">Oppdater innlegg</h2>
       <PostForm 
         onPostChanged={handlePostUpdated} 

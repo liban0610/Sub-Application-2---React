@@ -8,17 +8,17 @@ import './App.css';
 
 function App() {
   return (
-    <Container>
-      <NavMenu />
-      <Router>
+    <Router>
+      <Container>
+        <NavMenu />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/posts/create" element={<PostCreatePage />} />
           <Route path="/posts/update/:postId" element={<PostUpdatePage />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
-      </Router>
-    </Container>
+      </Container>
+    </Router>
   );
 }
 

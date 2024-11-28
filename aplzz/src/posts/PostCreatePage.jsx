@@ -22,7 +22,7 @@ const PostCreatePage = () => {
   };
 
   return (
-    <Container className="py-4">
+    <Container className="py-4 content-under-navbar">
       <h2 className="mb-4">Nytt innlegg</h2>
       <PostForm onPostChanged={handlePostCreated} />
     </Container>

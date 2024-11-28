@@ -111,31 +111,33 @@ const HomePage = () => {
   if (error) return <div className="text-center text-danger">{error}</div>;
 
   return (
-    <Container className="py-4 bg-light min-vh-100">
+    <Container className="py-4 bg-light min-vh-100 content-under-navbar">
       {/* Header med gradient bakgrunn */}
       <div className="text-center mb-5 py-5 bg-gradient-primary rounded shadow-sm">
         <h1 className="display-3 fw-bold text-white mb-2">Aplzz</h1>
         <p className="lead text-white-50 mb-0 fs-4">Del dine tanker med verden</p>
       </div>
 
-      {/* Søk og opprett nytt innlegg */}
-      <div className="d-flex justify-content-between align-items-center mb-4 px-3">
-        <div className="d-flex gap-3 align-items-center flex-grow-1 me-3">
-          <Form.Control
-            type="search"
-            placeholder="Søk i innlegg..."
-            className="shadow-sm border-0"
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-          />
+      {/* Sticky søk og opprett nytt innlegg */}
+      <div className="search-bar">
+        <div className="d-flex justify-content-between align-items-center px-3 py-3">
+          <div className="d-flex gap-3 align-items-center flex-grow-1 me-3">
+            <Form.Control
+              type="search"
+              placeholder="Søk i innlegg..."
+              className="shadow-sm border-0"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+            />
+          </div>
+          <Button 
+            variant="primary"
+            onClick={() => navigate('/posts/create')}
+            className="shadow-sm px-4 py-2"
+          >
+            <i className="bi bi-plus-lg me-2"></i>Nytt innlegg
+          </Button>
         </div>
-        <Button 
-          variant="primary"
-          onClick={() => navigate('/posts/create')}
-          className="shadow-sm px-4 py-2"
-        >
-          <i className="bi bi-plus-lg me-2"></i>Nytt innlegg
-        </Button>
       </div>
 
       {/* Posts list med forbedret styling */}
