@@ -100,7 +100,11 @@ const HomePage = () => {
     }
   };
 
-  if (loading) return <div className="text-center">Loading...</div>;
+  if (loading) return (
+    <div className="d-flex justify-content-center align-items-center min-vh-100">
+      <div className="loading-spinner"></div>
+    </div>
+  );
   if (error) return <div className="text-center text-danger">{error}</div>;
 
   return (
@@ -195,13 +199,13 @@ const HomePage = () => {
               <div className="border-top pt-3">
                 <div className="d-flex justify-content-between align-items-center mb-3">
                   <button 
-                    className="btn btn-link p-0 text-decoration-none"
+                    className={`like-button ${post.likes?.some(like => like.userId === 1) ? 'liked' : ''}`}
                     onClick={() => handleLike(post.postId)}
                   >
-                    <span className="me-2 fs-5">
-                      {post.likes?.some(like => like.userId === 1) ? '❤️' : '🤍'}
+                    <i className={`bi ${post.likes?.some(like => like.userId === 1) ? 'bi-heart-fill' : 'bi-heart'}`}></i>
+                    <span className="likes-count">
+                      {post.likes?.length || 0} {post.likes?.length === 1 ? 'like' : 'likes'}
                     </span>
-                    <span className="text-muted">{post.likes?.length || 0} liker dette</span>
                   </button>
                   <small className="text-muted">
                     {post.comments?.length || 0} kommentarer

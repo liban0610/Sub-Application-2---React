@@ -17,11 +17,11 @@ namespace Aplzz.DAL
             {
                 new User
                 {
-                    Username = "ahmadfdawah",
-                    Email = "ahmad@example.com",
+                    Username = "fjordmaster",
+                    Email = "fjordmaster@example.com",
                     Password = "Test12345",
-                    Firstname = "Ahmad",
-                    Aftername = "Dawah",
+                    Firstname = "Magnus",
+                    Aftername = "Fjord",
                     Phone = "12345678",
                     Date_Started = DateTime.Now,
                     ProfilePicture = "/images/profile.jpg"
