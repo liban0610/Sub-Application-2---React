@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Card, Container, Form, Button } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 import API_URL from '../config/api';
+import PostService from '../services/PostService';
 
 const HomePage = () => {
   const [posts, setPosts] = useState([]);
@@ -15,17 +16,12 @@ const HomePage = () => {
   const fetchPosts = async () => {
     setLoading(true);
     setError(null);
-
     try {
-      const response = await fetch(`${API_URL}/api/postapi/posts`);
-      if (!response.ok) {
-        throw new Error('Network response was not ok');
-      }
-      const data = await response.json();
+      const data = await PostService.fetchPosts();
       setPosts(data);
     } catch (error) {
-      console.error(`There was a problem with the fetch operation: ${error.message}`);
-      setError('Failed to fetch posts.');
+      console.error('Feil ved henting av innlegg:', error);
+      setError('Kunne ikke hente innlegg');
     } finally {
       setLoading(false);
     }
@@ -43,14 +39,7 @@ const HomePage = () => {
   const handlePostDelete = async (postId) => {
     if (window.confirm('Er du sikker på at du vil slette dette innlegget?')) {
       try {
-        const response = await fetch(`${API_URL}/api/postapi/delete/${postId}`, {
-          method: 'DELETE'
-        });
-
-        if (!response.ok) {
-          throw new Error('Kunne ikke slette innlegget');
-        }
-
+        await PostService.deletePost(postId);
         setPosts(posts.filter(post => post.postId !== postId));
       } catch (error) {
         console.error('Feil ved sletting av innlegg:', error);
@@ -66,20 +55,7 @@ const HomePage = () => {
     }
 
     try {
-      const response = await fetch(`${API_URL}/api/postapi/addcomment`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/x-www-form-urlencoded',
-        },
-        body: `postId=${postId}&commentText=${encodeURIComponent(commentText.trim())}`
-      });
-
-      if (!response.ok) {
-        throw new Error('Kunne ikke legge til kommentar');
-      }
-
-      const newComment = await response.json();
-
+      const newComment = await PostService.addComment(postId, commentText);
       setPosts(posts.map(post => {
         if (post.postId === postId) {
           return {
@@ -106,22 +82,7 @@ const HomePage = () => {
 
   const handleLike = async (postId) => {
     try {
-      const response = await fetch(`${API_URL}/api/postapi/likepost`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/x-www-form-urlencoded',
-        },
-        body: `postId=${postId}`
-      });
-
-      if (!response.ok) {
-        const errorData = await response.json();
-        throw new Error(errorData.error || 'Kunne ikke like innlegget');
-      }
-
-      // Oppdater UI etter vellykket like/unlike
-      const data = await response.json();
-      
+      const data = await PostService.likePost(postId);
       setPosts(posts.map(post => {
         if (post.postId === postId) {
           return {
@@ -143,176 +104,166 @@ const HomePage = () => {
   if (error) return <div className="text-center text-danger">{error}</div>;
 
   return (
-    <Container className="py-4">
-      <div className="text-center mb-4">
-        <h1 className="display-4">Aplzz</h1>
+    <Container className="py-4 bg-light min-vh-100">
+      {/* Header med gradient bakgrunn */}
+      <div className="text-center mb-5 py-5 bg-gradient-primary rounded shadow-sm">
+        <h1 className="display-3 fw-bold text-white mb-2">Aplzz</h1>
+        <p className="lead text-white-50 mb-0 fs-4">Del dine tanker med verden</p>
       </div>
 
       {/* Søk og opprett nytt innlegg */}
-      <div className="d-flex justify-content-between align-items-center mb-4">
-        <div className="d-flex gap-3 align-items-center">
+      <div className="d-flex justify-content-between align-items-center mb-4 px-3">
+        <div className="d-flex gap-3 align-items-center flex-grow-1 me-3">
           <Form.Control
             type="search"
             placeholder="Søk i innlegg..."
-            className="w-50"
+            className="shadow-sm border-0"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
           />
-          <Button 
-            variant="success"
-            onClick={() => navigate('/posts/create')}
-          >
-            Nytt innlegg
-          </Button>
         </div>
+        <Button 
+          variant="primary"
+          onClick={() => navigate('/posts/create')}
+          className="shadow-sm px-4 py-2"
+        >
+          <i className="bi bi-plus-lg me-2"></i>Nytt innlegg
+        </Button>
       </div>
 
-      {/* Posts list */}
-      <div>
+      {/* Posts list med forbedret styling */}
+      <div className="posts-container">
         {filteredPosts.map(post => (
-          <div key={post.postId}>
-            <Card className="mb-4 shadow-sm mx-auto" style={{ maxWidth: '600px' }}>
-              <Card.Header className="d-flex justify-content-between align-items-center bg-white">
-                <div className="d-flex align-items-center">
+          <Card key={post.postId} className="mb-4 shadow-sm border-0 overflow-hidden">
+            <Card.Header className="d-flex justify-content-between align-items-center bg-white border-0 py-3">
+              <div className="d-flex align-items-center">
+                <div className="rounded-circle overflow-hidden me-3 shadow-sm" style={{ width: '45px', height: '45px' }}>
                   <img
                     src={`${API_URL}/images/profile.jpg`}
                     alt={post.getUser?.username}
-                    style={{ 
-                      width: '40px', 
-                      height: '40px', 
-                      borderRadius: '50%',
-                      marginRight: '10px',
-                      objectFit: 'cover'
-                    }}
+                    className="w-100 h-100 object-fit-cover"
                   />
-                  <div>
-                    <div className="fw-bold">{post.getUser?.username}</div>
-                    <small className="text-muted">{new Date(post.createdAt).toLocaleString()}</small>
-                  </div>
                 </div>
-                {post.userId === 1 && (
-                  <div className="d-flex gap-2">
-                    <Button 
-                      variant="primary" 
-                      size="sm"
-                      onClick={() => navigate(`/posts/update/${post.postId}`)}
-                    >
-                      Oppdater
-                    </Button>
-                    <Button 
-                      variant="danger" 
-                      size="sm"
-                      onClick={() => handlePostDelete(post.postId)}
-                    >
-                      Slett
-                    </Button>
-                  </div>
-                )}
-              </Card.Header>
-              
-              {post.imageUrl && (
-                <div style={{ 
-                  position: 'relative',
-                  width: '100%',
-                  backgroundColor: '#f8f9fa',
-                  overflow: 'hidden'
-                }}>
-                  <Card.Img 
-                    variant="top" 
-                    src={`${API_URL}${post.imageUrl}`}
-                    style={{ 
-                      width: '100%',
-                      display: 'block'
-                    }}
-                    onLoad={(e) => {
-                      const img = e.target;
-                      const naturalRatio = img.naturalWidth / img.naturalHeight;
-                      const container = img.parentElement;
-                      const maxHeight = 600;
-                      const containerWidth = container.offsetWidth;
-                      
-                      if (naturalRatio > 1) {
-                        // Bredere bilde
-                        const height = containerWidth / naturalRatio;
-                        container.style.height = `${Math.min(height, maxHeight)}px`;
-                        img.style.height = '100%';
-                        img.style.objectFit = 'cover';
-                      } else {
-                        // Høyere bilde
-                        container.style.height = `${Math.min(containerWidth * (1/naturalRatio), maxHeight)}px`;
-                        img.style.height = '100%';
-                        img.style.objectFit = 'cover';
-                      }
-                    }}
-                  />
+                <div>
+                  <h6 className="mb-0 fw-bold">{post.getUser?.username}</h6>
+                  <small className="text-muted">
+                    {new Date(post.createdAt).toLocaleString('no-NO', {
+                      day: 'numeric',
+                      month: 'long',
+                      hour: '2-digit',
+                      minute: '2-digit'
+                    })}
+                  </small>
+                </div>
+              </div>
+              {post.userId === 1 && (
+                <div className="d-flex gap-2">
+                  <Button 
+                    variant="outline-primary" 
+                    size="sm"
+                    className="rounded-pill px-3"
+                    onClick={() => navigate(`/posts/update/${post.postId}`)}
+                  >
+                    <i className="bi bi-pencil me-1"></i>Rediger
+                  </Button>
+                  <Button 
+                    variant="outline-danger" 
+                    size="sm"
+                    className="rounded-pill px-3"
+                    onClick={() => handlePostDelete(post.postId)}
+                  >
+                    <i className="bi bi-trash me-1"></i>Slett
+                  </Button>
                 </div>
               )}
+            </Card.Header>
+            
+            {post.imageUrl && (
+              <div className="post-image-container bg-light">
+                <Card.Img 
+                  variant="top" 
+                  src={`${API_URL}${post.imageUrl}`}
+                  className="img-fluid"
+                  style={{ maxHeight: '600px', objectFit: 'contain' }}
+                />
+              </div>
+            )}
+            
+            <Card.Body className="px-4">
+              <Card.Text className="mb-4">{post.content}</Card.Text>
               
-              <Card.Body>
-                <Card.Text>{post.content}</Card.Text>
-                <div>
-                  <div className="d-flex gap-3 mb-2">
-                    <div className="d-flex align-items-center">
-                      <button 
-                        className="btn btn-link p-0 text-danger text-decoration-none" 
-                        style={{ fontSize: '1.1rem' }}
-                        onClick={() => handleLike(post.postId)}
-                      >
-                        <span>{post.likes?.length || 0}</span>
-                        <span className="ms-1">
-                          {post.likes?.some(like => like.userId === 1) ? '❤️' : '🤍'}
-                        </span>
-                      </button>
-                    </div>
-                  </div>
-                  <div className="text-muted mb-2">
-                    Kommentarer:
-                  </div>
+              <div className="border-top pt-3">
+                <div className="d-flex justify-content-between align-items-center mb-3">
+                  <button 
+                    className="btn btn-link p-0 text-decoration-none"
+                    onClick={() => handleLike(post.postId)}
+                  >
+                    <span className="me-2 fs-5">
+                      {post.likes?.some(like => like.userId === 1) ? '❤️' : '🤍'}
+                    </span>
+                    <span className="text-muted">{post.likes?.length || 0} liker dette</span>
+                  </button>
+                  <small className="text-muted">
+                    {post.comments?.length || 0} kommentarer
+                  </small>
+                </div>
+
+                {/* Kommentarseksjon */}
+                <div className="comments-section bg-light rounded p-3">
                   {post.comments && post.comments.map(comment => (
-                    <div key={comment.commentId} className="mb-2 ps-2 border-start">
-                      <div className="d-flex justify-content-between">
-                        <small className="fw-bold">{comment.getUser?.username}</small>
-                        <small className="text-muted">
-                          {new Date(comment.commentedAt).toLocaleString()}
+                    <div key={comment.commentId} className="comment mb-3 border-bottom pb-3">
+                      <div className="d-flex justify-content-between align-items-start">
+                        <div>
+                          <span className="fw-bold me-2">{comment.getUser?.username}</span>
+                          <span>{comment.text}</span>
+                        </div>
+                        <small className="text-muted ms-2">
+                          {new Date(comment.commentedAt).toLocaleString('no-NO', {
+                            hour: '2-digit',
+                            minute: '2-digit'
+                          })}
                         </small>
                       </div>
-                      <div>{comment.text}</div>
                     </div>
                   ))}
+
                   <Form onSubmit={(e) => {
                     e.preventDefault();
                     handleAddComment(post.postId);
-                  }}>
-                    <Form.Group className="mt-3">
+                  }} className="mt-3">
+                    <div className="d-flex gap-2">
                       <Form.Control
                         type="text"
                         placeholder="Skriv en kommentar..."
                         value={commentText}
                         onChange={(e) => setCommentText(e.target.value)}
+                        className="border-0 shadow-sm"
                       />
-                      {commentError && <Form.Text className="text-danger">{commentError}</Form.Text>}
-                    </Form.Group>
-                    <Button 
-                      variant="primary" 
-                      size="sm" 
-                      type="submit" 
-                      className="mt-2"
-                    >
-                      Legg til kommentar
-                    </Button>
+                      <Button 
+                        variant="primary" 
+                        type="submit" 
+                        className="px-4"
+                      >
+                        Send
+                      </Button>
+                    </div>
+                    {commentError && (
+                      <Form.Text className="text-danger">{commentError}</Form.Text>
+                    )}
                   </Form>
                 </div>
-              </Card.Body>
-            </Card>
-          </div>
+              </div>
+            </Card.Body>
+          </Card>
         ))}
-      </div>
 
-      {filteredPosts.length === 0 && (
-        <div className="text-center text-muted">
-          Ingen innlegg funnet
-        </div>
-      )}
+        {filteredPosts.length === 0 && (
+          <div className="text-center py-5 text-muted">
+            <i className="bi bi-inbox display-1"></i>
+            <p className="mt-3">Ingen innlegg funnet</p>
+          </div>
+        )}
+      </div>
     </Container>
   );
 };

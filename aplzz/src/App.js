@@ -4,6 +4,7 @@ import HomePage from './home/HomePage';
 import NavMenu from './shared/NavMenu';
 import PostCreatePage from './posts/PostCreatePage.jsx';
 import PostUpdatePage from './posts/PostUpdatePage.jsx';
+import './App.css';
 
 function App() {
   return (
