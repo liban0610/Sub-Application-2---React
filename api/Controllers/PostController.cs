@@ -156,6 +156,42 @@ public async Task<IActionResult> AddComment([FromForm] int postId, [FromForm] st
         userId = comment.UserId,
         username = user?.Username ?? "Anonym" // Fallback til "Anonym" hvis ingen bruker funnet
     });
+    }
+
+    [HttpPost("likepost")]
+public async Task<IActionResult> LikePost([FromForm] int postId)
+{
+    try
+    {
+        // Midlertidig hardkodet bruker-ID for testing
+        int userId = 1;
+        var isLiked = await _postRepository.HasUserLikedPost(postId, userId);
+
+        if (isLiked)
+        {
+            await _postRepository.RemoveLike(postId, userId);
+            return Ok(new { 
+                isLiked = false, 
+                userId = userId,
+                likesCount = await _postRepository.GetLikeCount(postId)
+            });
+        }
+        else
+        {
+            var like = new Like { PostId = postId, UserId = userId };
+            await _postRepository.AddLike(like);
+            return Ok(new { 
+                isLiked = true, 
+                userId = userId,
+                likesCount = await _postRepository.GetLikeCount(postId)
+            });
+        }
+    }
+    catch (Exception e)
+    {
+        _logger.LogError("[PostController] Like operation failed: {e}", e.Message);
+        return BadRequest(new { error = "Kunne ikke utføre like-operasjonen" });
+    }
 }
 }
     

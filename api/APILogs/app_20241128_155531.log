@@ -1,0 +1,152 @@
+2024-11-28 15:55:32.677 +01:00 [INF] User profile is available. Using '/Users/libansulub/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-28 15:55:33.084 +01:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-11-28 15:55:33.113 +01:00 [INF] Now listening on: https://localhost:7135
+2024-11-28 15:55:33.114 +01:00 [INF] Now listening on: http://localhost:5214
+2024-11-28 15:55:33.118 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-28 15:55:33.119 +01:00 [INF] Hosting environment: Development
+2024-11-28 15:55:33.120 +01:00 [INF] Content root path: /Users/libansulub/Documents/Sub-Application 2 - React/api
+2024-11-28 15:55:37.617 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-11-28 15:55:37.651 +01:00 [INF] CORS policy execution successful.
+2024-11-28 15:55:37.653 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 15:55:37.666 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 15:55:37.948 +01:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2024-11-28 15:55:37.998 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-28 15:55:38.068 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 399.7282ms
+2024-11-28 15:55:38.068 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 15:55:38.071 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 3359 application/json; charset=utf-8 456.5001ms
+2024-11-28 15:55:38.072 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-11-28 15:55:38.074 +01:00 [INF] CORS policy execution successful.
+2024-11-28 15:55:38.074 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 15:55:38.075 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 15:55:38.112 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-28 15:55:38.113 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 38.2344ms
+2024-11-28 15:55:38.113 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 15:55:38.113 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 3359 application/json; charset=utf-8 41.0303ms
+2024-11-28 15:55:40.733 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - application/x-www-form-urlencoded 8
+2024-11-28 15:55:40.735 +01:00 [INF] CORS policy execution successful.
+2024-11-28 15:55:40.735 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 15:55:40.743 +01:00 [INF] Route matched with {action = "LikePost", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LikePost(Int32) on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 15:55:40.829 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`3[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-11-28 15:55:40.834 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.LikePost (api) in 90.4293ms
+2024-11-28 15:55:40.834 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 15:55:40.834 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - 200 43 application/json; charset=utf-8 101.6845ms
+2024-11-28 15:55:41.710 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - application/x-www-form-urlencoded 8
+2024-11-28 15:55:41.710 +01:00 [INF] CORS policy execution successful.
+2024-11-28 15:55:41.710 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 15:55:41.710 +01:00 [INF] Route matched with {action = "LikePost", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LikePost(Int32) on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 15:55:41.721 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`3[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-11-28 15:55:41.721 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.LikePost (api) in 10.4223ms
+2024-11-28 15:55:41.721 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 15:55:41.721 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - 200 42 application/json; charset=utf-8 11.7617ms
+2024-11-28 15:55:45.089 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - application/x-www-form-urlencoded 8
+2024-11-28 15:55:45.090 +01:00 [INF] CORS policy execution successful.
+2024-11-28 15:55:45.090 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 15:55:45.091 +01:00 [INF] Route matched with {action = "LikePost", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LikePost(Int32) on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 15:55:45.125 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`3[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-11-28 15:55:45.125 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.LikePost (api) in 34.5558ms
+2024-11-28 15:55:45.125 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 15:55:45.125 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - 200 43 application/json; charset=utf-8 36.7024ms
+2024-11-28 15:55:47.111 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - application/x-www-form-urlencoded 8
+2024-11-28 15:55:47.111 +01:00 [INF] CORS policy execution successful.
+2024-11-28 15:55:47.111 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 15:55:47.111 +01:00 [INF] Route matched with {action = "LikePost", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LikePost(Int32) on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 15:55:47.122 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`3[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-11-28 15:55:47.122 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.LikePost (api) in 10.6029ms
+2024-11-28 15:55:47.122 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 15:55:47.122 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - 200 42 application/json; charset=utf-8 11.704ms
+2024-11-28 15:55:51.844 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - application/x-www-form-urlencoded 8
+2024-11-28 15:55:51.844 +01:00 [INF] CORS policy execution successful.
+2024-11-28 15:55:51.844 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 15:55:51.844 +01:00 [INF] Route matched with {action = "LikePost", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LikePost(Int32) on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 15:55:51.853 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`3[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-11-28 15:55:51.854 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.LikePost (api) in 9.2767ms
+2024-11-28 15:55:51.854 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 15:55:51.854 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - 200 43 application/json; charset=utf-8 10.2947ms
+2024-11-28 15:55:54.127 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - application/x-www-form-urlencoded 8
+2024-11-28 15:55:54.128 +01:00 [INF] CORS policy execution successful.
+2024-11-28 15:55:54.128 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 15:55:54.128 +01:00 [INF] Route matched with {action = "LikePost", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LikePost(Int32) on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 15:55:54.135 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`3[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-11-28 15:55:54.135 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.LikePost (api) in 7.4673ms
+2024-11-28 15:55:54.135 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 15:55:54.135 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - 200 42 application/json; charset=utf-8 8.4377ms
+2024-11-28 15:55:54.519 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - application/x-www-form-urlencoded 8
+2024-11-28 15:55:54.520 +01:00 [INF] CORS policy execution successful.
+2024-11-28 15:55:54.520 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 15:55:54.520 +01:00 [INF] Route matched with {action = "LikePost", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LikePost(Int32) on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 15:55:54.528 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`3[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-11-28 15:55:54.528 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.LikePost (api) in 7.8781ms
+2024-11-28 15:55:54.528 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 15:55:54.528 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - 200 43 application/json; charset=utf-8 8.5562ms
+2024-11-28 15:55:54.725 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - application/x-www-form-urlencoded 8
+2024-11-28 15:55:54.726 +01:00 [INF] CORS policy execution successful.
+2024-11-28 15:55:54.726 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 15:55:54.726 +01:00 [INF] Route matched with {action = "LikePost", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LikePost(Int32) on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 15:55:54.731 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`3[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-11-28 15:55:54.731 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.LikePost (api) in 5.74ms
+2024-11-28 15:55:54.731 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 15:55:54.732 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - 200 42 application/json; charset=utf-8 6.3527ms
+2024-11-28 15:55:54.993 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - application/x-www-form-urlencoded 8
+2024-11-28 15:55:54.994 +01:00 [INF] CORS policy execution successful.
+2024-11-28 15:55:54.994 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 15:55:54.994 +01:00 [INF] Route matched with {action = "LikePost", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LikePost(Int32) on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 15:55:55.001 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`3[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-11-28 15:55:55.001 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.LikePost (api) in 7.3765ms
+2024-11-28 15:55:55.001 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 15:55:55.001 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - 200 43 application/json; charset=utf-8 7.9982ms
+2024-11-28 15:55:59.544 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - application/x-www-form-urlencoded 8
+2024-11-28 15:55:59.546 +01:00 [INF] CORS policy execution successful.
+2024-11-28 15:55:59.546 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 15:55:59.546 +01:00 [INF] Route matched with {action = "LikePost", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LikePost(Int32) on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 15:55:59.553 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`3[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-11-28 15:55:59.553 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.LikePost (api) in 6.9813ms
+2024-11-28 15:55:59.553 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 15:55:59.553 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - 200 42 application/json; charset=utf-8 8.6767ms
+2024-11-28 15:56:01.547 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - application/x-www-form-urlencoded 8
+2024-11-28 15:56:01.548 +01:00 [INF] CORS policy execution successful.
+2024-11-28 15:56:01.549 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 15:56:01.549 +01:00 [INF] Route matched with {action = "LikePost", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LikePost(Int32) on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 15:56:01.559 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`3[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-11-28 15:56:01.559 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.LikePost (api) in 10.2105ms
+2024-11-28 15:56:01.559 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 15:56:01.559 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - 200 43 application/json; charset=utf-8 11.7248ms
+2024-11-28 15:56:02.725 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - application/x-www-form-urlencoded 8
+2024-11-28 15:56:02.726 +01:00 [INF] CORS policy execution successful.
+2024-11-28 15:56:02.726 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 15:56:02.726 +01:00 [INF] Route matched with {action = "LikePost", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LikePost(Int32) on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 15:56:02.732 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`3[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-11-28 15:56:02.733 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.LikePost (api) in 6.5717ms
+2024-11-28 15:56:02.733 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 15:56:02.733 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - 200 42 application/json; charset=utf-8 7.3197ms
+2024-11-28 15:56:05.477 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - application/x-www-form-urlencoded 8
+2024-11-28 15:56:05.478 +01:00 [INF] CORS policy execution successful.
+2024-11-28 15:56:05.478 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 15:56:05.478 +01:00 [INF] Route matched with {action = "LikePost", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LikePost(Int32) on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 15:56:05.492 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`3[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-11-28 15:56:05.493 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.LikePost (api) in 14.7765ms
+2024-11-28 15:56:05.493 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 15:56:05.493 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - 200 43 application/json; charset=utf-8 15.4496ms
+2024-11-28 15:56:08.379 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - application/x-www-form-urlencoded 8
+2024-11-28 15:56:08.380 +01:00 [INF] CORS policy execution successful.
+2024-11-28 15:56:08.380 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 15:56:08.380 +01:00 [INF] Route matched with {action = "LikePost", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LikePost(Int32) on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 15:56:08.391 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`3[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-11-28 15:56:08.391 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.LikePost (api) in 11.0294ms
+2024-11-28 15:56:08.391 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 15:56:08.392 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - 200 42 application/json; charset=utf-8 12.4148ms
+2024-11-28 15:56:09.503 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - application/x-www-form-urlencoded 8
+2024-11-28 15:56:09.504 +01:00 [INF] CORS policy execution successful.
+2024-11-28 15:56:09.504 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 15:56:09.504 +01:00 [INF] Route matched with {action = "LikePost", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LikePost(Int32) on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 15:56:09.537 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`3[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-11-28 15:56:09.537 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.LikePost (api) in 32.8872ms
+2024-11-28 15:56:09.537 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 15:56:09.537 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - 200 43 application/json; charset=utf-8 33.876ms
+2024-11-28 15:56:10.243 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - application/x-www-form-urlencoded 8
+2024-11-28 15:56:10.243 +01:00 [INF] CORS policy execution successful.
+2024-11-28 15:56:10.243 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 15:56:10.243 +01:00 [INF] Route matched with {action = "LikePost", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LikePost(Int32) on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 15:56:10.250 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`3[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-11-28 15:56:10.250 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.LikePost (api) in 7.0923ms
+2024-11-28 15:56:10.250 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.LikePost (api)'
+2024-11-28 15:56:10.250 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/postapi/likepost - 200 42 application/json; charset=utf-8 7.9098ms

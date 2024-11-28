@@ -104,6 +104,41 @@ const HomePage = () => {
     }
   };
 
+  const handleLike = async (postId) => {
+    try {
+      const response = await fetch(`${API_URL}/api/postapi/likepost`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded',
+        },
+        body: `postId=${postId}`
+      });
+
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.error || 'Kunne ikke like innlegget');
+      }
+
+      // Oppdater UI etter vellykket like/unlike
+      const data = await response.json();
+      
+      setPosts(posts.map(post => {
+        if (post.postId === postId) {
+          return {
+            ...post,
+            likes: data.isLiked 
+              ? [...(post.likes || []), { userId: data.userId }]
+              : (post.likes || []).filter(like => like.userId !== data.userId)
+          };
+        }
+        return post;
+      }));
+    } catch (error) {
+      console.error('Feil ved liking av innlegg:', error);
+      setError('Kunne ikke like innlegget');
+    }
+  };
+
   if (loading) return <div className="text-center">Loading...</div>;
   if (error) return <div className="text-center text-danger">{error}</div>;
 
@@ -221,9 +256,12 @@ const HomePage = () => {
                       <button 
                         className="btn btn-link p-0 text-danger text-decoration-none" 
                         style={{ fontSize: '1.1rem' }}
+                        onClick={() => handleLike(post.postId)}
                       >
                         <span>{post.likes?.length || 0}</span>
-                        <span className="ms-1">❤️</span>
+                        <span className="ms-1">
+                          {post.likes?.some(like => like.userId === 1) ? '❤️' : '🤍'}
+                        </span>
                       </button>
                     </div>
                   </div>
