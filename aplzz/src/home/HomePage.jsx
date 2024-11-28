@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Card, Container, Form, ButtonGroup, Button, Carousel } from 'react-bootstrap';
+import { Card, Container, Form, Button } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
 
 const API_URL = 'http://localhost:5214'
 
@@ -7,8 +8,8 @@ const HomePage = () => {
   const [posts, setPosts] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-  const [viewMode, setViewMode] = useState('grid'); // 'grid' eller 'list'
   const [searchQuery, setSearchQuery] = useState('');
+  const navigate = useNavigate();
   
   const fetchPosts = async () => {
     setLoading(true);
@@ -21,7 +22,6 @@ const HomePage = () => {
       }
       const data = await response.json();
       setPosts(data);
-      console.log(data);
     } catch (error) {
       console.error(`There was a problem with the fetch operation: ${error.message}`);
       setError('Failed to fetch posts.');
@@ -34,14 +34,10 @@ const HomePage = () => {
     fetchPosts();
   }, []);
 
-  // Filter posts basert på søk
   const filteredPosts = posts.filter(post => 
     post.content.toLowerCase().includes(searchQuery.toLowerCase()) ||
     post.getUser?.username.toLowerCase().includes(searchQuery.toLowerCase())
   );
-
-  // Velg ut de 3 første postene for carousel
-  const featuredPosts = posts.slice(0, 3);
 
   if (loading) return <div className="text-center">Loading...</div>;
   if (error) return <div className="text-center text-danger">{error}</div>;
@@ -52,57 +48,30 @@ const HomePage = () => {
         <h1 className="display-4">Aplzz</h1>
       </div>
 
-      {/* Søk og visningsvalg */}
+      {/* Søk og opprett nytt innlegg */}
       <div className="d-flex justify-content-between align-items-center mb-4">
-        <Form.Control
-          type="search"
-          placeholder="Søk i innlegg..."
-          className="w-50"
-          value={searchQuery}
-          onChange={(e) => setSearchQuery(e.target.value)}
-        />
-        <ButtonGroup>
+        <div className="d-flex gap-3 align-items-center">
+          <Form.Control
+            type="search"
+            placeholder="Søk i innlegg..."
+            className="w-50"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+          />
           <Button 
-            variant={viewMode === 'grid' ? 'primary' : 'outline-primary'}
-            onClick={() => setViewMode('grid')}
+            variant="success"
+            onClick={() => navigate('/posts/create')}
           >
-            Grid
+            Nytt innlegg
           </Button>
-          <Button 
-            variant={viewMode === 'list' ? 'primary' : 'outline-primary'}
-            onClick={() => setViewMode('list')}
-          >
-            Liste
-          </Button>
-        </ButtonGroup>
+        </div>
       </div>
 
-      {/* Carousel for fremhevede innlegg */}
-      {searchQuery === '' && (
-        <Carousel className="mb-4">
-          {featuredPosts.map(post => (
-            <Carousel.Item key={post.postId}>
-              <img
-                className="d-block w-100"
-                src={`${API_URL}${post.imageUrl}`}
-                alt={post.content}
-                style={{ height: '400px', objectFit: 'cover' }}
-              />
-              <Carousel.Caption>
-                <h3>{post.getUser?.username}</h3>
-                <p>{post.content}</p>
-              </Carousel.Caption>
-            </Carousel.Item>
-          ))}
-        </Carousel>
-      )}
-
-      {/* Posts grid/list */}
-      <div className={viewMode === 'grid' ? 'row g-4' : ''}>
+      {/* Posts list */}
+      <div>
         {filteredPosts.map(post => (
-          <div key={post.postId} className={viewMode === 'grid' ? 'col-md-6 col-lg-4' : ''}>
-            <Card className={`mb-4 shadow-sm ${viewMode === 'list' ? 'mx-auto' : ''}`} 
-                  style={viewMode === 'list' ? { maxWidth: '600px' } : {}}>
+          <div key={post.postId}>
+            <Card className="mb-4 shadow-sm mx-auto" style={{ maxWidth: '600px' }}>
               <Card.Header className="d-flex justify-content-between align-items-center bg-white">
                 <div className="d-flex align-items-center">
                   <img
@@ -123,11 +92,43 @@ const HomePage = () => {
                 </div>
               </Card.Header>
               
-              <Card.Img 
-                variant="top" 
-                src={`${API_URL}${post.imageUrl}`}
-                style={{ objectFit: 'cover', height: '300px' }}
-              />
+              {post.imageUrl && (
+                <div style={{ 
+                  position: 'relative',
+                  width: '100%',
+                  backgroundColor: '#f8f9fa',
+                  overflow: 'hidden'
+                }}>
+                  <Card.Img 
+                    variant="top" 
+                    src={`${API_URL}${post.imageUrl}`}
+                    style={{ 
+                      width: '100%',
+                      display: 'block'
+                    }}
+                    onLoad={(e) => {
+                      const img = e.target;
+                      const naturalRatio = img.naturalWidth / img.naturalHeight;
+                      const container = img.parentElement;
+                      const maxHeight = 600;
+                      const containerWidth = container.offsetWidth;
+                      
+                      if (naturalRatio > 1) {
+                        // Bredere bilde
+                        const height = containerWidth / naturalRatio;
+                        container.style.height = `${Math.min(height, maxHeight)}px`;
+                        img.style.height = '100%';
+                        img.style.objectFit = 'cover';
+                      } else {
+                        // Høyere bilde
+                        container.style.height = `${Math.min(containerWidth * (1/naturalRatio), maxHeight)}px`;
+                        img.style.height = '100%';
+                        img.style.objectFit = 'cover';
+                      }
+                    }}
+                  />
+                </div>
+              )}
               
               <Card.Body>
                 <Card.Text>{post.content}</Card.Text>

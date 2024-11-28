@@ -1,0 +1,151 @@
+2024-11-28 12:48:39.776 +01:00 [INF] User profile is available. Using '/Users/libansulub/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-28 12:48:40.424 +01:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-11-28 12:48:40.469 +01:00 [INF] Now listening on: https://localhost:7135
+2024-11-28 12:48:40.470 +01:00 [INF] Now listening on: http://localhost:5214
+2024-11-28 12:48:40.479 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-28 12:48:40.488 +01:00 [INF] Hosting environment: Development
+2024-11-28 12:48:40.510 +01:00 [INF] Content root path: /Users/libansulub/Documents/Sub-Application 2 - React/api
+2024-11-28 12:48:45.796 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-11-28 12:48:45.832 +01:00 [INF] CORS policy execution successful.
+2024-11-28 12:48:45.834 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 12:48:45.847 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 12:48:46.140 +01:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2024-11-28 12:48:46.189 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-28 12:48:46.258 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 408.7344ms
+2024-11-28 12:48:46.259 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 12:48:46.262 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 3357 application/json; charset=utf-8 467.9324ms
+2024-11-28 12:48:46.263 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-11-28 12:48:46.265 +01:00 [INF] CORS policy execution successful.
+2024-11-28 12:48:46.265 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 12:48:46.265 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 12:48:46.270 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/images/mountain.png - null null
+2024-11-28 12:48:46.272 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/images/scott.jpg - null null
+2024-11-28 12:48:46.308 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/images/pexels.jpg - null null
+2024-11-28 12:48:46.365 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/images/profile.jpg - null null
+2024-11-28 12:48:46.437 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-11-28 12:48:46.439 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-11-28 12:48:46.441 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-11-28 12:48:46.442 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-11-28 12:48:46.447 +01:00 [INF] The file /images/mountain.png was not modified
+2024-11-28 12:48:46.447 +01:00 [INF] The file /images/pexels.jpg was not modified
+2024-11-28 12:48:46.447 +01:00 [INF] The file /images/profile.jpg was not modified
+2024-11-28 12:48:46.447 +01:00 [INF] The file /images/scott.jpg was not modified
+2024-11-28 12:48:46.448 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/images/profile.jpg - 304 null image/jpeg 82.8132ms
+2024-11-28 12:48:46.448 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/images/mountain.png - 304 null image/png 177.7171ms
+2024-11-28 12:48:46.449 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/images/scott.jpg - 304 null image/jpeg 176.7285ms
+2024-11-28 12:48:46.448 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/images/pexels.jpg - 304 null image/jpeg 140.8436ms
+2024-11-28 12:48:46.500 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-28 12:48:46.501 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 235.4868ms
+2024-11-28 12:48:46.501 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 12:48:46.501 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 3357 application/json; charset=utf-8 237.9096ms
+2024-11-28 12:48:47.997 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-11-28 12:48:47.999 +01:00 [INF] CORS policy execution successful.
+2024-11-28 12:48:48.000 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 12:48:48.000 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 12:48:48.013 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-28 12:48:48.013 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 13.5856ms
+2024-11-28 12:48:48.014 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 12:48:48.014 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 3357 application/json; charset=utf-8 16.615ms
+2024-11-28 12:48:48.014 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-11-28 12:48:48.015 +01:00 [INF] CORS policy execution successful.
+2024-11-28 12:48:48.015 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 12:48:48.015 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 12:48:48.022 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-28 12:48:48.022 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 6.926ms
+2024-11-28 12:48:48.022 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 12:48:48.022 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 3357 application/json; charset=utf-8 8.2333ms
+2024-11-28 12:48:48.743 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-11-28 12:48:48.743 +01:00 [INF] CORS policy execution successful.
+2024-11-28 12:48:48.743 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 12:48:48.744 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 12:48:48.750 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-28 12:48:48.751 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 7.0205ms
+2024-11-28 12:48:48.751 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 12:48:48.751 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 3357 application/json; charset=utf-8 8.512ms
+2024-11-28 12:48:48.751 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-11-28 12:48:48.752 +01:00 [INF] CORS policy execution successful.
+2024-11-28 12:48:48.752 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 12:48:48.752 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 12:48:48.757 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-28 12:48:48.758 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 6.0789ms
+2024-11-28 12:48:48.758 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 12:48:48.758 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 3357 application/json; charset=utf-8 6.9486ms
+2024-11-28 12:48:49.208 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-11-28 12:48:49.208 +01:00 [INF] CORS policy execution successful.
+2024-11-28 12:48:49.208 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 12:48:49.209 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 12:48:49.214 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-28 12:48:49.214 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 5.5463ms
+2024-11-28 12:48:49.214 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 12:48:49.214 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 3357 application/json; charset=utf-8 6.5304ms
+2024-11-28 12:48:49.215 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-11-28 12:48:49.216 +01:00 [INF] CORS policy execution successful.
+2024-11-28 12:48:49.216 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 12:48:49.216 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 12:48:49.222 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-28 12:48:49.223 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 6.2162ms
+2024-11-28 12:48:49.223 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 12:48:49.223 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 3357 application/json; charset=utf-8 7.5615ms
+2024-11-28 12:53:57.600 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-11-28 12:53:57.608 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-11-28 12:53:57.609 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 12:53:57.610 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-28 12:53:57.643 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-28 12:53:57.644 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 33.7197ms
+2024-11-28 12:53:57.644 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-28 12:53:57.644 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 3357 application/json; charset=utf-8 44.0378ms
+2024-11-28 12:53:57.708 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/favicon.ico - null null
+2024-11-28 12:53:57.709 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-11-28 12:53:57.712 +01:00 [INF] The file /favicon.ico was not modified
+2024-11-28 12:53:57.712 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/favicon.ico - 304 null image/x-icon 4.1438ms
+2024-11-28 13:02:47.814 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/swagger/index.html - null null
+2024-11-28 13:02:47.881 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/swagger/index.html - 200 null text/html;charset=utf-8 67.097ms
+2024-11-28 13:02:47.918 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/swagger/swagger-ui.css - null null
+2024-11-28 13:02:47.942 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/swagger/swagger-ui-bundle.js - null null
+2024-11-28 13:02:47.970 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/swagger/swagger-ui-standalone-preset.js - null null
+2024-11-28 13:02:48.143 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-11-28 13:02:48.144 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-11-28 13:02:48.246 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/swagger/swagger-ui.css - 200 152034 text/css 305.0922ms
+2024-11-28 13:02:48.247 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 303.6238ms
+2024-11-28 13:02:48.249 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-11-28 13:02:48.249 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 306.9126ms
+2024-11-28 13:02:48.377 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/swagger/v1/swagger.json - null null
+2024-11-28 13:02:48.438 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - Aplzz.Controllers.AccountProfileController.Index (api). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-28 13:02:48.443 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 66.5105ms

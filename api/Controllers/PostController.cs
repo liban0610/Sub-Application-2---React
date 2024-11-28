@@ -33,6 +33,33 @@ public class PostAPIController : Controller
         }
         return Ok(posts);
     }
+
+    [HttpPost("create")]
+    public async Task<IActionResult> CreatePost([FromForm] Post post, IFormFile? image)
+    {
+        if (post == null)
+        {
+            return BadRequest("Invalid post data");
+        }
+
+        if (image != null)
+        {
+            var fileName = $"{Guid.NewGuid()}{Path.GetExtension(image.FileName)}";
+            var filePath = Path.Combine("wwwroot/images", fileName);
+            
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                await image.CopyToAsync(stream);
+            }
+            
+            post.ImageUrl = $"/images/{fileName}";
+        }
+
+        post.CreatedAt = DateTime.Now;
+        await _postRepository.Create(post);
+        
+        return Ok(post);
+    }
 }
     public class PostController : Controller
     {
