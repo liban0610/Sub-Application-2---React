@@ -60,7 +60,60 @@ public class PostAPIController : Controller
         
         return Ok(post);
     }
+    [HttpGet("{id}")]
+    public async Task<IActionResult> GetPost(int id)
+    {
+        var post = await _postRepository.GetPostById(id);
+    if (post == null)
+    {
+        _logger.LogError("[PostAPIController] Post not found for the PostId {PostId:0000}", id);
+        return NotFound("Post not found for the PostId");
+    }
+    return Ok(post);
 }
+
+    [HttpPut("update/{id}")]
+    public async Task<IActionResult> Update(int id, [FromForm] Post updatedPost, IFormFile? image)
+    {
+    if (updatedPost == null)
+    {
+        return BadRequest("Post data cannot be null");
+    }
+
+    var existingPost = await _postRepository.GetPostById(id);
+    if (existingPost == null)
+    {
+        return NotFound("Post not found");
+    }
+
+    // Håndter bildeopplasting hvis nytt bilde er lagt ved
+    if (image != null)
+    {
+        var fileName = $"{Guid.NewGuid()}{Path.GetExtension(image.FileName)}";
+        var filePath = Path.Combine("wwwroot/images", fileName);
+        
+        using (var stream = new FileStream(filePath, FileMode.Create))
+        {
+            await image.CopyToAsync(stream);
+        }
+        
+        existingPost.ImageUrl = $"/images/{fileName}";
+    }
+
+    // Oppdater innleggets innhold
+    existingPost.Content = updatedPost.Content;
+
+    bool updateSuccessful = await _postRepository.Update(existingPost);
+    if (updateSuccessful)
+    {
+        return Ok(existingPost);
+    }
+
+    _logger.LogWarning("[PostAPIController] Post update failed {@post}", existingPost);
+    return StatusCode(500, "Internal server error");
+    }
+}
+    
     public class PostController : Controller
     {
         private readonly IPostRepository _postRepository; // Legg til en privat felt for konteksten

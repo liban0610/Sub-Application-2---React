@@ -2,9 +2,11 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Form, Button, Alert } from 'react-bootstrap';
 
-const PostForm = ({ onPostChanged, postId }) => {
+const API_URL = 'http://localhost:5214';
+
+const PostForm = ({ onPostChanged, postId, isUpdate = false, initialData }) => {
   const navigate = useNavigate();
-  const [content, setContent] = useState('');
+  const [content, setContent] = useState(initialData?.content || '');
   const [image, setImage] = useState(null);
   const [error, setError] = useState('');
 
@@ -26,7 +28,7 @@ const PostForm = ({ onPostChanged, postId }) => {
       await onPostChanged(formData);
       navigate('/');
     } catch (error) {
-      setError('Kunne ikke opprette innlegg');
+      setError(isUpdate ? 'Kunne ikke oppdatere innlegg' : 'Kunne ikke opprette innlegg');
     }
   };
 
@@ -53,11 +55,19 @@ const PostForm = ({ onPostChanged, postId }) => {
           onChange={(e) => setImage(e.target.files?.[0] || null)}
           accept="image/*"
         />
+        {isUpdate && initialData?.imageUrl && (
+          <img 
+            src={`${API_URL}${initialData.imageUrl}`} 
+            alt="Nåværende bilde" 
+            className="mt-2"
+            style={{ maxWidth: '200px' }}
+          />
+        )}
       </Form.Group>
 
       <div className="d-flex gap-2">
         <Button variant="primary" type="submit">
-          Publiser
+          {isUpdate ? 'Oppdater' : 'Publiser'}
         </Button>
         <Button variant="secondary" onClick={() => navigate('/')}>
           Avbryt

@@ -82,17 +82,17 @@ public class PostRepository : IPostRepository
         }
     }
 
-    public async Task Update(Post post)
+    public async Task<bool> Update(Post post)
     {
         try
         {
             _db.Posts.Update(post);
             await _db.SaveChangesAsync();
+            return true;
         }
-        catch (Exception e)
+        catch
         {
-            _logger.LogError("[PostRepository] Failed to update post {PostId}: {e}", post.PostId, e.Message);
-            throw;
+            return false;
         }
     }
 

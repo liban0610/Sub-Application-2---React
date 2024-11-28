@@ -90,6 +90,17 @@ const HomePage = () => {
                     <small className="text-muted">{new Date(post.createdAt).toLocaleString()}</small>
                   </div>
                 </div>
+                {post.userId === 1 && (
+                  <div className="d-flex gap-2">
+                    <Button 
+                      variant="primary" 
+                      size="sm"
+                      onClick={() => navigate(`/posts/update/${post.postId}`)}
+                    >
+                      Oppdater
+                    </Button>
+                  </div>
+                )}
               </Card.Header>
               
               {post.imageUrl && (

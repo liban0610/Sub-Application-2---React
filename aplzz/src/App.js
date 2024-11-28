@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import HomePage from './home/HomePage';
 import NavMenu from './shared/NavMenu';
 import PostCreatePage from './posts/PostCreatePage.jsx';
+import PostUpdatePage from './posts/PostUpdatePage.jsx';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/posts/create" element={<PostCreatePage />} />
+          <Route path="/posts/update/:postId" element={<PostUpdatePage />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </Router>
