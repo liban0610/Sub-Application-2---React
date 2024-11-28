@@ -39,6 +39,25 @@ const HomePage = () => {
     post.getUser?.username.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
+  const handlePostDelete = async (postId) => {
+    if (window.confirm('Er du sikker på at du vil slette dette innlegget?')) {
+      try {
+        const response = await fetch(`${API_URL}/api/postapi/delete/${postId}`, {
+          method: 'DELETE'
+        });
+
+        if (!response.ok) {
+          throw new Error('Kunne ikke slette innlegget');
+        }
+
+        setPosts(posts.filter(post => post.postId !== postId));
+      } catch (error) {
+        console.error('Feil ved sletting av innlegg:', error);
+        setError('Kunne ikke slette innlegget');
+      }
+    }
+  };
+
   if (loading) return <div className="text-center">Loading...</div>;
   if (error) return <div className="text-center text-danger">{error}</div>;
 
@@ -98,6 +117,13 @@ const HomePage = () => {
                       onClick={() => navigate(`/posts/update/${post.postId}`)}
                     >
                       Oppdater
+                    </Button>
+                    <Button 
+                      variant="danger" 
+                      size="sm"
+                      onClick={() => handlePostDelete(post.postId)}
+                    >
+                      Slett
                     </Button>
                   </div>
                 )}

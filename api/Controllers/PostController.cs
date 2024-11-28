@@ -112,6 +112,17 @@ public class PostAPIController : Controller
     _logger.LogWarning("[PostAPIController] Post update failed {@post}", existingPost);
     return StatusCode(500, "Internal server error");
     }
+
+    [HttpDelete("delete/{id}")]
+    public async Task<IActionResult> Delete(int id)
+    {
+        var result = await _postRepository.Delete(id);
+        if (!result)
+    {
+        return NotFound("Innlegget ble ikke funnet");
+        }
+        return NoContent();
+    }
 }
     
     public class PostController : Controller
