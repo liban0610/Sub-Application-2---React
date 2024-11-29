@@ -17,10 +17,14 @@ const PostService = {
     const response = await fetch(`${API_URL}/api/postapi/posts`);
     return handleResponse(response);
   },
+<<<<<<< HEAD
   fetchPostsById: async () => {
     const response = await fetch(`${API_URL}/api/postapi/posts`);
     return handleResponse(response);
   },
+=======
+
+>>>>>>> 6ebd6a5 (fiks)
   createPost: async (formData) => {
     const response = await fetch(`${API_URL}/api/postapi/create`, {
       method: 'POST',

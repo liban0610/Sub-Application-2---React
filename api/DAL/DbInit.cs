@@ -58,6 +58,7 @@ namespace Aplzz.DAL
                     Phone = "34567890",
                     Date_Started = DateTime.Now,
                     ProfilePicture = "/images/profile.jpg"
+<<<<<<< HEAD
                 },
                 new User
                 {
@@ -70,6 +71,9 @@ namespace Aplzz.DAL
                     Date_Started = DateTime.Now,
                     ProfilePicture = "/images/99a459bb96829d1c01030a763d3146ed~c5_1080x1080.jpeg.jpg"
                 }                
+=======
+                }
+>>>>>>> 6ebd6a5 (fiks)
             };
             context.Users.AddRange(users);
             context.SaveChanges();
