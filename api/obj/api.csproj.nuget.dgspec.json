@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\api.csproj": {}
   },
   "projects": {
@@ -15,6 +16,22 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yaha-\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+    "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\api.csproj",
+        "projectName": "api",
+        "projectPath": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\api.csproj",
+        "packagesPath": "C:\\Users\\ahmad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ahmad\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> 125b3b7 (fiks)
         ],
         "originalTargetFrameworks": [
           "net8.0"

@@ -13,7 +13,15 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+005559eea39c7a290ab1b3ffce77e5224e44e8ae")]
+=======
+<<<<<<< HEAD
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0210079c1243440b3888b2b1165b70bb642133c5")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+51467ae6bb122fdf45a0fd59ae0577ae03da3751")]
+>>>>>>> 125b3b7 (fiks)
+>>>>>>> 7a62f80 (fiks)
 [assembly: System.Reflection.AssemblyProductAttribute("api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

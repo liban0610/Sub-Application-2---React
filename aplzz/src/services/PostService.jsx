@@ -17,7 +17,6 @@ const PostService = {
     const response = await fetch(`${API_URL}/api/postapi/posts`);
     return handleResponse(response);
   },
-
   createPost: async (formData) => {
     const response = await fetch(`${API_URL}/api/postapi/create`, {
       method: 'POST',

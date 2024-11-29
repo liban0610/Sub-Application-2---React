@@ -4,6 +4,7 @@ import HomePage from './home/HomePage';
 import NavMenu from './shared/NavMenu';
 import PostCreatePage from './posts/PostCreatePage.jsx';
 import PostUpdatePage from './posts/PostUpdatePage.jsx';
+import Login from './authentication/Login.jsx';
 import './App.css';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/posts/create" element={<PostCreatePage />} />
           <Route path="/posts/update/:postId" element={<PostUpdatePage />} />
+          <Route path="/user/Login" element={<Login />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </Container>
