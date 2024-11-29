@@ -1,0 +1,209 @@
+2024-11-30 12:59:08.267 +01:00 [INF] User profile is available. Using 'C:\Users\ahmad\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-30 12:59:08.354 +01:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-11-30 12:59:08.388 +01:00 [INF] Now listening on: https://localhost:7135
+2024-11-30 12:59:08.389 +01:00 [INF] Now listening on: http://localhost:5214
+2024-11-30 12:59:08.393 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-30 12:59:08.395 +01:00 [INF] Hosting environment: Development
+2024-11-30 12:59:08.396 +01:00 [INF] Content root path: C:\Users\ahmad\OneDrive\Skrivebord\Sub-Application-2---React\api
+2024-11-30 12:59:51.810 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-11-30 12:59:51.849 +01:00 [INF] CORS policy execution successful.
+2024-11-30 12:59:51.851 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-30 12:59:51.862 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-30 12:59:52.149 +01:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2024-11-30 12:59:52.204 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 12:59:52.301 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 435.7238ms
+2024-11-30 12:59:52.301 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-30 12:59:52.305 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 8807 application/json; charset=utf-8 495.7865ms
+2024-11-30 12:59:52.306 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-11-30 12:59:52.309 +01:00 [INF] CORS policy execution successful.
+2024-11-30 12:59:52.309 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-30 12:59:52.309 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-30 12:59:52.361 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 12:59:52.366 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 57.3197ms
+2024-11-30 12:59:52.366 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-30 12:59:52.367 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 8807 application/json; charset=utf-8 60.9761ms
+2024-11-30 13:24:47.494 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-11-30 13:24:47.497 +01:00 [INF] CORS policy execution successful.
+2024-11-30 13:24:47.498 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-30 13:24:47.498 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-30 13:24:47.514 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 13:24:47.520 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 22.2564ms
+2024-11-30 13:24:47.520 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-30 13:24:47.520 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 8807 application/json; charset=utf-8 25.9859ms
+2024-11-30 13:24:47.522 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-11-30 13:24:47.525 +01:00 [INF] CORS policy execution successful.
+2024-11-30 13:24:47.526 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-30 13:24:47.526 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-30 13:24:47.534 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 13:24:47.540 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 13.3036ms
+2024-11-30 13:24:47.540 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-30 13:24:47.540 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 8807 application/json; charset=utf-8 18.2335ms
+2024-11-30 13:34:45.044 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/loginPost - null null
+2024-11-30 13:34:45.045 +01:00 [INF] CORS policy execution successful.
+2024-11-30 13:34:45.046 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/loginPost - 204 null null 1.7069ms
+2024-11-30 13:34:45.047 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginPost - application/json 37
+2024-11-30 13:34:45.047 +01:00 [INF] CORS policy execution successful.
+2024-11-30 13:34:45.047 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginPost - 404 0 null 0.2731ms
+2024-11-30 13:34:45.048 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5214/api/loginPost, Response status code: 404
+2024-11-30 13:34:46.022 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginPost - application/json 37
+2024-11-30 13:34:46.023 +01:00 [INF] CORS policy execution successful.
+2024-11-30 13:34:46.023 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginPost - 404 0 null 0.3124ms
+2024-11-30 13:34:46.023 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5214/api/loginPost, Response status code: 404
+2024-11-30 13:34:46.757 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginPost - application/json 37
+2024-11-30 13:34:46.757 +01:00 [INF] CORS policy execution successful.
+2024-11-30 13:34:46.757 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginPost - 404 0 null 0.2857ms
+2024-11-30 13:34:46.757 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5214/api/loginPost, Response status code: 404
+2024-11-30 13:34:47.079 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginPost - application/json 37
+2024-11-30 13:34:47.080 +01:00 [INF] CORS policy execution successful.
+2024-11-30 13:34:47.080 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginPost - 404 0 null 0.3659ms
+2024-11-30 13:34:47.080 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5214/api/loginPost, Response status code: 404
+2024-11-30 13:34:48.067 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginPost - application/json 37
+2024-11-30 13:34:48.067 +01:00 [INF] CORS policy execution successful.
+2024-11-30 13:34:48.067 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginPost - 404 0 null 0.8721ms
+2024-11-30 13:34:48.067 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5214/api/loginPost, Response status code: 404
+2024-11-30 13:34:48.490 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginPost - application/json 37
+2024-11-30 13:34:48.490 +01:00 [INF] CORS policy execution successful.
+2024-11-30 13:34:48.490 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginPost - 404 0 null 0.2942ms
+2024-11-30 13:34:48.490 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5214/api/loginPost, Response status code: 404
+2024-11-30 13:34:50.814 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/loginPost - null null
+2024-11-30 13:34:50.815 +01:00 [INF] CORS policy execution successful.
+2024-11-30 13:34:50.815 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/loginPost - 204 null null 0.328ms
+2024-11-30 13:34:50.815 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginPost - application/json 37
+2024-11-30 13:34:50.815 +01:00 [INF] CORS policy execution successful.
+2024-11-30 13:34:50.815 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginPost - 404 0 null 0.1731ms
+2024-11-30 13:34:50.815 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5214/api/loginPost, Response status code: 404
+2024-11-30 13:34:55.678 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginPost - application/json 37
+2024-11-30 13:34:55.678 +01:00 [INF] CORS policy execution successful.
+2024-11-30 13:34:55.678 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginPost - 404 0 null 0.3248ms
+2024-11-30 13:34:55.678 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5214/api/loginPost, Response status code: 404
+2024-11-30 13:34:56.017 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/loginPost - null null
+2024-11-30 13:34:56.017 +01:00 [INF] CORS policy execution successful.
+2024-11-30 13:34:56.017 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/loginPost - 204 null null 0.3497ms
+2024-11-30 13:34:56.018 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginPost - application/json 37
+2024-11-30 13:34:56.018 +01:00 [INF] CORS policy execution successful.
+2024-11-30 13:34:56.018 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginPost - 404 0 null 0.1826ms
+2024-11-30 13:34:56.018 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5214/api/loginPost, Response status code: 404
+2024-11-30 13:34:56.173 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginPost - application/json 37
+2024-11-30 13:34:56.174 +01:00 [INF] CORS policy execution successful.
+2024-11-30 13:34:56.174 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginPost - 404 0 null 0.3879ms
+2024-11-30 13:34:56.174 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5214/api/loginPost, Response status code: 404
+2024-11-30 13:34:56.331 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginPost - application/json 37
+2024-11-30 13:34:56.331 +01:00 [INF] CORS policy execution successful.
+2024-11-30 13:34:56.332 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginPost - 404 0 null 0.2581ms
+2024-11-30 13:34:56.332 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5214/api/loginPost, Response status code: 404
+2024-11-30 13:34:56.482 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginPost - application/json 37
+2024-11-30 13:34:56.482 +01:00 [INF] CORS policy execution successful.
+2024-11-30 13:34:56.482 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginPost - 404 0 null 0.2893ms
+2024-11-30 13:34:56.482 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5214/api/loginPost, Response status code: 404
+2024-11-30 13:35:06.629 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/loginPost - null null
+2024-11-30 13:35:06.629 +01:00 [INF] CORS policy execution successful.
+2024-11-30 13:35:06.629 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/loginPost - 204 null null 0.2803ms
+2024-11-30 13:35:06.630 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginPost - application/json 37
+2024-11-30 13:35:06.630 +01:00 [INF] CORS policy execution successful.
+2024-11-30 13:35:06.630 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginPost - 404 0 null 0.1538ms
+2024-11-30 13:35:06.630 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5214/api/loginPost, Response status code: 404
+2024-11-30 13:35:07.150 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginPost - application/json 37
+2024-11-30 13:35:07.150 +01:00 [INF] CORS policy execution successful.
+2024-11-30 13:35:07.150 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginPost - 404 0 null 0.3134ms
+2024-11-30 13:35:07.150 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5214/api/loginPost, Response status code: 404
+2024-11-30 13:35:07.713 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginPost - application/json 37
+2024-11-30 13:35:07.713 +01:00 [INF] CORS policy execution successful.
+2024-11-30 13:35:07.713 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginPost - 404 0 null 0.3004ms
+2024-11-30 13:35:07.713 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5214/api/loginPost, Response status code: 404
+2024-11-30 13:36:55.985 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/ - null null
+2024-11-30 13:36:55.987 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/ - 404 0 null 2.5478ms
+2024-11-30 13:36:55.988 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/, Response status code: 404
+2024-11-30 13:36:57.580 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/ - null null
+2024-11-30 13:36:57.580 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/ - 404 0 null 0.4297ms
+2024-11-30 13:36:57.580 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/, Response status code: 404
+2024-11-30 13:37:01.714 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api - null null
+2024-11-30 13:37:01.714 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api - 404 0 null 0.2671ms
+2024-11-30 13:37:01.714 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/api, Response status code: 404
+2024-11-30 13:37:09.232 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/postapi - null null
+2024-11-30 13:37:09.233 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/postapi - 404 0 null 0.2837ms
+2024-11-30 13:37:09.233 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/postapi, Response status code: 404
+2024-11-30 13:37:36.708 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi - null null
+2024-11-30 13:37:36.737 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi - 404 0 null 29.1385ms
+2024-11-30 13:37:36.739 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/api/postapi, Response status code: 404
+2024-11-30 13:37:42.768 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/create - null null
+2024-11-30 13:37:42.770 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPost (api)'
+2024-11-30 13:37:42.807 +01:00 [INF] Route matched with {action = "GetPost", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPost(Int32) on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-30 13:37:42.827 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-11-30 13:37:42.838 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPost (api) in 30.8577ms
+2024-11-30 13:37:42.838 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPost (api)'
+2024-11-30 13:37:42.839 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/create - 400 245 application/problem+json; charset=utf-8 70.2501ms
+2024-11-30 13:37:52.668 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/login - null null
+2024-11-30 13:37:52.668 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPost (api)'
+2024-11-30 13:37:52.668 +01:00 [INF] Route matched with {action = "GetPost", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPost(Int32) on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-30 13:37:52.671 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-11-30 13:37:52.672 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPost (api) in 3.3462ms
+2024-11-30 13:37:52.672 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPost (api)'
+2024-11-30 13:37:52.672 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/login - 400 244 application/problem+json; charset=utf-8 3.8072ms
+2024-11-30 13:37:56.139 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/loginPost - null null
+2024-11-30 13:37:56.139 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPost (api)'
+2024-11-30 13:37:56.139 +01:00 [INF] Route matched with {action = "GetPost", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPost(Int32) on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-30 13:37:56.142 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-11-30 13:37:56.143 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPost (api) in 3.2608ms
+2024-11-30 13:37:56.143 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPost (api)'
+2024-11-30 13:37:56.143 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/loginPost - 400 248 application/problem+json; charset=utf-8 3.729ms
+2024-11-30 13:38:05.487 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/upate - null null
+2024-11-30 13:38:05.487 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPost (api)'
+2024-11-30 13:38:05.488 +01:00 [INF] Route matched with {action = "GetPost", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPost(Int32) on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-30 13:38:05.490 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-11-30 13:38:05.490 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPost (api) in 2.8197ms
+2024-11-30 13:38:05.490 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPost (api)'
+2024-11-30 13:38:05.491 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/upate - 400 244 application/problem+json; charset=utf-8 3.2634ms
+2024-11-30 13:38:26.978 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/swagger - null null
+2024-11-30 13:38:26.980 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/swagger - 301 0 null 2.4438ms
+2024-11-30 13:38:26.985 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/swagger/index.html - null null
+2024-11-30 13:38:27.017 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/swagger/index.html - 200 null text/html;charset=utf-8 32.5208ms
+2024-11-30 13:38:27.024 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/swagger/swagger-ui.css - null null
+2024-11-30 13:38:27.026 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/swagger/swagger-ui-bundle.js - null null
+2024-11-30 13:38:27.029 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/swagger/swagger-ui-standalone-preset.js - null null
+2024-11-30 13:38:27.064 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-11-30 13:38:27.064 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-11-30 13:38:27.066 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/swagger/swagger-ui.css - 200 152034 text/css 42.2102ms
+2024-11-30 13:38:27.066 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 37.2807ms
+2024-11-30 13:38:27.067 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-11-30 13:38:27.067 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 40.19ms
+2024-11-30 13:38:27.178 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/swagger/v1/swagger.json - null null
+2024-11-30 13:38:27.186 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/swagger/favicon-32x32.png - null null
+2024-11-30 13:38:27.186 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-11-30 13:38:27.186 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/swagger/favicon-32x32.png - 200 628 image/png 0.2643ms
+2024-11-30 13:38:27.218 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - Aplzz.Controllers.AccountProfileController.Index (api). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-30 13:38:27.220 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 42.2204ms
+2024-11-30 13:38:52.412 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/loginapi/upate - null null
+2024-11-30 13:38:52.413 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/loginapi/upate - 404 0 null 1.2238ms
+2024-11-30 13:38:52.446 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/api/loginapi/upate, Response status code: 404
+2024-11-30 13:38:55.583 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/loginapi/login - null null
+2024-11-30 13:38:55.583 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/loginapi/login - 404 0 null 0.208ms
+2024-11-30 13:38:55.583 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/api/loginapi/login, Response status code: 404
+2024-11-30 13:39:01.590 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/controller - null null
+2024-11-30 13:39:01.590 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/controller - 404 0 null 0.3123ms
+2024-11-30 13:39:01.590 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/api/controller, Response status code: 404
+2024-11-30 13:39:04.937 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/controller/login - null null
+2024-11-30 13:39:04.937 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/controller/login - 404 0 null 0.2286ms
+2024-11-30 13:39:04.937 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/api/controller/login, Response status code: 404
+2024-11-30 13:39:28.874 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi - null null
+2024-11-30 13:39:28.876 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi - 404 0 null 2.1815ms
+2024-11-30 13:39:28.876 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/api/postapi, Response status code: 404
+2024-11-30 13:39:32.790 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/crea - null null
+2024-11-30 13:39:32.790 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPost (api)'
+2024-11-30 13:39:32.790 +01:00 [INF] Route matched with {action = "GetPost", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPost(Int32) on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-30 13:39:32.826 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-11-30 13:39:32.826 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPost (api) in 35.5365ms
+2024-11-30 13:39:32.826 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPost (api)'
+2024-11-30 13:39:32.826 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/crea - 400 243 application/problem+json; charset=utf-8 36.5166ms
+2024-11-30 13:39:39.196 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/login/crea - null null
+2024-11-30 13:39:39.197 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/login/crea - 404 0 null 0.3914ms
+2024-11-30 13:39:39.197 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/api/login/crea, Response status code: 404
+2024-11-30 13:39:43.987 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/loginAPI/crea - null null
+2024-11-30 13:39:43.987 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/loginAPI/crea - 404 0 null 0.2498ms
+2024-11-30 13:39:43.987 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/api/loginAPI/crea, Response status code: 404

@@ -14,15 +14,17 @@ using Aplzz.DAL;
 namespace Aplzz.Controllers
 {
   
-    public class AccountProfileController : Controller
+    [ApiController]
+    [Route("api/[controller]")]  
+    public class AccountProfileAPIController : Controller
     {
         private readonly IAccountRepository _accountRepository;
         private readonly IPostRepository _postRepository;
-        private readonly ILogger<AccountProfileController> _logger;
+        private readonly ILogger<AccountProfileAPIController> _logger;
 
 
-        public AccountProfileController(IAccountRepository accountRepository, 
-        IPostRepository postRepository ,ILogger<AccountProfileController> logger)
+        public AccountProfileAPIController(IAccountRepository accountRepository, 
+        IPostRepository postRepository ,ILogger<AccountProfileAPIController> logger)
         {
             _accountRepository = accountRepository;
             _logger = logger;
@@ -30,15 +32,15 @@ namespace Aplzz.Controllers
         }
 
         // GET: Display the profile
-        [Route("AccountProfile/{username}")]
+        [HttpGet("profile/{username}")]
         public async Task<IActionResult> Index(string username)
         {
             if(username == "" || username == null) {
-                return View("NotFound", username);
+                return BadRequest("Skriv et gyldig brukernavn");
             }
             var user = await _accountRepository.GetUserInfo(username);
             if(user == null) {
-                return View("NotFound", user);
+                return NotFound("Brukeren finnes ikke");
             }
 
             var posts = await _postRepository.GellPostByUserId(user.IdUser);
@@ -47,11 +49,9 @@ namespace Aplzz.Controllers
                 GetUserInfo = user,
                 Posts = posts
             };
-
-            return View(model);
+            return Ok(model);
         }
     }
-
 }
             
 //         // GET: Display details of a profile by ID

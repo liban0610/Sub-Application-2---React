@@ -58,7 +58,18 @@ namespace Aplzz.DAL
                     Phone = "34567890",
                     Date_Started = DateTime.Now,
                     ProfilePicture = "/images/profile.jpg"
-                }
+                },
+                new User
+                {
+                    Username = "KentMalmo",
+                    Email = "kentmalmo@example.com",
+                    Password = "Test12345",
+                    Firstname = "Kent",
+                    Aftername = "Malnø",
+                    Phone = "12345865",
+                    Date_Started = DateTime.Now,
+                    ProfilePicture = "/images/99a459bb96829d1c01030a763d3146ed~c5_1080x1080.jpeg.jpg"
+                }                
             };
             context.Users.AddRange(users);
             context.SaveChanges();
@@ -70,7 +81,7 @@ namespace Aplzz.DAL
                     Content = "Dette er det første innlegget.",
                     CreatedAt = DateTime.Now,
                     ImageUrl = "/images/pexels.jpg",
-                    UserId = users[0].IdUser
+                    UserId = users[4].IdUser
                 },
                 new Post
                 {

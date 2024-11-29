@@ -1,0 +1,203 @@
+2024-11-30 23:36:50.382 +01:00 [INF] User profile is available. Using 'C:\Users\ahmad\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-30 23:36:50.497 +01:00 [INF] Now listening on: https://localhost:7135
+2024-11-30 23:36:50.499 +01:00 [INF] Now listening on: http://localhost:5214
+2024-11-30 23:36:50.503 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-30 23:36:50.505 +01:00 [INF] Hosting environment: Development
+2024-11-30 23:36:50.506 +01:00 [INF] Content root path: C:\Users\ahmad\OneDrive\Skrivebord\Sub-Application-2---React\api
+2024-11-30 23:36:59.681 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-11-30 23:36:59.712 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:36:59.714 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-30 23:36:59.728 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-30 23:37:00.029 +01:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2024-11-30 23:37:00.088 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 23:37:00.190 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 459.1412ms
+2024-11-30 23:37:00.191 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-30 23:37:00.195 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 8808 application/json; charset=utf-8 515.1706ms
+2024-11-30 23:37:00.196 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-11-30 23:37:00.198 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:37:00.198 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-30 23:37:00.199 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-30 23:37:00.244 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 23:37:00.249 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 50.1028ms
+2024-11-30 23:37:00.249 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-30 23:37:00.249 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 8808 application/json; charset=utf-8 53.0859ms
+2024-11-30 23:37:27.930 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - null null
+2024-11-30 23:37:27.932 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:37:27.936 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - 204 null null 6.0247ms
+2024-11-30 23:37:27.937 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 51
+2024-11-30 23:37:27.938 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:37:27.939 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-11-30 23:37:27.944 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-11-30 23:37:27.974 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-11-30 23:37:27.987 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 42.9871ms
+2024-11-30 23:37:27.987 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-11-30 23:37:27.987 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 279 application/problem+json; charset=utf-8 49.6175ms
+2024-11-30 23:37:27.997 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-11-30 23:37:27.997 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:37:27.997 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-30 23:37:27.997 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-30 23:37:28.006 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 23:37:28.013 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 15.7107ms
+2024-11-30 23:37:28.013 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-30 23:37:28.013 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 8808 application/json; charset=utf-8 16.597ms
+2024-11-30 23:37:28.015 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-11-30 23:37:28.015 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:37:28.015 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-30 23:37:28.016 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-30 23:37:28.024 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 23:37:28.030 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 14.47ms
+2024-11-30 23:37:28.030 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-30 23:37:28.031 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 8808 application/json; charset=utf-8 15.465ms
+2024-11-30 23:37:31.959 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-11-30 23:37:31.960 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:37:31.960 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-30 23:37:31.960 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-30 23:37:31.966 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 23:37:31.971 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 11.5971ms
+2024-11-30 23:37:31.972 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-30 23:37:31.972 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 8808 application/json; charset=utf-8 12.3409ms
+2024-11-30 23:37:31.972 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-11-30 23:37:31.973 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:37:31.973 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-30 23:37:31.973 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-30 23:37:31.980 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 23:37:31.985 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 12.3125ms
+2024-11-30 23:37:31.985 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-30 23:37:31.986 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 8808 application/json; charset=utf-8 13.2166ms
+2024-11-30 23:38:08.135 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-11-30 23:38:08.139 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:38:08.139 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-30 23:38:08.139 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-30 23:38:08.145 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 23:38:08.153 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 13.387ms
+2024-11-30 23:38:08.153 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-30 23:38:08.153 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 8808 application/json; charset=utf-8 17.8301ms
+2024-11-30 23:38:08.154 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-11-30 23:38:08.155 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:38:08.155 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-30 23:38:08.155 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-11-30 23:38:08.162 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 23:38:08.168 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 12.9307ms
+2024-11-30 23:38:08.168 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-11-30 23:38:08.168 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 8808 application/json; charset=utf-8 14.0689ms
+2024-11-30 23:38:12.920 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/loginPost - null null
+2024-11-30 23:38:12.921 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:38:12.922 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/loginPost - 204 null null 0.9113ms
+2024-11-30 23:38:12.923 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/loginPost - application/json 52
+2024-11-30 23:38:12.924 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:38:12.924 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Index (api)'
+2024-11-30 23:38:12.925 +01:00 [INF] Route matched with {action = "Index", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Aplzz.Models.LoginModel) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-11-30 23:38:12.943 +01:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-11-30 23:38:12.943 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Index (api) in 18.3896ms
+2024-11-30 23:38:12.944 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Index (api)'
+2024-11-30 23:38:12.944 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/loginPost - 404 null text/plain; charset=utf-8 20.7509ms
+2024-11-30 23:39:09.820 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/swagger - null null
+2024-11-30 23:39:09.826 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/swagger - 301 0 null 5.2448ms
+2024-11-30 23:39:09.829 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/swagger/index.html - null null
+2024-11-30 23:39:09.863 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/swagger/index.html - 200 null text/html;charset=utf-8 34.1068ms
+2024-11-30 23:39:09.876 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/swagger/swagger-ui.css - null null
+2024-11-30 23:39:09.876 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/swagger/swagger-ui-standalone-preset.js - null null
+2024-11-30 23:39:09.876 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/swagger/swagger-ui-bundle.js - null null
+2024-11-30 23:39:09.914 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-11-30 23:39:09.914 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-11-30 23:39:09.917 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 41.3498ms
+2024-11-30 23:39:09.917 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/swagger/swagger-ui.css - 200 152034 text/css 41.5644ms
+2024-11-30 23:39:09.918 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-11-30 23:39:09.918 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 42.573ms
+2024-11-30 23:39:10.036 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/swagger/v1/swagger.json - null null
+2024-11-30 23:39:10.073 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - Aplzz.Controllers.AccountProfileController.Index (api). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-30 23:39:10.076 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 39.6877ms
+2024-11-30 23:39:24.098 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi - null null
+2024-11-30 23:39:24.102 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-11-30 23:39:24.103 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi - 404 0 null 5.3166ms
+2024-11-30 23:39:24.104 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/api/postapi, Response status code: 404
+2024-11-30 23:39:24.349 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi - null null
+2024-11-30 23:39:24.352 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-11-30 23:39:24.352 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi - 404 0 null 2.9691ms
+2024-11-30 23:39:24.352 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/api/postapi, Response status code: 404
+2024-11-30 23:39:31.618 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/loginapi - null null
+2024-11-30 23:39:31.620 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-11-30 23:39:31.624 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+Aplzz.Controllers.LoginAPIController.CheckUserName (api)
+Aplzz.Controllers.LoginAPIController.CheckEmail (api)
+Aplzz.Controllers.LoginAPIController.CheckPassword (api)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-30 23:39:31.632 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/loginapi - 500 null text/html; charset=utf-8 14.6337ms
+2024-11-30 23:39:41.809 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/loginapi/loginpost - null null
+2024-11-30 23:39:41.811 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-11-30 23:39:41.811 +01:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2024-11-30 23:39:41.811 +01:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2024-11-30 23:39:41.811 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/loginapi/loginpost - 405 0 null 2.4534ms
+2024-11-30 23:39:44.234 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/loginapi/ - null null
+2024-11-30 23:39:44.236 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-11-30 23:39:44.239 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+Aplzz.Controllers.LoginAPIController.CheckUserName (api)
+Aplzz.Controllers.LoginAPIController.CheckEmail (api)
+Aplzz.Controllers.LoginAPIController.CheckPassword (api)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-30 23:39:44.240 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/loginapi/ - 500 null text/html; charset=utf-8 6.3674ms

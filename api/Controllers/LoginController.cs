@@ -9,16 +9,20 @@ using Microsoft.AspNetCore.Http.Connections;
 using Aplzz.DAL;
 namespace Aplzz.Controllers;
 
-public class LoginController : Controller 
+[ApiController]
+[Route("api/[controller]")]
+public class LoginAPIController : Controller 
 {
   private readonly PostDbContext _userDB;
-  private readonly ILogger<LoginController> _logger;
-  public LoginController(PostDbContext userDb, ILogger<LoginController> logger) 
+  private readonly ILogger<LoginAPIController> _logger;
+  public LoginAPIController(PostDbContext userDb, ILogger<LoginAPIController> logger) 
   {
     _logger = logger;
     _userDB = userDb;
   }
 
+
+  [HttpGet("login")]
   public IActionResult Index() 
   {
     if(HttpContext.Session.GetString("username") != null) {
@@ -28,7 +32,7 @@ public class LoginController : Controller
     }
   }
 
- [HttpPost]
+ [HttpPost("loginPost")]
  public IActionResult Index(LoginModel loginModel) {
   if(ModelState.IsValid) {
     if(CheckEmail(loginModel.Email) == true && CheckPassword(loginModel.Password) == true) {
@@ -37,31 +41,38 @@ public class LoginController : Controller
       where user.Email == loginModel.Email && user.Password == loginModel.Password
       select user;
       // create session:
-      foreach(var res in MyUser) {
-        HttpContext.Session.SetString("id", res.IdUser.ToString());
-        HttpContext.Session.SetString("username", res.Username.ToString());
-        HttpContext.Session.SetString("firstname", res.Firstname.ToString());
-        HttpContext.Session.SetString("aftername", res.Aftername.ToString());
-        HttpContext.Session.SetString("email", res.Email.ToString());
-        HttpContext.Session.SetString("profilePicture", res.ProfilePicture.ToString());
+      foreach(var user in MyUser) {
+        HttpContext.Session.SetString("id", user.IdUser.ToString());
+        HttpContext.Session.SetString("username", user.Username.ToString());
+        HttpContext.Session.SetString("firstname", user.Firstname.ToString());
+        HttpContext.Session.SetString("aftername", user.Aftername.ToString());
+        HttpContext.Session.SetString("email", user.Email.ToString());
+        HttpContext.Session.SetString("profilePicture", user.ProfilePicture.ToString());
+        return Ok(new {
+          id = user.IdUser,
+          username = user.Username,
+          firstname = user.Firstname,
+          aftername = user.Aftername,
+          email = user.Email,
+          profilePicture = user.ProfilePicture,
+        });
       }
-      return RedirectToAction("Index", "Post");
     } else {
-      TempData["ErrorMessage"] = "E-mail or password is incorrect or account does not exist!";
+      return NotFound("E-post eller passord eksisterer ikke");
     }
   }
-  return View();
+  return Ok();
  } 
 
 
-
+  [HttpGet("register")]
   public IActionResult Register() 
   {
     return View();
   }
 
 
-  [HttpPost]
+  [HttpPost("registerPost")]
   public IActionResult Register(User userModel) {
 
     if(ModelState.IsValid) {
@@ -80,7 +91,7 @@ public class LoginController : Controller
 
       // check username exist
       if(checkName == true) {
-        TempData["ErrorUserName"] = "Username exist already choose another one";
+        return BadRequest("brukernavn finnes allerede");
       }
 
       if(userr.ProfilePicture == null) {
@@ -88,28 +99,31 @@ public class LoginController : Controller
       }
 
       if(checkEmail == true) {
-        TempData["ErrorEmail"] = "Email exist already choose another one";
+        return BadRequest("E-post finnes allerede");
       }
       if(checkName == false && checkEmail == false) {
         _userDB.Users.Add(userr);
         _userDB.SaveChanges();
-        TempData["SuccessMsg"] = "Account successfully added. Login now!";
+        return Ok(userr);
       }
     }
-    return View();
+    return BadRequest();
   }
-
+  [HttpGet("usernameChecker")]
   public bool CheckUserName(string Username) {
     return _userDB.Users.Any(a => a.Username == Username);
   }
 
+  [HttpGet("emailChecker")]
   public bool CheckEmail(string Email) {
     return _userDB.Users.Any(a => a.Email == Email);
   }
+  [HttpGet("passwordChecker")]
   public bool CheckPassword(string Password) {
     return _userDB.Users.Any(a => a.Password == Password);
   }
 
+  [HttpGet("logout")]
   public IActionResult Logout() {
     HttpContext.Session.Clear();
     return RedirectToAction("Index", "Login");

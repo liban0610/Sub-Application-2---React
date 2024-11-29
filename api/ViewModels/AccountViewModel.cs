@@ -5,7 +5,7 @@ namespace Aplzz.ViewModels
 {
     public class AccountViewModel 
     {
-        public User GetUserInfo {get;set;}
-        public IEnumerable<Post> Posts {get;set;}
+        public User? GetUserInfo {get;set;}
+        public IEnumerable<Post>? Posts {get;set;}
     }
 }

@@ -1,0 +1,51 @@
+.containerLogin {
+    margin: auto;
+    max-width: 700px;
+    height: 100%;
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.inputLogin {
+    border-radius: 4px;
+    border:1px solid #817d7d;
+    padding:5px 10px;
+    font-size: 20px;
+    width: 100%;
+}
+
+.containerInput {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.info {
+    text-align: left;
+    margin-bottom:3px;
+    font-weight: 600;
+}
+
+.divBox {
+    padding:30px;
+    border-radius: 4px;
+    background-color: #fff;
+    border:solid rgba(255, 255, 255, 0.2);;
+}
+
+
+
+.errorMessage {
+    color:red;
+    text-align: left;
+    border-left: 5px solid red;
+    padding:5px;
+    display: none;
+    margin-top:5px;
+}
+
+.divBox h1 {
+    font-weight: 700;
+}
+
