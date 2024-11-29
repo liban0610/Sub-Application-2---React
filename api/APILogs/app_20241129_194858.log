@@ -1,0 +1,39 @@
+2024-11-29 19:49:04.886 +01:00 [INF] User profile is available. Using 'C:\Users\yaha-\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-29 19:49:05.304 +01:00 [INF] Now listening on: https://localhost:7135
+2024-11-29 19:49:05.309 +01:00 [INF] Now listening on: http://localhost:5214
+2024-11-29 19:49:05.320 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-29 19:49:05.325 +01:00 [INF] Hosting environment: Development
+2024-11-29 19:49:05.329 +01:00 [INF] Content root path: C:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Ny mappe\Sub-Application-2---React\api
+2024-11-29 19:50:22.201 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/ - null null
+2024-11-29 19:50:22.447 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/ - 404 0 null 250.391ms
+2024-11-29 19:50:22.460 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/, Response status code: 404
+2024-11-29 19:51:12.721 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/controllers/post - null null
+2024-11-29 19:51:12.759 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/controllers/post - 404 0 null 42.9393ms
+2024-11-29 19:51:12.759 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/api/controllers/post, Response status code: 404
+2024-11-29 19:51:19.449 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/controllers/postController - null null
+2024-11-29 19:51:19.454 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/controllers/postController - 404 0 null 4.8939ms
+2024-11-29 19:51:19.454 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/api/controllers/postController, Response status code: 404
+2024-11-29 19:51:27.451 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/controllers/PostController - null null
+2024-11-29 19:51:27.451 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/controllers/PostController - 404 0 null 0.769ms
+2024-11-29 19:51:27.452 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/api/controllers/PostController, Response status code: 404
+2024-11-29 19:51:32.787 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/C/PostController - null null
+2024-11-29 19:51:32.794 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/C/PostController - 404 0 null 7.2549ms
+2024-11-29 19:51:32.795 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/api/C/PostController, Response status code: 404
+2024-11-29 19:51:39.544 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/Controller/PostController - null null
+2024-11-29 19:51:39.545 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/Controller/PostController - 404 0 null 0.7323ms
+2024-11-29 19:51:39.545 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/api/Controller/PostController, Response status code: 404
+2024-11-29 19:51:43.051 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/Api/Controller/PostController - null null
+2024-11-29 19:51:43.052 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/Api/Controller/PostController - 404 0 null 0.5901ms
+2024-11-29 19:51:43.052 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/Api/Controller/PostController, Response status code: 404
+2024-11-29 19:51:49.059 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/Controller/PostController - null null
+2024-11-29 19:51:49.061 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/Controller/PostController - 404 0 null 0.905ms
+2024-11-29 19:51:49.062 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/api/Controller/PostController, Response status code: 404
+2024-11-29 19:52:11.133 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/index - null null
+2024-11-29 19:52:11.134 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/index - 404 0 null 2.7179ms
+2024-11-29 19:52:11.135 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/index, Response status code: 404
+2024-11-29 19:52:34.518 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7135/ - null null
+2024-11-29 19:52:34.521 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7135/ - 404 0 null 3.2032ms
+2024-11-29 19:52:34.521 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7135/, Response status code: 404
+2024-11-29 19:52:35.795 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7135/ - null null
+2024-11-29 19:52:35.798 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7135/ - 404 0 null 2.5331ms
+2024-11-29 19:52:35.798 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7135/, Response status code: 404

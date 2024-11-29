@@ -1,0 +1,6 @@
+2024-11-29 19:29:29.293 +01:00 [INF] User profile is available. Using 'C:\Users\yaha-\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-29 19:29:30.615 +01:00 [INF] Now listening on: https://localhost:7135
+2024-11-29 19:29:30.643 +01:00 [INF] Now listening on: http://localhost:5214
+2024-11-29 19:29:30.760 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-29 19:29:30.950 +01:00 [INF] Hosting environment: Development
+2024-11-29 19:29:31.086 +01:00 [INF] Content root path: C:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Ny mappe\Sub-Application-2---React\api

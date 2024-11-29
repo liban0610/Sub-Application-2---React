@@ -1,415 +1,415 @@
 {
   "Files": [
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/css/site.css",
-      "PackagePath": "staticwebassets/css/site.css"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/favicon.ico",
-      "PackagePath": "staticwebassets/favicon.ico"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/0e931c77-b5a7-4e7b-a009-9e79be1b5402.png",
-      "PackagePath": "staticwebassets/images/0e931c77-b5a7-4e7b-a009-9e79be1b5402.png"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\0e931c77-b5a7-4e7b-a009-9e79be1b5402.png",
+      "PackagePath": "staticwebassets\\images\\0e931c77-b5a7-4e7b-a009-9e79be1b5402.png"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/2e0432fe-2d11-400d-97d1-cf5a18fc70e2.jpeg",
-      "PackagePath": "staticwebassets/images/2e0432fe-2d11-400d-97d1-cf5a18fc70e2.jpeg"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\2e0432fe-2d11-400d-97d1-cf5a18fc70e2.jpeg",
+      "PackagePath": "staticwebassets\\images\\2e0432fe-2d11-400d-97d1-cf5a18fc70e2.jpeg"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/384e9f1b-3f57-4955-9965-ae0aeeb4ad31.jpeg",
-      "PackagePath": "staticwebassets/images/384e9f1b-3f57-4955-9965-ae0aeeb4ad31.jpeg"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\384e9f1b-3f57-4955-9965-ae0aeeb4ad31.jpeg",
+      "PackagePath": "staticwebassets\\images\\384e9f1b-3f57-4955-9965-ae0aeeb4ad31.jpeg"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/62c17747-a633-492b-ac70-8ce751eb8b89.png",
-      "PackagePath": "staticwebassets/images/62c17747-a633-492b-ac70-8ce751eb8b89.png"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\62c17747-a633-492b-ac70-8ce751eb8b89.png",
+      "PackagePath": "staticwebassets\\images\\62c17747-a633-492b-ac70-8ce751eb8b89.png"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/7f4f9137-fb04-440a-8dae-a472b0f2cf4b.jpeg",
-      "PackagePath": "staticwebassets/images/7f4f9137-fb04-440a-8dae-a472b0f2cf4b.jpeg"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\7f4f9137-fb04-440a-8dae-a472b0f2cf4b.jpeg",
+      "PackagePath": "staticwebassets\\images\\7f4f9137-fb04-440a-8dae-a472b0f2cf4b.jpeg"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/99a459bb96829d1c01030a763d3146ed~c5_1080x1080.jpeg",
-      "PackagePath": "staticwebassets/images/99a459bb96829d1c01030a763d3146ed~c5_1080x1080.jpeg"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\99a459bb96829d1c01030a763d3146ed~c5_1080x1080.jpeg",
+      "PackagePath": "staticwebassets\\images\\99a459bb96829d1c01030a763d3146ed~c5_1080x1080.jpeg"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/Blank.jpeg",
-      "PackagePath": "staticwebassets/images/Blank.jpeg"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\Blank.jpeg",
+      "PackagePath": "staticwebassets\\images\\Blank.jpeg"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/G.png",
-      "PackagePath": "staticwebassets/images/G.png"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\G.png",
+      "PackagePath": "staticwebassets\\images\\G.png"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/IMG_1404.PNG",
-      "PackagePath": "staticwebassets/images/IMG_1404.PNG"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\IMG_1404.PNG",
+      "PackagePath": "staticwebassets\\images\\IMG_1404.PNG"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/Security-meme.png",
-      "PackagePath": "staticwebassets/images/Security-meme.png"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\Security-meme.png",
+      "PackagePath": "staticwebassets\\images\\Security-meme.png"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/Skjermbilde 2023-03-14 225329.png",
-      "PackagePath": "staticwebassets/images/Skjermbilde 2023-03-14 225329.png"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\Skjermbilde 2023-03-14 225329.png",
+      "PackagePath": "staticwebassets\\images\\Skjermbilde 2023-03-14 225329.png"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/Skjermbilde 2023-10-17 150422.png",
-      "PackagePath": "staticwebassets/images/Skjermbilde 2023-10-17 150422.png"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\Skjermbilde 2023-10-17 150422.png",
+      "PackagePath": "staticwebassets\\images\\Skjermbilde 2023-10-17 150422.png"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/Skjermbilde 2024-01-22 155456.png",
-      "PackagePath": "staticwebassets/images/Skjermbilde 2024-01-22 155456.png"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\Skjermbilde 2024-01-22 155456.png",
+      "PackagePath": "staticwebassets\\images\\Skjermbilde 2024-01-22 155456.png"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/ai.jpg",
-      "PackagePath": "staticwebassets/images/ai.jpg"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\ai.jpg",
+      "PackagePath": "staticwebassets\\images\\ai.jpg"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/aplzz.png",
-      "PackagePath": "staticwebassets/images/aplzz.png"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\aplzz.png",
+      "PackagePath": "staticwebassets\\images\\aplzz.png"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/b0934778-1662-4f75-924c-4b2512774bd1.jpg",
-      "PackagePath": "staticwebassets/images/b0934778-1662-4f75-924c-4b2512774bd1.jpg"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\b0934778-1662-4f75-924c-4b2512774bd1.jpg",
+      "PackagePath": "staticwebassets\\images\\b0934778-1662-4f75-924c-4b2512774bd1.jpg"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/b5f05370-2d0c-4ba2-bf64-323dcf303ad2.png",
-      "PackagePath": "staticwebassets/images/b5f05370-2d0c-4ba2-bf64-323dcf303ad2.png"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\b5f05370-2d0c-4ba2-bf64-323dcf303ad2.png",
+      "PackagePath": "staticwebassets\\images\\b5f05370-2d0c-4ba2-bf64-323dcf303ad2.png"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/bilde_oppgave.webp",
-      "PackagePath": "staticwebassets/images/bilde_oppgave.webp"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\bilde_oppgave.webp",
+      "PackagePath": "staticwebassets\\images\\bilde_oppgave.webp"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/c6ba57d6-3bcc-45f3-988e-c76507210ed6.jpeg",
-      "PackagePath": "staticwebassets/images/c6ba57d6-3bcc-45f3-988e-c76507210ed6.jpeg"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\c6ba57d6-3bcc-45f3-988e-c76507210ed6.jpeg",
+      "PackagePath": "staticwebassets\\images\\c6ba57d6-3bcc-45f3-988e-c76507210ed6.jpeg"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/chickenleg.jpg",
-      "PackagePath": "staticwebassets/images/chickenleg.jpg"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\chickenleg.jpg",
+      "PackagePath": "staticwebassets\\images\\chickenleg.jpg"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/cider.jpg",
-      "PackagePath": "staticwebassets/images/cider.jpg"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\cider.jpg",
+      "PackagePath": "staticwebassets\\images\\cider.jpg"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/coke.jpg",
-      "PackagePath": "staticwebassets/images/coke.jpg"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\coke.jpg",
+      "PackagePath": "staticwebassets\\images\\coke.jpg"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/cookie memes.jpeg",
-      "PackagePath": "staticwebassets/images/cookie memes.jpeg"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\cookie memes.jpeg",
+      "PackagePath": "staticwebassets\\images\\cookie memes.jpeg"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/data1100.jpeg",
-      "PackagePath": "staticwebassets/images/data1100.jpeg"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\data1100.jpeg",
+      "PackagePath": "staticwebassets\\images\\data1100.jpeg"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/fishandchips.jpg",
-      "PackagePath": "staticwebassets/images/fishandchips.jpg"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\fishandchips.jpg",
+      "PackagePath": "staticwebassets\\images\\fishandchips.jpg"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/frenchfries.jpg",
-      "PackagePath": "staticwebassets/images/frenchfries.jpg"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\frenchfries.jpg",
+      "PackagePath": "staticwebassets\\images\\frenchfries.jpg"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/katt.jpg",
-      "PackagePath": "staticwebassets/images/katt.jpg"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\katt.jpg",
+      "PackagePath": "staticwebassets\\images\\katt.jpg"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/losning.png",
-      "PackagePath": "staticwebassets/images/losning.png"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\losning.png",
+      "PackagePath": "staticwebassets\\images\\losning.png"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/losning2.png",
-      "PackagePath": "staticwebassets/images/losning2.png"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\losning2.png",
+      "PackagePath": "staticwebassets\\images\\losning2.png"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/mountain.png",
-      "PackagePath": "staticwebassets/images/mountain.png"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\mountain.png",
+      "PackagePath": "staticwebassets\\images\\mountain.png"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/pexels.jpg",
-      "PackagePath": "staticwebassets/images/pexels.jpg"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\pexels.jpg",
+      "PackagePath": "staticwebassets\\images\\pexels.jpg"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/pizza.jpg",
-      "PackagePath": "staticwebassets/images/pizza.jpg"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\pizza.jpg",
+      "PackagePath": "staticwebassets\\images\\pizza.jpg"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/profile.jpg",
-      "PackagePath": "staticwebassets/images/profile.jpg"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\profile.jpg",
+      "PackagePath": "staticwebassets\\images\\profile.jpg"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/ribs.jpg",
-      "PackagePath": "staticwebassets/images/ribs.jpg"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\ribs.jpg",
+      "PackagePath": "staticwebassets\\images\\ribs.jpg"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/scott.jpg",
-      "PackagePath": "staticwebassets/images/scott.jpg"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\scott.jpg",
+      "PackagePath": "staticwebassets\\images\\scott.jpg"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/tacos.jpg",
-      "PackagePath": "staticwebassets/images/tacos.jpg"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\tacos.jpg",
+      "PackagePath": "staticwebassets\\images\\tacos.jpg"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/uploads/9b8e03eb-1849-4403-915e-4e66bf62062d_cookie memes.jpeg",
-      "PackagePath": "staticwebassets/images/uploads/9b8e03eb-1849-4403-915e-4e66bf62062d_cookie memes.jpeg"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\uploads\\9b8e03eb-1849-4403-915e-4e66bf62062d_cookie memes.jpeg",
+      "PackagePath": "staticwebassets\\images\\uploads\\9b8e03eb-1849-4403-915e-4e66bf62062d_cookie memes.jpeg"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/js/bootstrap.js",
-      "PackagePath": "staticwebassets/js/bootstrap.js"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/js/jquery.min.js",
-      "PackagePath": "staticwebassets/js/jquery.min.js"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/js/site.js",
-      "PackagePath": "staticwebassets/js/site.js"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/LICENSE",
-      "PackagePath": "staticwebassets/lib/bootstrap"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/jquery-validation/LICENSE.md",
-      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/jquery-validation/dist/additional-methods.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/jquery/LICENSE.txt",
-      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/jquery/dist/jquery.js",
-      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/jquery/dist/jquery.min.js",
-      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/jquery/dist/jquery.min.map",
-      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+      "Id": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.api.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.api.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.api.props",
       "PackagePath": "build\\api.props"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.api.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.api.props",
       "PackagePath": "buildMultiTargeting\\api.props"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.api.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.api.props",
       "PackagePath": "buildTransitive\\api.props"
     }
   ],

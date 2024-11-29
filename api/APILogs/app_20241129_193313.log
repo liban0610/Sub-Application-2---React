@@ -1,0 +1,9 @@
+2024-11-29 19:33:25.130 +01:00 [INF] User profile is available. Using 'C:\Users\yaha-\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-29 19:33:26.005 +01:00 [INF] Now listening on: https://localhost:7135
+2024-11-29 19:33:26.042 +01:00 [INF] Now listening on: http://localhost:5214
+2024-11-29 19:33:26.121 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-29 19:33:26.144 +01:00 [INF] Hosting environment: Development
+2024-11-29 19:33:26.157 +01:00 [INF] Content root path: C:\Users\yaha-\OneDrive\Dokumenter\Webapplikasjoner\Ny mappe\Sub-Application-2---React\api
+2024-11-29 19:35:31.001 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/ - null null
+2024-11-29 19:35:31.191 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/ - 404 0 null 195.209ms
+2024-11-29 19:35:31.198 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/, Response status code: 404

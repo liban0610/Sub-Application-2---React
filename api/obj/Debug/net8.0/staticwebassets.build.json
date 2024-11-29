@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6Wq2Z6vSI2eL2hK5WyXzrjfCDp3GeZfYJ6qryAoHwWk=",
+  "Hash": "/kb7yk030bjOGq3tmNE04fkBgR1ePpYNIr2Sv7Fnku8=",
   "Source": "api",
   "BasePath": "_content/api",
   "Mode": "Default",
@@ -8,19 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "api/wwwroot",
+      "Name": "api\\wwwroot",
       "Source": "api",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/css/site.css",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\css\\site.css",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/site.css"
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/favicon.ico",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\favicon.ico",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/favicon.ico"
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/0e931c77-b5a7-4e7b-a009-9e79be1b5402.png",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\0e931c77-b5a7-4e7b-a009-9e79be1b5402.png",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "images/0e931c77-b5a7-4e7b-a009-9e79be1b5402.png",
       "AssetKind": "All",
@@ -71,13 +71,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/0e931c77-b5a7-4e7b-a009-9e79be1b5402.png"
+      "OriginalItemSpec": "wwwroot\\images\\0e931c77-b5a7-4e7b-a009-9e79be1b5402.png"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/2e0432fe-2d11-400d-97d1-cf5a18fc70e2.jpeg",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\2e0432fe-2d11-400d-97d1-cf5a18fc70e2.jpeg",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "images/2e0432fe-2d11-400d-97d1-cf5a18fc70e2.jpeg",
       "AssetKind": "All",
@@ -90,13 +90,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/2e0432fe-2d11-400d-97d1-cf5a18fc70e2.jpeg"
+      "OriginalItemSpec": "wwwroot\\images\\2e0432fe-2d11-400d-97d1-cf5a18fc70e2.jpeg"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/384e9f1b-3f57-4955-9965-ae0aeeb4ad31.jpeg",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\384e9f1b-3f57-4955-9965-ae0aeeb4ad31.jpeg",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "images/384e9f1b-3f57-4955-9965-ae0aeeb4ad31.jpeg",
       "AssetKind": "All",
@@ -109,13 +109,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/384e9f1b-3f57-4955-9965-ae0aeeb4ad31.jpeg"
+      "OriginalItemSpec": "wwwroot\\images\\384e9f1b-3f57-4955-9965-ae0aeeb4ad31.jpeg"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/62c17747-a633-492b-ac70-8ce751eb8b89.png",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\62c17747-a633-492b-ac70-8ce751eb8b89.png",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "images/62c17747-a633-492b-ac70-8ce751eb8b89.png",
       "AssetKind": "All",
@@ -128,13 +128,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/62c17747-a633-492b-ac70-8ce751eb8b89.png"
+      "OriginalItemSpec": "wwwroot\\images\\62c17747-a633-492b-ac70-8ce751eb8b89.png"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/7f4f9137-fb04-440a-8dae-a472b0f2cf4b.jpeg",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\7f4f9137-fb04-440a-8dae-a472b0f2cf4b.jpeg",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "images/7f4f9137-fb04-440a-8dae-a472b0f2cf4b.jpeg",
       "AssetKind": "All",
@@ -147,13 +147,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/7f4f9137-fb04-440a-8dae-a472b0f2cf4b.jpeg"
+      "OriginalItemSpec": "wwwroot\\images\\7f4f9137-fb04-440a-8dae-a472b0f2cf4b.jpeg"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/99a459bb96829d1c01030a763d3146ed~c5_1080x1080.jpeg",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\99a459bb96829d1c01030a763d3146ed~c5_1080x1080.jpeg",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "images/99a459bb96829d1c01030a763d3146ed~c5_1080x1080.jpeg",
       "AssetKind": "All",
@@ -166,13 +166,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/99a459bb96829d1c01030a763d3146ed~c5_1080x1080.jpeg"
+      "OriginalItemSpec": "wwwroot\\images\\99a459bb96829d1c01030a763d3146ed~c5_1080x1080.jpeg"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/ai.jpg",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\ai.jpg",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "images/ai.jpg",
       "AssetKind": "All",
@@ -185,13 +185,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/ai.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\ai.jpg"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/aplzz.png",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\aplzz.png",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "images/aplzz.png",
       "AssetKind": "All",
@@ -204,13 +204,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/aplzz.png"
+      "OriginalItemSpec": "wwwroot\\images\\aplzz.png"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/b0934778-1662-4f75-924c-4b2512774bd1.jpg",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\b0934778-1662-4f75-924c-4b2512774bd1.jpg",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "images/b0934778-1662-4f75-924c-4b2512774bd1.jpg",
       "AssetKind": "All",
@@ -223,13 +223,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/b0934778-1662-4f75-924c-4b2512774bd1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\b0934778-1662-4f75-924c-4b2512774bd1.jpg"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/b5f05370-2d0c-4ba2-bf64-323dcf303ad2.png",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\b5f05370-2d0c-4ba2-bf64-323dcf303ad2.png",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "images/b5f05370-2d0c-4ba2-bf64-323dcf303ad2.png",
       "AssetKind": "All",
@@ -242,13 +242,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/b5f05370-2d0c-4ba2-bf64-323dcf303ad2.png"
+      "OriginalItemSpec": "wwwroot\\images\\b5f05370-2d0c-4ba2-bf64-323dcf303ad2.png"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/bilde_oppgave.webp",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\bilde_oppgave.webp",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "images/bilde_oppgave.webp",
       "AssetKind": "All",
@@ -261,13 +261,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/bilde_oppgave.webp"
+      "OriginalItemSpec": "wwwroot\\images\\bilde_oppgave.webp"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/Blank.jpeg",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\Blank.jpeg",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "images/Blank.jpeg",
       "AssetKind": "All",
@@ -280,13 +280,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/Blank.jpeg"
+      "OriginalItemSpec": "wwwroot\\images\\Blank.jpeg"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/c6ba57d6-3bcc-45f3-988e-c76507210ed6.jpeg",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\c6ba57d6-3bcc-45f3-988e-c76507210ed6.jpeg",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "images/c6ba57d6-3bcc-45f3-988e-c76507210ed6.jpeg",
       "AssetKind": "All",
@@ -299,13 +299,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/c6ba57d6-3bcc-45f3-988e-c76507210ed6.jpeg"
+      "OriginalItemSpec": "wwwroot\\images\\c6ba57d6-3bcc-45f3-988e-c76507210ed6.jpeg"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/chickenleg.jpg",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\chickenleg.jpg",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "images/chickenleg.jpg",
       "AssetKind": "All",
@@ -318,13 +318,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/chickenleg.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\chickenleg.jpg"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/cider.jpg",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\cider.jpg",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "images/cider.jpg",
       "AssetKind": "All",
@@ -337,13 +337,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/cider.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\cider.jpg"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/coke.jpg",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\coke.jpg",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "images/coke.jpg",
       "AssetKind": "All",
@@ -356,13 +356,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/coke.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\coke.jpg"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/cookie memes.jpeg",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\cookie memes.jpeg",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "images/cookie memes.jpeg",
       "AssetKind": "All",
@@ -375,13 +375,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/cookie memes.jpeg"
+      "OriginalItemSpec": "wwwroot\\images\\cookie memes.jpeg"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/data1100.jpeg",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\data1100.jpeg",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "images/data1100.jpeg",
       "AssetKind": "All",
@@ -394,13 +394,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/data1100.jpeg"
+      "OriginalItemSpec": "wwwroot\\images\\data1100.jpeg"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/fishandchips.jpg",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\fishandchips.jpg",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "images/fishandchips.jpg",
       "AssetKind": "All",
@@ -413,13 +413,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/fishandchips.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\fishandchips.jpg"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/frenchfries.jpg",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\frenchfries.jpg",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "images/frenchfries.jpg",
       "AssetKind": "All",
@@ -432,13 +432,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/frenchfries.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\frenchfries.jpg"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/G.png",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\G.png",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "images/G.png",
       "AssetKind": "All",
@@ -451,13 +451,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/G.png"
+      "OriginalItemSpec": "wwwroot\\images\\G.png"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/IMG_1404.PNG",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\IMG_1404.PNG",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "images/IMG_1404.PNG",
       "AssetKind": "All",
@@ -470,13 +470,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/IMG_1404.PNG"
+      "OriginalItemSpec": "wwwroot\\images\\IMG_1404.PNG"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/katt.jpg",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\katt.jpg",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "images/katt.jpg",
       "AssetKind": "All",
@@ -489,13 +489,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/katt.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\katt.jpg"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/losning.png",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\losning.png",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "images/losning.png",
       "AssetKind": "All",
@@ -508,13 +508,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/losning.png"
+      "OriginalItemSpec": "wwwroot\\images\\losning.png"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/losning2.png",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\losning2.png",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "images/losning2.png",
       "AssetKind": "All",
@@ -527,13 +527,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/losning2.png"
+      "OriginalItemSpec": "wwwroot\\images\\losning2.png"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/mountain.png",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\mountain.png",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "images/mountain.png",
       "AssetKind": "All",
@@ -546,13 +546,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/mountain.png"
+      "OriginalItemSpec": "wwwroot\\images\\mountain.png"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/pexels.jpg",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\pexels.jpg",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "images/pexels.jpg",
       "AssetKind": "All",
@@ -565,13 +565,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/pexels.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\pexels.jpg"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/pizza.jpg",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\pizza.jpg",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "images/pizza.jpg",
       "AssetKind": "All",
@@ -584,13 +584,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/pizza.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\pizza.jpg"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/profile.jpg",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\profile.jpg",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "images/profile.jpg",
       "AssetKind": "All",
@@ -603,13 +603,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/profile.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\profile.jpg"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/ribs.jpg",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\ribs.jpg",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "images/ribs.jpg",
       "AssetKind": "All",
@@ -622,13 +622,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/ribs.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\ribs.jpg"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/scott.jpg",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\scott.jpg",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "images/scott.jpg",
       "AssetKind": "All",
@@ -641,13 +641,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/scott.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\scott.jpg"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/Security-meme.png",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\Security-meme.png",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "images/Security-meme.png",
       "AssetKind": "All",
@@ -660,13 +660,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/Security-meme.png"
+      "OriginalItemSpec": "wwwroot\\images\\Security-meme.png"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/Skjermbilde 2023-03-14 225329.png",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\Skjermbilde 2023-03-14 225329.png",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "images/Skjermbilde 2023-03-14 225329.png",
       "AssetKind": "All",
@@ -679,13 +679,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/Skjermbilde 2023-03-14 225329.png"
+      "OriginalItemSpec": "wwwroot\\images\\Skjermbilde 2023-03-14 225329.png"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/Skjermbilde 2023-10-17 150422.png",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\Skjermbilde 2023-10-17 150422.png",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "images/Skjermbilde 2023-10-17 150422.png",
       "AssetKind": "All",
@@ -698,13 +698,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/Skjermbilde 2023-10-17 150422.png"
+      "OriginalItemSpec": "wwwroot\\images\\Skjermbilde 2023-10-17 150422.png"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/Skjermbilde 2024-01-22 155456.png",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\Skjermbilde 2024-01-22 155456.png",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "images/Skjermbilde 2024-01-22 155456.png",
       "AssetKind": "All",
@@ -717,13 +717,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/Skjermbilde 2024-01-22 155456.png"
+      "OriginalItemSpec": "wwwroot\\images\\Skjermbilde 2024-01-22 155456.png"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/tacos.jpg",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\tacos.jpg",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "images/tacos.jpg",
       "AssetKind": "All",
@@ -736,13 +736,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/tacos.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\tacos.jpg"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/images/uploads/9b8e03eb-1849-4403-915e-4e66bf62062d_cookie memes.jpeg",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\images\\uploads\\9b8e03eb-1849-4403-915e-4e66bf62062d_cookie memes.jpeg",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "images/uploads/9b8e03eb-1849-4403-915e-4e66bf62062d_cookie memes.jpeg",
       "AssetKind": "All",
@@ -755,13 +755,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/uploads/9b8e03eb-1849-4403-915e-4e66bf62062d_cookie memes.jpeg"
+      "OriginalItemSpec": "wwwroot\\images\\uploads\\9b8e03eb-1849-4403-915e-4e66bf62062d_cookie memes.jpeg"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/js/bootstrap.js",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\js\\bootstrap.js",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "js/bootstrap.js",
       "AssetKind": "All",
@@ -774,13 +774,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/js/bootstrap.js"
+      "OriginalItemSpec": "wwwroot\\js\\bootstrap.js"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/js/jquery.min.js",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\js\\jquery.min.js",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "js/jquery.min.js",
       "AssetKind": "All",
@@ -793,13 +793,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/js/jquery.min.js"
+      "OriginalItemSpec": "wwwroot\\js\\jquery.min.js"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/js/site.js",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\js\\site.js",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -812,13 +812,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/js/site.js"
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -831,13 +831,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -850,13 +850,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -869,13 +869,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -888,13 +888,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -907,13 +907,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -926,13 +926,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -945,13 +945,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -964,13 +964,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -983,13 +983,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1002,13 +1002,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1021,13 +1021,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1040,13 +1040,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1059,13 +1059,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1078,13 +1078,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1097,13 +1097,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1116,13 +1116,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1135,13 +1135,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1154,13 +1154,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1173,13 +1173,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1192,13 +1192,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1211,13 +1211,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1230,13 +1230,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1249,13 +1249,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1268,13 +1268,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1287,13 +1287,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1306,13 +1306,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1325,13 +1325,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1344,13 +1344,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1363,13 +1363,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1382,13 +1382,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1401,13 +1401,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1420,13 +1420,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1439,13 +1439,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1458,13 +1458,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1477,13 +1477,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1496,13 +1496,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1515,13 +1515,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1534,13 +1534,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1553,13 +1553,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1572,13 +1572,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1591,13 +1591,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1610,13 +1610,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1629,13 +1629,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1648,13 +1648,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/bootstrap/LICENSE",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1667,13 +1667,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/LICENSE"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1686,13 +1686,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1705,13 +1705,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1724,13 +1724,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1743,13 +1743,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1762,13 +1762,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1781,13 +1781,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1800,13 +1800,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/jquery-validation/LICENSE.md",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1819,13 +1819,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/LICENSE.md"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/jquery/dist/jquery.js",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1838,13 +1838,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/jquery/dist/jquery.min.js",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1857,13 +1857,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/jquery/dist/jquery.min.map",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1876,13 +1876,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.map"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/lib/jquery/LICENSE.txt",
+      "Identity": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/libansulub/Documents/Sub-Application 2 - React/api/wwwroot/",
+      "ContentRoot": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\wwwroot\\",
       "BasePath": "_content/api",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1895,7 +1895,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     }
   ]
 }
