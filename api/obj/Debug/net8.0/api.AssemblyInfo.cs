@@ -13,7 +13,15 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+11250d74038ab05d706c104f1fa2ad0b8958ca7c")]
+=======
+<<<<<<< HEAD
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a62f80015c904d1a9599e32fa1f616758a5c963")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+63f083d2725c83b55b8fda33c31e2883a13810d5")]
+>>>>>>> 07f16c4 (fiks feil)
+>>>>>>> ecbe204 (fiks feil)
 [assembly: System.Reflection.AssemblyProductAttribute("api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
