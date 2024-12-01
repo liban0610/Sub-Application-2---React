@@ -41,6 +41,7 @@ const PostUpdatePage = () => {
       const errorData = await response.json();
       throw new Error(errorData.error || 'Kunne ikke oppdatere innlegg');
     }
+    
 
     return await response.json();
   };

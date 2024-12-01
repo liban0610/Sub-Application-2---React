@@ -19,6 +19,7 @@ const HomePage = () => {
     try {
       const data = await PostService.fetchPosts();
       setPosts(data);
+      console.log(data);
     } catch (error) {
       console.error('Feil ved henting av innlegg:', error);
       setError('Kunne ikke hente innlegg');

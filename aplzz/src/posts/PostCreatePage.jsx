@@ -7,8 +7,8 @@ const PostCreatePage = () => {
   const handlePostCreated = async (formData) => {
     formData.append('userId', '1');
     formData.append('createdAt', new Date().toISOString());
-
-    const response = await fetch(`${API_URL}/api/postapi/create`, {
+    try{
+      const response = await fetch(`${API_URL}/api/postapi/create`, {
       method: 'POST',
       body: formData
     });
@@ -19,7 +19,11 @@ const PostCreatePage = () => {
     }
 
     return await response.json();
-  };
+  }catch(error){
+    console.error('A probelem with the post creation: ',error);
+  }
+
+};
 
   return (
     <Container className="py-4 content-under-navbar">

@@ -34,14 +34,17 @@ namespace Aplzz.Controllers
         public async Task<IActionResult> Index(string username)
         {
             if(username == "" || username == null) {
+                _logger.LogError("[AccountProfileController] username is null or empty");
                 return View("NotFound", username);
             }
             var user = await _accountRepository.GetUserInfo(username);
             if(user == null) {
+                 _logger.LogError("[AccountProfileController] user not found");
                 return View("NotFound", user);
             }
 
             var posts = await _postRepository.GellPostByUserId(user.IdUser);
+            
 
             var model = new AccountViewModel {
                 GetUserInfo = user,
