@@ -3332,19 +3332,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\yaha-\\.nuget\\packages\\": {}
+    "C:\\Users\\vansa\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\api.csproj",
+      "projectUniqueName": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\api.csproj",
       "projectName": "api",
-      "projectPath": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\api.csproj",
-      "packagesPath": "C:\\Users\\yaha-\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yaha-\\OneDrive\\Dokumenter\\Webapplikasjoner\\Ny mappe\\Sub-Application-2---React\\api\\obj\\",
+      "projectPath": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\api.csproj",
+      "packagesPath": "C:\\Users\\vansa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\yaha-\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\vansa\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
