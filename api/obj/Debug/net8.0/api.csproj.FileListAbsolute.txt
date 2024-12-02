@@ -433,6 +433,7 @@ C:\Users\vansa\Desktop\Subapp2\Sub-Application-2---React\api\obj\Debug\net8.0\re
 C:\Users\vansa\Desktop\Subapp2\Sub-Application-2---React\api\obj\Debug\net8.0\api.pdb
 C:\Users\vansa\Desktop\Subapp2\Sub-Application-2---React\api\obj\Debug\net8.0\api.genruntimeconfig.cache
 C:\Users\vansa\Desktop\Subapp2\Sub-Application-2---React\api\obj\Debug\net8.0\ref\api.dll
+<<<<<<< HEAD
 C:\Users\ahmad\OneDrive\Skrivebord\Sub-Application-2---React\api\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\ahmad\OneDrive\Skrivebord\Sub-Application-2---React\api\bin\Debug\net8.0\appsettings.json
 C:\Users\ahmad\OneDrive\Skrivebord\Sub-Application-2---React\api\bin\Debug\net8.0\api.staticwebassets.runtime.json
@@ -578,3 +579,5 @@ C:\Users\ahmad\OneDrive\Skrivebord\Sub-Application-2---React\api\obj\Debug\net8.
 C:\Users\ahmad\OneDrive\Skrivebord\Sub-Application-2---React\api\obj\Debug\net8.0\api.pdb
 C:\Users\ahmad\OneDrive\Skrivebord\Sub-Application-2---React\api\obj\Debug\net8.0\api.genruntimeconfig.cache
 C:\Users\ahmad\OneDrive\Skrivebord\Sub-Application-2---React\api\obj\Debug\net8.0\ref\api.dll
+=======
+>>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
