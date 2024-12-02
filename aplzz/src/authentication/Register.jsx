@@ -13,6 +13,7 @@ function Register() {
     const [firstname, setFirstname] = useState("")
     const [aftername, setAftername] = useState("")
     const [error, setError] = useState("")
+    const [message, setMessage] = useState("");
 
     const navig = useNavigate()
 
@@ -36,21 +37,21 @@ function Register() {
             document.getElementById("errorPassword").
            style.display = "none"            
         }
-        if(password == "") {
-            document.getElementById("errorUsername").
-           style.display = "block"
-        } else {
-            document.getElementById("errorUsername").
-           style.display = "none"            
-        }
         if(username == "") {
+            document.getElementById("errorUsername").
+           style.display = "block"
+        } else {
+            document.getElementById("errorUsername").
+           style.display = "none"            
+        }
+        if(firstname == "") {
             document.getElementById("errorFirstname").
            style.display = "block"
         } else {
             document.getElementById("errorFirstname").
            style.display = "none"            
         }
-        if(password == "") {
+        if(aftername == "") {
             document.getElementById("errorAftername").
            style.display = "block"
         } else {
@@ -59,31 +60,32 @@ function Register() {
         }
 
         if(email != "" && password != "" && username != "" && firstname != "" && aftername != "") {
-            const data = {
-                email: email,
-                password: password,
-                username: username,
-                firstname: firstname,
-                aftername: aftername
-            }
             try {
                 const response = await fetch(`${API_URL}/api/loginApi/registerPost`, {
                     method: "POST",
                     headers: {
                         'Content-Type': 'application/json'
                     },
-                    body:JSON.stringify(data)
+                    body: JSON.stringify({
+                        firstname: firstname,
+                        aftername: aftername,
+                        email: email,
+                        password: password,
+                        username: username,
+                    })
                 });
-                if(!response.ok) {
-                    setError("E-post eller passord er feil eller at brukeren ikke eksisterer")
-                }
 
-                const getData = await response.json()
-                sessionStorage.setItem("user", JSON.stringify(getData))
-                navig("/")
+                //const getInfoData = await response.json()
+                if(!response.ok) {
+                    setError("E-post eller brukernavn er feil stavet eller at de allerede er funnet")
+                    setMessage(null);
+                } else {
+                    setError(null)
+                    setMessage("Bruker registrert ok! Du kan logge inn nå");
+                }
             }
             catch (error) {
-                setError("Nettverket er ustabilt eller er offline nå foreløpig. Prøv igjen snere {error}")
+                setError(`Nettverket er ustabilt eller er offline nå foreløpig. Prøv igjen snere: ${error}`)
             }
         }
     }
@@ -95,6 +97,7 @@ function Register() {
                     <h1>Registrer deg</h1>
                     <p>Registrer deg hos Aplzz og start din reise!</p>
                     {error && <div style={{color: "red"}}>{error}</div>}
+                    {message && <div style={{color: "green"}}>{message}</div>}
                     <form onSubmit={registrerSubmit}>
                         <div className='containerInput'>
                             <div className='info'>Legg til e-post</div>
@@ -111,7 +114,7 @@ function Register() {
                             className='inputLogin' 
                             value={password} 
                             onChange={(e) => setPassword(e.target.value)}  
-                            placeholder='******'></input>
+                            placeholder='Minst 8 tegn'></input>
                             <div className='errorMessage' id='errorPassword'>Passordet er tomt</div>
                         </div>
                         <div className='containerInput'>
@@ -141,7 +144,7 @@ function Register() {
                             placeholder='Etternavnet ditt'></input>
                             <div className='errorMessage' id='errorAftername'>Etternavnet er tomt</div>
                         </div>
-                        <button className='btn-primary' type='submit'>Registrer deg</button> eller <a>Logg inn</a>
+                        <button className='btn-primary' type='submit'>Registrer deg</button> eller <a href='./login'>Logg inn</a>
                     </form>
                 </div>
             </div>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Cookies from 'js-cookie';
 import '../Login.css';
 import '../App.css';
@@ -6,12 +6,15 @@ import { Container } from 'react-bootstrap';
 import { Form, Input } from 'react-bootstrap';
 import API_URL from '../config/api';
 import { useNavigate } from 'react-router-dom';
+import axios from 'axios';
 
 
 function Login() {
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
     const [error, setError] = useState("")
+
+
 
     const navig = useNavigate()
 
@@ -37,28 +40,32 @@ function Login() {
         }
 
         if(email != "" && password != "") {
-            const data = {
-                email: email,
-                password: password
-            }
             try {
                 const response = await fetch(`${API_URL}/api/loginApi/loginPost`, {
                     method: "POST",
                     headers: {
                         'Content-Type': 'application/json'
                     },
-                    body:JSON.stringify(data)
-                });
+                    body: JSON.stringify({
+                       email: email, password: password
+                    })
+                })
                 if(!response.ok) {
-                    setError("Det var noe feil med nettverket eller server, prøv igjen")
-                }
+                    setError("Brukernavn eller passord finnes ikke!")
+                } else {
+                    axios.post(
+                        `${API_URL}/api/loginApi/loginPost`,
+                        {email: email, password: password},
+                        { withCredentials: true }
+                    );
+                    var userData = response.json();
+                    Cookies.set("user", userData)
+                    setError(null)
 
-                const getData = await response.json()
-                Cookies.set("user", JSON.stringify(getData.token))
-                navig("/")
+                }
             }
             catch (error) {
-                setError("Nettverket er ustabilt eller er offline nå foreløpig. Prøv igjen snere {error}", error)
+                setError(`Nettverket er ustabilt eller er offline nå foreløpig. Prøv igjen snere ${error}`)
             }
         }
     }
@@ -89,7 +96,7 @@ function Login() {
                             placeholder='******'></input>
                             <div className='errorMessage' id='errorPassword'>Passordet er tomt!</div>
                         </div>
-                        <button className='btn-primary' type='submit'>Logg inn</button> eller registrer deg
+                        <button className='btn-primary' type='submit'>Logg inn</button> eller <a href='./register'>registrer deg</a>
                     </form>
                 </div>
             </div>

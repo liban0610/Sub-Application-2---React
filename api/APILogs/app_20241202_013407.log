@@ -1,0 +1,825 @@
+2024-12-02 01:34:08.699 +01:00 [INF] User profile is available. Using 'C:\Users\ahmad\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-02 01:34:08.816 +01:00 [INF] Now listening on: https://localhost:7135
+2024-12-02 01:34:08.817 +01:00 [INF] Now listening on: http://localhost:5214
+2024-12-02 01:34:08.822 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-02 01:34:08.824 +01:00 [INF] Hosting environment: Development
+2024-12-02 01:34:08.825 +01:00 [INF] Content root path: C:\Users\ahmad\OneDrive\Skrivebord\Sub-Application-2---React\api
+2024-12-02 01:40:02.306 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-12-02 01:40:02.347 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:40:02.349 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-12-02 01:40:02.362 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-12-02 01:40:02.661 +01:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2024-12-02 01:40:02.722 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-02 01:40:02.820 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 454.743ms
+2024-12-02 01:40:02.821 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-12-02 01:40:02.825 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 8809 application/json; charset=utf-8 519.9484ms
+2024-12-02 01:40:02.826 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-12-02 01:40:02.829 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:40:02.829 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-12-02 01:40:02.829 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-12-02 01:40:02.874 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-02 01:40:02.879 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 50.0904ms
+2024-12-02 01:40:02.879 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-12-02 01:40:02.880 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 8809 application/json; charset=utf-8 53.7825ms
+2024-12-02 01:40:02.895 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/loginApi/retrieveSessions - null null
+2024-12-02 01:40:02.899 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:40:02.899 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/loginApi/retrieveSessions - 404 0 null 3.509ms
+2024-12-02 01:40:02.899 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/api/loginApi/retrieveSessions, Response status code: 404
+2024-12-02 01:40:02.900 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/loginApi/retrieveSessions - null null
+2024-12-02 01:40:02.901 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:40:02.901 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/loginApi/retrieveSessions - 404 0 null 1.1854ms
+2024-12-02 01:40:02.901 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/api/loginApi/retrieveSessions, Response status code: 404
+2024-12-02 01:40:05.836 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/loginApi/retrieveSessions - null null
+2024-12-02 01:40:05.837 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:40:05.837 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/loginApi/retrieveSessions - 404 0 null 0.6733ms
+2024-12-02 01:40:05.837 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/api/loginApi/retrieveSessions, Response status code: 404
+2024-12-02 01:40:07.045 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/loginApi/retrieveSessions - null null
+2024-12-02 01:40:07.045 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:40:07.045 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/loginApi/retrieveSessions - 404 0 null 0.4156ms
+2024-12-02 01:40:07.045 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/api/loginApi/retrieveSessions, Response status code: 404
+2024-12-02 01:40:07.228 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/loginApi/retrieveSessions - null null
+2024-12-02 01:40:07.229 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:40:07.229 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/loginApi/retrieveSessions - 404 0 null 0.4837ms
+2024-12-02 01:40:07.229 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/api/loginApi/retrieveSessions, Response status code: 404
+2024-12-02 01:40:07.464 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/loginApi/retrieveSessions - null null
+2024-12-02 01:40:07.464 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:40:07.464 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/loginApi/retrieveSessions - 404 0 null 0.4517ms
+2024-12-02 01:40:07.464 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/api/loginApi/retrieveSessions, Response status code: 404
+2024-12-02 01:40:07.594 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/loginApi/retrieveSessions - null null
+2024-12-02 01:40:07.594 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:40:07.594 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/loginApi/retrieveSessions - 404 0 null 0.3691ms
+2024-12-02 01:40:07.594 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/api/loginApi/retrieveSessions, Response status code: 404
+2024-12-02 01:40:07.769 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/loginApi/retrieveSessions - null null
+2024-12-02 01:40:07.769 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:40:07.770 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/loginApi/retrieveSessions - 404 0 null 0.4179ms
+2024-12-02 01:40:07.770 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/api/loginApi/retrieveSessions, Response status code: 404
+2024-12-02 01:40:07.942 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/loginApi/retrieveSessions - null null
+2024-12-02 01:40:07.942 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:40:07.942 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/loginApi/retrieveSessions - 404 0 null 0.5054ms
+2024-12-02 01:40:07.942 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/api/loginApi/retrieveSessions, Response status code: 404
+2024-12-02 01:40:08.495 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/loginApi/retrieveSessions - null null
+2024-12-02 01:40:08.495 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:40:08.495 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/loginApi/retrieveSessions - 404 0 null 0.4371ms
+2024-12-02 01:40:08.495 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/api/loginApi/retrieveSessions, Response status code: 404
+2024-12-02 01:40:09.201 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/loginApi/retrieveSessions - null null
+2024-12-02 01:40:09.202 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:40:09.202 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/loginApi/retrieveSessions - 404 0 null 0.355ms
+2024-12-02 01:40:09.202 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/api/loginApi/retrieveSessions, Response status code: 404
+2024-12-02 01:40:09.842 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/loginApi/retrieveSessions - null null
+2024-12-02 01:40:09.843 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:40:09.843 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/loginApi/retrieveSessions - 404 0 null 0.4323ms
+2024-12-02 01:40:09.843 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/api/loginApi/retrieveSessions, Response status code: 404
+2024-12-02 01:40:12.698 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/loginPost - null null
+2024-12-02 01:40:12.698 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:40:12.699 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/loginPost - 204 null null 1.1775ms
+2024-12-02 01:40:12.700 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/loginPost - application/json 58
+2024-12-02 01:40:12.700 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:40:12.700 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Index (api)'
+2024-12-02 01:40:12.705 +01:00 [INF] Route matched with {action = "Index", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Aplzz.Models.LoginModel) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 01:40:12.753 +01:00 [INF] Accessing expired session, Key:12b89834-ef91-fbe3-7af6-80459a5d19df
+2024-12-02 01:40:12.753 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-12-02 01:40:12.756 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Index (api) in 50.8734ms
+2024-12-02 01:40:12.756 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Index (api)'
+2024-12-02 01:40:12.757 +01:00 [INF] Session started; Key:12b89834-ef91-fbe3-7af6-80459a5d19df, Id:bd882578-35f3-2581-993f-253632290161
+2024-12-02 01:40:12.758 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/loginPost - 200 33 application/json; charset=utf-8 57.5394ms
+2024-12-02 01:40:12.759 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/loginApi/retrieveSessions - null null
+2024-12-02 01:40:12.759 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:40:12.759 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/loginApi/retrieveSessions - 404 0 null 0.2923ms
+2024-12-02 01:40:12.759 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/api/loginApi/retrieveSessions, Response status code: 404
+2024-12-02 01:40:39.043 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/loginApi/retrieveSessions - null null
+2024-12-02 01:40:39.044 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:40:39.047 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/loginApi/retrieveSessions - 404 0 null 3.4974ms
+2024-12-02 01:40:39.048 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/api/loginApi/retrieveSessions, Response status code: 404
+2024-12-02 01:40:39.048 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/loginApi/retrieveSessions - null null
+2024-12-02 01:40:39.049 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:40:39.051 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/loginApi/retrieveSessions - 404 0 null 2.8731ms
+2024-12-02 01:40:39.051 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/api/loginApi/retrieveSessions, Response status code: 404
+2024-12-02 01:41:03.173 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/loginApi/retrieveSessions - null null
+2024-12-02 01:41:03.174 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:41:03.174 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/loginApi/retrieveSessions - 404 0 null 0.3901ms
+2024-12-02 01:41:03.174 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/api/loginApi/retrieveSessions, Response status code: 404
+2024-12-02 01:41:03.174 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/loginApi/retrieveSessions - null null
+2024-12-02 01:41:03.175 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:41:03.175 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/loginApi/retrieveSessions - 404 0 null 0.2813ms
+2024-12-02 01:41:03.175 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/api/loginApi/retrieveSessions, Response status code: 404
+2024-12-02 01:41:15.682 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-12-02 01:41:15.682 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:41:15.682 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-12-02 01:41:15.682 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-12-02 01:41:15.695 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-02 01:41:15.702 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 19.3255ms
+2024-12-02 01:41:15.702 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-12-02 01:41:15.702 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 8809 application/json; charset=utf-8 20.2535ms
+2024-12-02 01:41:15.703 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-12-02 01:41:15.704 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:41:15.704 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-12-02 01:41:15.704 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-12-02 01:41:15.710 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-02 01:41:15.716 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 11.9094ms
+2024-12-02 01:41:15.716 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-12-02 01:41:15.716 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 8809 application/json; charset=utf-8 12.7727ms
+2024-12-02 01:41:16.417 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-12-02 01:41:16.417 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:41:16.417 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-12-02 01:41:16.418 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-12-02 01:41:16.426 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-02 01:41:16.431 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 13.2939ms
+2024-12-02 01:41:16.431 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-12-02 01:41:16.431 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 8809 application/json; charset=utf-8 14.1582ms
+2024-12-02 01:41:16.432 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-12-02 01:41:16.433 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:41:16.433 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-12-02 01:41:16.433 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-12-02 01:41:16.438 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-02 01:41:16.443 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 10.0496ms
+2024-12-02 01:41:16.443 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-12-02 01:41:16.443 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 8809 application/json; charset=utf-8 11.0464ms
+2024-12-02 01:41:16.851 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-12-02 01:41:16.851 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:41:16.851 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-12-02 01:41:16.851 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-12-02 01:41:16.858 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-02 01:41:16.863 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 11.1857ms
+2024-12-02 01:41:16.863 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-12-02 01:41:16.863 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 8809 application/json; charset=utf-8 11.8325ms
+2024-12-02 01:41:16.863 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-12-02 01:41:16.864 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:41:16.864 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-12-02 01:41:16.864 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-12-02 01:41:16.870 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-02 01:41:16.904 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 40.1343ms
+2024-12-02 01:41:16.904 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-12-02 01:41:16.904 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 8809 application/json; charset=utf-8 40.839ms
+2024-12-02 01:41:17.164 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-12-02 01:41:17.164 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:41:17.164 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-12-02 01:41:17.164 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-12-02 01:41:17.170 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-02 01:41:17.174 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 9.8245ms
+2024-12-02 01:41:17.174 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-12-02 01:41:17.174 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 8809 application/json; charset=utf-8 10.4882ms
+2024-12-02 01:41:17.175 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-12-02 01:41:17.175 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:41:17.175 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-12-02 01:41:17.175 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-12-02 01:41:17.181 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-02 01:41:17.185 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 10.0306ms
+2024-12-02 01:41:17.185 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-12-02 01:41:17.186 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 8809 application/json; charset=utf-8 10.4998ms
+2024-12-02 01:41:18.944 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/loginApi/retrieveSessions - null null
+2024-12-02 01:41:18.945 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:41:18.945 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/loginApi/retrieveSessions - 404 0 null 0.3417ms
+2024-12-02 01:41:18.945 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/api/loginApi/retrieveSessions, Response status code: 404
+2024-12-02 01:41:18.945 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/loginApi/retrieveSessions - null null
+2024-12-02 01:41:18.946 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:41:18.946 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/loginApi/retrieveSessions - 404 0 null 0.2231ms
+2024-12-02 01:41:18.946 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/api/loginApi/retrieveSessions, Response status code: 404
+2024-12-02 01:41:20.286 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/loginApi/retrieveSessions - null null
+2024-12-02 01:41:20.286 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:41:20.286 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/loginApi/retrieveSessions - 404 0 null 0.2894ms
+2024-12-02 01:41:20.286 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/api/loginApi/retrieveSessions, Response status code: 404
+2024-12-02 01:42:54.175 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/loginPost - null null
+2024-12-02 01:42:54.176 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:42:54.176 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/loginPost - 204 null null 1.0744ms
+2024-12-02 01:42:54.178 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/loginPost - application/json 53
+2024-12-02 01:42:54.178 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:42:54.179 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Index (api)'
+2024-12-02 01:42:54.179 +01:00 [INF] Route matched with {action = "Index", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Aplzz.Models.LoginModel) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 01:42:54.186 +01:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-12-02 01:42:54.187 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Index (api) in 7.3457ms
+2024-12-02 01:42:54.187 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Index (api)'
+2024-12-02 01:42:54.187 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/loginPost - 404 null text/plain; charset=utf-8 8.9958ms
+2024-12-02 01:43:06.417 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/loginPost - null null
+2024-12-02 01:43:06.418 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:43:06.418 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/loginPost - 204 null null 0.424ms
+2024-12-02 01:43:06.418 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/loginPost - application/json 58
+2024-12-02 01:43:06.418 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:43:06.418 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Index (api)'
+2024-12-02 01:43:06.418 +01:00 [INF] Route matched with {action = "Index", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Aplzz.Models.LoginModel) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 01:43:06.426 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-12-02 01:43:06.428 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Index (api) in 10.0241ms
+2024-12-02 01:43:06.429 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Index (api)'
+2024-12-02 01:43:06.429 +01:00 [INF] Session started; Key:a6fbc14e-79e8-dce9-35af-41dc8df3f8d6, Id:d7b6427a-15bb-b118-7f0b-b0d8a747ccca
+2024-12-02 01:43:06.429 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/loginPost - 200 33 application/json; charset=utf-8 10.5421ms
+2024-12-02 01:43:46.243 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/loginPost - null null
+2024-12-02 01:43:46.243 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:43:46.244 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/loginPost - 204 null null 0.8833ms
+2024-12-02 01:43:46.247 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/loginPost - application/json 56
+2024-12-02 01:43:46.247 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:43:46.247 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Index (api)'
+2024-12-02 01:43:46.247 +01:00 [INF] Route matched with {action = "Index", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Aplzz.Models.LoginModel) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 01:43:46.255 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-12-02 01:43:46.255 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Index (api) in 7.6051ms
+2024-12-02 01:43:46.255 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Index (api)'
+2024-12-02 01:43:46.255 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/loginPost - 200 33 application/json; charset=utf-8 8.5055ms
+2024-12-02 01:44:26.130 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/LoginAPI/loginPost - application/json-patch+json 57
+2024-12-02 01:44:26.133 +01:00 [INF] CORS policy execution failed.
+2024-12-02 01:44:26.134 +01:00 [INF] Request origin http://localhost:5214 does not have permission to access the resource.
+2024-12-02 01:44:26.134 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Index (api)'
+2024-12-02 01:44:26.135 +01:00 [INF] Route matched with {action = "Index", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Aplzz.Models.LoginModel) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 01:44:26.139 +01:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-12-02 01:44:26.139 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Index (api) in 4.256ms
+2024-12-02 01:44:26.139 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Index (api)'
+2024-12-02 01:44:26.139 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/LoginAPI/loginPost - 404 null text/plain; charset=utf-8 9.5865ms
+2024-12-02 01:44:29.044 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/LoginAPI/loginPost - application/json-patch+json 57
+2024-12-02 01:44:29.044 +01:00 [INF] CORS policy execution failed.
+2024-12-02 01:44:29.044 +01:00 [INF] Request origin http://localhost:5214 does not have permission to access the resource.
+2024-12-02 01:44:29.044 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Index (api)'
+2024-12-02 01:44:29.044 +01:00 [INF] Route matched with {action = "Index", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Aplzz.Models.LoginModel) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 01:44:29.049 +01:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-12-02 01:44:29.050 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Index (api) in 5.243ms
+2024-12-02 01:44:29.050 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Index (api)'
+2024-12-02 01:44:29.050 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/LoginAPI/loginPost - 404 null text/plain; charset=utf-8 5.7612ms
+2024-12-02 01:44:55.422 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/LoginAPI/register - null null
+2024-12-02 01:44:55.423 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 01:44:55.427 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 01:44:55.432 +01:00 [INF] Executing ViewResult, running view Register.
+2024-12-02 01:44:55.437 +01:00 [ERR] The view 'Register' was not found. Searched locations: ["/Views/LoginAPI/Register.cshtml","/Views/Shared/Register.cshtml"]
+2024-12-02 01:44:55.440 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 12.6676ms
+2024-12-02 01:44:55.440 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 01:44:55.457 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Register' was not found. The following locations were searched:
+/Views/LoginAPI/Register.cshtml
+/Views/Shared/Register.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-02 01:44:55.460 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/LoginAPI/register - 500 null text/plain; charset=utf-8 37.8244ms
+2024-12-02 01:47:34.336 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - null null
+2024-12-02 01:47:34.337 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:47:34.340 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - 204 null null 4.6301ms
+2024-12-02 01:47:34.341 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 90
+2024-12-02 01:47:34.342 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:47:34.342 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 01:47:34.345 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 01:47:34.355 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-12-02 01:47:34.366 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 20.6849ms
+2024-12-02 01:47:34.366 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 01:47:34.366 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 255 application/problem+json; charset=utf-8 25.1366ms
+2024-12-02 01:47:48.689 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/swagger/index.html - null null
+2024-12-02 01:47:48.726 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/swagger/index.html - 200 null text/html;charset=utf-8 37.1316ms
+2024-12-02 01:47:48.890 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/swagger/v1/swagger.json - null null
+2024-12-02 01:47:49.055 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 164.6652ms
+2024-12-02 01:48:08.456 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/LoginAPI/loginPost - application/json-patch+json 49
+2024-12-02 01:48:08.456 +01:00 [INF] CORS policy execution failed.
+2024-12-02 01:48:08.456 +01:00 [INF] Request origin http://localhost:5214 does not have permission to access the resource.
+2024-12-02 01:48:08.456 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Index (api)'
+2024-12-02 01:48:08.456 +01:00 [INF] Route matched with {action = "Index", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Aplzz.Models.LoginModel) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 01:48:08.461 +01:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-12-02 01:48:08.462 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Index (api) in 5.4073ms
+2024-12-02 01:48:08.462 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Index (api)'
+2024-12-02 01:48:08.462 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/LoginAPI/loginPost - 404 null text/plain; charset=utf-8 6.1125ms
+2024-12-02 01:48:25.777 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - null null
+2024-12-02 01:48:25.778 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:48:25.778 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - 204 null null 0.4827ms
+2024-12-02 01:48:25.778 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 90
+2024-12-02 01:48:25.779 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:48:25.779 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 01:48:25.779 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 01:48:25.781 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-12-02 01:48:25.782 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 2.8348ms
+2024-12-02 01:48:25.782 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 01:48:25.782 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 255 application/problem+json; charset=utf-8 3.2257ms
+2024-12-02 01:49:30.640 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - null null
+2024-12-02 01:49:30.640 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:49:30.642 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - 204 null null 2.1113ms
+2024-12-02 01:49:30.644 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 15
+2024-12-02 01:49:30.644 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:49:30.644 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 01:49:30.644 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 01:49:30.650 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-12-02 01:49:30.650 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 6.1133ms
+2024-12-02 01:49:30.650 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 01:49:30.650 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 832 application/problem+json; charset=utf-8 6.4766ms
+2024-12-02 01:49:57.874 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - null null
+2024-12-02 01:49:57.906 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:49:57.907 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - 204 null null 33.3838ms
+2024-12-02 01:49:57.908 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 15
+2024-12-02 01:49:57.909 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:49:57.910 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 01:49:57.910 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 01:49:57.913 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-12-02 01:49:57.914 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 3.5336ms
+2024-12-02 01:49:57.914 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 01:49:57.914 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 832 application/problem+json; charset=utf-8 5.5251ms
+2024-12-02 01:50:22.429 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - null null
+2024-12-02 01:50:22.430 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:50:22.432 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - 204 null null 3.1364ms
+2024-12-02 01:50:22.433 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 15
+2024-12-02 01:50:22.434 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:50:22.434 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 01:50:22.434 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 01:50:22.436 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-12-02 01:50:22.436 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 2.6944ms
+2024-12-02 01:50:22.436 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 01:50:22.436 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 832 application/problem+json; charset=utf-8 3.0824ms
+2024-12-02 01:51:12.154 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - null null
+2024-12-02 01:51:12.155 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:51:12.155 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - 204 null null 1.0161ms
+2024-12-02 01:51:12.157 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 15
+2024-12-02 01:51:12.157 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:51:12.158 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 01:51:12.158 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 01:51:12.161 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-12-02 01:51:12.161 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 2.9663ms
+2024-12-02 01:51:12.161 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 01:51:12.161 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 832 application/problem+json; charset=utf-8 4.4979ms
+2024-12-02 01:51:18.485 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - null null
+2024-12-02 01:51:18.485 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:51:18.485 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - 204 null null 0.4523ms
+2024-12-02 01:51:18.486 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 15
+2024-12-02 01:51:18.486 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:51:18.486 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 01:51:18.486 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 01:51:18.489 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-12-02 01:51:18.490 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 3.4691ms
+2024-12-02 01:51:18.490 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 01:51:18.490 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 832 application/problem+json; charset=utf-8 3.9515ms
+2024-12-02 01:51:54.455 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-12-02 01:51:54.456 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:51:54.458 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-12-02 01:51:54.458 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-12-02 01:51:54.465 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-02 01:51:54.470 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 11.633ms
+2024-12-02 01:51:54.470 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-12-02 01:51:54.470 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 8809 application/json; charset=utf-8 15.1048ms
+2024-12-02 01:51:54.471 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-12-02 01:51:54.472 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:51:54.472 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-12-02 01:51:54.472 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-12-02 01:51:54.480 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-02 01:51:54.486 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 13.1346ms
+2024-12-02 01:51:54.486 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-12-02 01:51:54.486 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 8809 application/json; charset=utf-8 14.5013ms
+2024-12-02 01:51:54.614 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/images/mountain.png - null null
+2024-12-02 01:51:54.620 +01:00 [INF] The file /images/mountain.png was not modified
+2024-12-02 01:51:54.621 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/images/mountain.png - 304 null image/png 6.9887ms
+2024-12-02 01:51:54.647 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/images/scott.jpg - null null
+2024-12-02 01:51:54.647 +01:00 [INF] The file /images/scott.jpg was not modified
+2024-12-02 01:51:54.647 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/images/scott.jpg - 304 null image/jpeg 0.6399ms
+2024-12-02 01:51:54.661 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/images/pexels.jpg - null null
+2024-12-02 01:51:54.662 +01:00 [INF] The file /images/pexels.jpg was not modified
+2024-12-02 01:51:54.662 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/images/pexels.jpg - 304 null image/jpeg 0.4333ms
+2024-12-02 01:52:09.434 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-12-02 01:52:09.434 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:52:09.434 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-12-02 01:52:09.434 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-12-02 01:52:09.441 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-02 01:52:09.471 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 36.8352ms
+2024-12-02 01:52:09.471 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-12-02 01:52:09.472 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 8809 application/json; charset=utf-8 37.4956ms
+2024-12-02 01:52:09.473 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/api/postapi/posts - null null
+2024-12-02 01:52:09.473 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:52:09.473 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-12-02 01:52:09.473 +01:00 [INF] Route matched with {action = "GetPosts", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPosts() on controller Aplzz.Controllers.PostAPIController (api).
+2024-12-02 01:52:09.478 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Aplzz.Models.Post, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-02 01:52:09.483 +01:00 [INF] Executed action Aplzz.Controllers.PostAPIController.GetPosts (api) in 9.8172ms
+2024-12-02 01:52:09.483 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.PostAPIController.GetPosts (api)'
+2024-12-02 01:52:09.483 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/api/postapi/posts - 200 8809 application/json; charset=utf-8 10.3297ms
+2024-12-02 01:52:36.408 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/loginPost - null null
+2024-12-02 01:52:36.408 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:52:36.409 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/loginPost - 204 null null 0.4276ms
+2024-12-02 01:52:36.409 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/loginPost - application/json 41
+2024-12-02 01:52:36.409 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:52:36.409 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Index (api)'
+2024-12-02 01:52:36.409 +01:00 [INF] Route matched with {action = "Index", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Aplzz.Models.LoginModel) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 01:52:36.413 +01:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-12-02 01:52:36.413 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Index (api) in 4.1217ms
+2024-12-02 01:52:36.413 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Index (api)'
+2024-12-02 01:52:36.414 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/loginPost - 404 null text/plain; charset=utf-8 4.4487ms
+2024-12-02 01:53:52.622 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/loginPost - null null
+2024-12-02 01:53:52.622 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:53:52.623 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/loginPost - 204 null null 0.434ms
+2024-12-02 01:53:52.624 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/loginPost - application/json 41
+2024-12-02 01:53:52.624 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:53:52.624 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Index (api)'
+2024-12-02 01:53:52.625 +01:00 [INF] Route matched with {action = "Index", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Aplzz.Models.LoginModel) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 01:53:52.631 +01:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-12-02 01:53:52.631 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Index (api) in 5.4376ms
+2024-12-02 01:53:52.631 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Index (api)'
+2024-12-02 01:53:52.631 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/loginPost - 404 null text/plain; charset=utf-8 7.4932ms
+2024-12-02 01:53:53.292 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/loginPost - application/json 41
+2024-12-02 01:53:53.292 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:53:53.292 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Index (api)'
+2024-12-02 01:53:53.292 +01:00 [INF] Route matched with {action = "Index", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Aplzz.Models.LoginModel) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 01:53:53.296 +01:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-12-02 01:53:53.296 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Index (api) in 3.758ms
+2024-12-02 01:53:53.296 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Index (api)'
+2024-12-02 01:53:53.296 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/loginPost - 404 null text/plain; charset=utf-8 4.243ms
+2024-12-02 01:53:53.671 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/loginPost - application/json 41
+2024-12-02 01:53:53.671 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:53:53.671 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Index (api)'
+2024-12-02 01:53:53.671 +01:00 [INF] Route matched with {action = "Index", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Aplzz.Models.LoginModel) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 01:53:53.675 +01:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-12-02 01:53:53.676 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Index (api) in 4.0968ms
+2024-12-02 01:53:53.676 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Index (api)'
+2024-12-02 01:53:53.676 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/loginPost - 404 null text/plain; charset=utf-8 4.5738ms
+2024-12-02 01:54:12.141 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - null null
+2024-12-02 01:54:12.141 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:54:12.141 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - 204 null null 0.293ms
+2024-12-02 01:54:12.142 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 15
+2024-12-02 01:54:12.142 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:54:12.142 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 01:54:12.142 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 01:54:12.144 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-12-02 01:54:12.145 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 2.7143ms
+2024-12-02 01:54:12.145 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 01:54:12.145 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 832 application/problem+json; charset=utf-8 2.9822ms
+2024-12-02 01:54:32.898 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - null null
+2024-12-02 01:54:32.898 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:54:32.900 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - 204 null null 2.3268ms
+2024-12-02 01:54:32.904 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 15
+2024-12-02 01:54:32.904 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:54:32.904 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 01:54:32.904 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 01:54:32.910 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-12-02 01:54:32.910 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 5.3187ms
+2024-12-02 01:54:32.910 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 01:54:32.910 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 832 application/problem+json; charset=utf-8 6.2528ms
+2024-12-02 01:55:35.661 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - null null
+2024-12-02 01:55:35.661 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:55:35.662 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - 204 null null 1.0142ms
+2024-12-02 01:55:35.663 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 15
+2024-12-02 01:55:35.664 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:55:35.665 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 01:55:35.665 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 01:55:35.668 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-12-02 01:55:35.668 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 2.8686ms
+2024-12-02 01:55:35.668 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 01:55:35.668 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 832 application/problem+json; charset=utf-8 4.5043ms
+2024-12-02 01:58:09.639 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - null null
+2024-12-02 01:58:09.639 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:58:09.641 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - 204 null null 2.0669ms
+2024-12-02 01:58:09.643 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 15
+2024-12-02 01:58:09.643 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:58:09.643 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 01:58:09.643 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 01:58:09.648 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-12-02 01:58:09.648 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 4.848ms
+2024-12-02 01:58:09.648 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 01:58:09.648 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 832 application/problem+json; charset=utf-8 5.2709ms
+2024-12-02 01:58:11.094 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 15
+2024-12-02 01:58:11.094 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:58:11.094 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 01:58:11.094 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 01:58:11.097 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-12-02 01:58:11.097 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 2.8764ms
+2024-12-02 01:58:11.097 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 01:58:11.097 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 832 application/problem+json; charset=utf-8 3.2076ms
+2024-12-02 01:58:11.602 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 15
+2024-12-02 01:58:11.602 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:58:11.602 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 01:58:11.602 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 01:58:11.605 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-12-02 01:58:11.605 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 2.6652ms
+2024-12-02 01:58:11.605 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 01:58:11.605 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 832 application/problem+json; charset=utf-8 3.0017ms
+2024-12-02 01:58:11.759 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 15
+2024-12-02 01:58:11.759 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:58:11.759 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 01:58:11.759 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 01:58:11.762 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-12-02 01:58:11.763 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 3.2251ms
+2024-12-02 01:58:11.763 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 01:58:11.763 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 832 application/problem+json; charset=utf-8 3.5672ms
+2024-12-02 01:58:11.929 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 15
+2024-12-02 01:58:11.929 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:58:11.929 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 01:58:11.929 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 01:58:11.931 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-12-02 01:58:11.932 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 2.5816ms
+2024-12-02 01:58:11.932 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 01:58:11.932 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 832 application/problem+json; charset=utf-8 2.9072ms
+2024-12-02 01:58:12.107 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 15
+2024-12-02 01:58:12.107 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:58:12.107 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 01:58:12.107 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 01:58:12.109 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-12-02 01:58:12.110 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 2.6796ms
+2024-12-02 01:58:12.110 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 01:58:12.110 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 832 application/problem+json; charset=utf-8 2.9757ms
+2024-12-02 01:58:12.260 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 15
+2024-12-02 01:58:12.260 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:58:12.260 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 01:58:12.260 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 01:58:12.262 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-12-02 01:58:12.262 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 2.5477ms
+2024-12-02 01:58:12.262 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 01:58:12.262 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 832 application/problem+json; charset=utf-8 2.8349ms
+2024-12-02 01:58:12.466 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 15
+2024-12-02 01:58:12.466 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:58:12.466 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 01:58:12.466 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 01:58:12.469 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-12-02 01:58:12.469 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 2.8402ms
+2024-12-02 01:58:12.469 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 01:58:12.469 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 832 application/problem+json; charset=utf-8 3.1701ms
+2024-12-02 01:58:12.768 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 15
+2024-12-02 01:58:12.768 +01:00 [INF] CORS policy execution successful.
+2024-12-02 01:58:12.768 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 01:58:12.768 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 01:58:12.771 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-12-02 01:58:12.771 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 3.1785ms
+2024-12-02 01:58:12.771 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 01:58:12.771 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 832 application/problem+json; charset=utf-8 3.4878ms
+2024-12-02 02:00:56.978 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - null null
+2024-12-02 02:00:56.979 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:00:56.979 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - 204 null null 0.2593ms
+2024-12-02 02:00:56.982 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 15
+2024-12-02 02:00:56.982 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:00:56.982 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:00:56.983 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 02:00:56.986 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-12-02 02:00:56.986 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 2.8029ms
+2024-12-02 02:00:56.986 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:00:56.986 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 832 application/problem+json; charset=utf-8 3.9764ms
+2024-12-02 02:01:08.028 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - null null
+2024-12-02 02:01:08.028 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:01:08.028 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - 204 null null 0.3248ms
+2024-12-02 02:01:08.029 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 15
+2024-12-02 02:01:08.029 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:01:08.029 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:01:08.029 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 02:01:08.032 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-12-02 02:01:08.032 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 2.7445ms
+2024-12-02 02:01:08.032 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:01:08.032 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 832 application/problem+json; charset=utf-8 3.0042ms
+2024-12-02 02:24:23.380 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - null null
+2024-12-02 02:24:23.384 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:24:23.384 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - 204 null null 3.2492ms
+2024-12-02 02:24:23.385 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 15
+2024-12-02 02:24:23.385 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:24:23.385 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:24:23.387 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 02:24:23.392 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-12-02 02:24:23.392 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 5.4222ms
+2024-12-02 02:24:23.392 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:24:23.392 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 832 application/problem+json; charset=utf-8 7.2995ms
+2024-12-02 02:25:43.895 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - null null
+2024-12-02 02:25:43.896 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:25:43.897 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - 204 null null 2.2015ms
+2024-12-02 02:25:43.899 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 15
+2024-12-02 02:25:43.899 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:25:43.899 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:25:43.899 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 02:25:43.902 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-12-02 02:25:43.902 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 2.3574ms
+2024-12-02 02:25:43.902 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:25:43.902 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 832 application/problem+json; charset=utf-8 2.7465ms
+2024-12-02 02:25:44.578 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 15
+2024-12-02 02:25:44.578 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:25:44.578 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:25:44.578 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 02:25:44.581 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-12-02 02:25:44.581 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 2.7261ms
+2024-12-02 02:25:44.581 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:25:44.581 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 832 application/problem+json; charset=utf-8 3.0342ms
+2024-12-02 02:25:45.727 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 15
+2024-12-02 02:25:45.728 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:25:45.728 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:25:45.728 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 02:25:45.730 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-12-02 02:25:45.730 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 2.3933ms
+2024-12-02 02:25:45.730 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:25:45.730 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 832 application/problem+json; charset=utf-8 2.6857ms
+2024-12-02 02:26:44.480 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - null null
+2024-12-02 02:26:44.480 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:26:44.480 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - 204 null null 0.3312ms
+2024-12-02 02:26:44.481 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 90
+2024-12-02 02:26:44.481 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:26:44.481 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:26:44.483 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 02:26:44.486 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-12-02 02:26:44.486 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 3.6794ms
+2024-12-02 02:26:44.486 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:26:44.486 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 255 application/problem+json; charset=utf-8 5.648ms
+2024-12-02 02:27:02.631 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - null null
+2024-12-02 02:27:02.631 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:27:02.631 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - 204 null null 0.3199ms
+2024-12-02 02:27:02.632 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 95
+2024-12-02 02:27:02.632 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:27:02.632 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:27:02.632 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 02:27:02.634 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-12-02 02:27:02.634 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 2.4552ms
+2024-12-02 02:27:02.634 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:27:02.634 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 255 application/problem+json; charset=utf-8 2.7019ms
+2024-12-02 02:27:07.366 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 96
+2024-12-02 02:27:07.366 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:27:07.366 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:27:07.366 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 02:27:07.382 +01:00 [INF] Executing OkObjectResult, writing value of type 'Aplzz.Models.User'.
+2024-12-02 02:27:07.384 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 17.6624ms
+2024-12-02 02:27:07.384 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:27:07.384 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 200 189 application/json; charset=utf-8 18.0461ms
+2024-12-02 02:27:37.117 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - null null
+2024-12-02 02:27:37.117 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:27:37.119 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - 204 null null 0.2062ms
+2024-12-02 02:27:37.121 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 96
+2024-12-02 02:27:37.121 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:27:37.121 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:27:37.121 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 02:27:37.130 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-12-02 02:27:37.130 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 8.6299ms
+2024-12-02 02:27:37.130 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:27:37.130 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 null text/plain; charset=utf-8 9.5144ms
+2024-12-02 02:27:41.470 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 96
+2024-12-02 02:27:41.471 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:27:41.471 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:27:41.471 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 02:27:41.476 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-12-02 02:27:41.476 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 5.5418ms
+2024-12-02 02:27:41.476 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:27:41.476 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 null text/plain; charset=utf-8 5.8617ms
+2024-12-02 02:27:42.259 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - null null
+2024-12-02 02:27:42.259 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:27:42.259 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - 204 null null 0.1862ms
+2024-12-02 02:27:42.259 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 96
+2024-12-02 02:27:42.259 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:27:42.259 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:27:42.259 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 02:27:42.264 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-12-02 02:27:42.265 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 5.0857ms
+2024-12-02 02:27:42.265 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:27:42.265 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 null text/plain; charset=utf-8 5.3251ms
+2024-12-02 02:28:21.816 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - null null
+2024-12-02 02:28:21.816 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:28:21.817 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - 204 null null 0.3387ms
+2024-12-02 02:28:21.817 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 96
+2024-12-02 02:28:21.817 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:28:21.817 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:28:21.817 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 02:28:21.858 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-12-02 02:28:21.858 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 40.8606ms
+2024-12-02 02:28:21.858 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:28:21.858 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 null text/plain; charset=utf-8 41.0928ms
+2024-12-02 02:28:24.373 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 96
+2024-12-02 02:28:24.373 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:28:24.373 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:28:24.373 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 02:28:24.379 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-12-02 02:28:24.379 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 5.5026ms
+2024-12-02 02:28:24.379 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:28:24.379 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 null text/plain; charset=utf-8 5.9246ms
+2024-12-02 02:28:29.677 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - null null
+2024-12-02 02:28:29.677 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:28:29.677 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - 204 null null 0.189ms
+2024-12-02 02:28:29.678 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 96
+2024-12-02 02:28:29.678 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:28:29.678 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:28:29.679 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 02:28:29.684 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-12-02 02:28:29.684 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 5.2885ms
+2024-12-02 02:28:29.684 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:28:29.684 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 null text/plain; charset=utf-8 5.7075ms
+2024-12-02 02:28:44.088 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - null null
+2024-12-02 02:28:44.088 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:28:44.088 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - 204 null null 0.2213ms
+2024-12-02 02:28:44.089 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 96
+2024-12-02 02:28:44.089 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:28:44.089 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:28:44.089 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 02:28:44.094 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-12-02 02:28:44.094 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 5.4373ms
+2024-12-02 02:28:44.095 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:28:44.095 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 null text/plain; charset=utf-8 5.6805ms
+2024-12-02 02:28:45.407 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 96
+2024-12-02 02:28:45.407 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:28:45.407 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:28:45.407 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 02:28:45.412 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-12-02 02:28:45.412 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 5.3817ms
+2024-12-02 02:28:45.412 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:28:45.413 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 null text/plain; charset=utf-8 5.7239ms
+2024-12-02 02:28:46.643 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 96
+2024-12-02 02:28:46.643 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:28:46.643 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:28:46.643 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 02:28:46.648 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-12-02 02:28:46.648 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 5.1311ms
+2024-12-02 02:28:46.648 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:28:46.648 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 null text/plain; charset=utf-8 5.4247ms
+2024-12-02 02:29:03.282 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - null null
+2024-12-02 02:29:03.283 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:29:03.283 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - 204 null null 0.1881ms
+2024-12-02 02:29:03.283 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 96
+2024-12-02 02:29:03.283 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:29:03.283 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:29:03.283 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 02:29:03.288 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-12-02 02:29:03.288 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 4.9916ms
+2024-12-02 02:29:03.288 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:29:03.288 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 null text/plain; charset=utf-8 5.202ms
+2024-12-02 02:29:39.339 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - null null
+2024-12-02 02:29:39.340 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:29:39.340 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - 204 null null 1.0349ms
+2024-12-02 02:29:39.343 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 96
+2024-12-02 02:29:39.343 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:29:39.344 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:29:39.345 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 02:29:39.350 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-12-02 02:29:39.351 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 5.0874ms
+2024-12-02 02:29:39.351 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:29:39.351 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 null text/plain; charset=utf-8 7.9957ms
+2024-12-02 02:30:04.815 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - null null
+2024-12-02 02:30:04.815 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:30:04.816 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - 204 null null 0.52ms
+2024-12-02 02:30:04.818 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 96
+2024-12-02 02:30:04.819 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:30:04.819 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:30:04.819 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 02:30:04.824 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-12-02 02:30:04.824 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 5.077ms
+2024-12-02 02:30:04.824 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:30:04.825 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 null text/plain; charset=utf-8 6.7847ms
+2024-12-02 02:30:27.735 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - null null
+2024-12-02 02:30:27.735 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:30:27.735 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - 204 null null 0.1812ms
+2024-12-02 02:30:27.736 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 96
+2024-12-02 02:30:27.736 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:30:27.736 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:30:27.736 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 02:30:27.741 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-12-02 02:30:27.741 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 4.9898ms
+2024-12-02 02:30:27.741 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:30:27.741 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 null text/plain; charset=utf-8 5.1996ms
+2024-12-02 02:30:45.578 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - null null
+2024-12-02 02:30:45.578 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:30:45.578 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - 204 null null 0.1724ms
+2024-12-02 02:30:45.578 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 98
+2024-12-02 02:30:45.579 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:30:45.579 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:30:45.579 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 02:30:45.581 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-12-02 02:30:45.581 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 2.3383ms
+2024-12-02 02:30:45.581 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:30:45.581 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 255 application/problem+json; charset=utf-8 2.5259ms
+2024-12-02 02:30:56.122 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - null null
+2024-12-02 02:30:56.122 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:30:56.122 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - 204 null null 0.1758ms
+2024-12-02 02:30:56.123 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 98
+2024-12-02 02:30:56.123 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:30:56.123 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:30:56.123 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 02:30:56.125 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-12-02 02:30:56.125 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 2.5494ms
+2024-12-02 02:30:56.125 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:30:56.125 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 255 application/problem+json; charset=utf-8 2.7793ms
+2024-12-02 02:31:13.225 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - null null
+2024-12-02 02:31:13.225 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:31:13.225 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - 204 null null 0.1731ms
+2024-12-02 02:31:13.225 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 102
+2024-12-02 02:31:13.225 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:31:13.225 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:31:13.225 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 02:31:13.231 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-12-02 02:31:13.231 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 5.1471ms
+2024-12-02 02:31:13.231 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:31:13.231 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 null text/plain; charset=utf-8 5.3613ms
+2024-12-02 02:33:05.220 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - null null
+2024-12-02 02:33:05.223 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:33:05.224 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5214/api/loginApi/registerPost - 204 null null 3.7365ms
+2024-12-02 02:33:05.224 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 102
+2024-12-02 02:33:05.226 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:33:05.226 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:33:05.226 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 02:33:05.264 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-12-02 02:33:05.265 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 38.0539ms
+2024-12-02 02:33:05.265 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:33:05.265 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 null text/plain; charset=utf-8 40.2367ms
+2024-12-02 02:33:05.917 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 102
+2024-12-02 02:33:05.917 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:33:05.917 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:33:05.917 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 02:33:05.922 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-12-02 02:33:05.922 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 4.9156ms
+2024-12-02 02:33:05.922 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:33:05.922 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 null text/plain; charset=utf-8 5.1877ms
+2024-12-02 02:33:09.509 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - application/json 102
+2024-12-02 02:33:09.510 +01:00 [INF] CORS policy execution successful.
+2024-12-02 02:33:09.510 +01:00 [INF] Executing endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:33:09.510 +01:00 [INF] Route matched with {action = "Register", controller = "LoginAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Aplzz.Models.User) on controller Aplzz.Controllers.LoginAPIController (api).
+2024-12-02 02:33:09.516 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-12-02 02:33:09.516 +01:00 [INF] Executed action Aplzz.Controllers.LoginAPIController.Register (api) in 5.9573ms
+2024-12-02 02:33:09.516 +01:00 [INF] Executed endpoint 'Aplzz.Controllers.LoginAPIController.Register (api)'
+2024-12-02 02:33:09.516 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5214/api/loginApi/registerPost - 400 null text/plain; charset=utf-8 6.2848ms

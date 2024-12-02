@@ -6,7 +6,6 @@ import { Navigate } from 'react-router-dom';
 
 const PostCreatePage = () => {
   const user = sessionStorage.getItem("user");
-
   if(!user) {
     return <Navigate to="/user/login" replace/>
   } else {
@@ -31,11 +30,7 @@ const PostCreatePage = () => {
 
   return (
     <Container className="py-4 content-under-navbar">
-<<<<<<< HEAD
       <h2 className="mb-4">Nytt innlegg til {userValue.username}</h2>
-=======
-      <h2 className="mb-4">Nytt innlegg</h2>
->>>>>>> 6ebd6a5 (fiks)
       <PostForm onPostChanged={handlePostCreated} />
     </Container>
   );

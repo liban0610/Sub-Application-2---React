@@ -48,13 +48,14 @@ public class LoginAPIController : Controller
         HttpContext.Session.SetString("aftername", user.Aftername.ToString());
         HttpContext.Session.SetString("email", user.Email.ToString());
         HttpContext.Session.SetString("profilePicture", user.ProfilePicture.ToString());
-        return Ok(new {
-          id = user.IdUser,
-          username = user.Username,
-          firstname = user.Firstname,
-          aftername = user.Aftername,
-          email = user.Email,
-          profilePicture = user.ProfilePicture,
+
+        return Ok( new { 
+          id = user.IdUser.ToString(),
+          username = user.Username.ToString(),
+          firstname = user.Firstname.ToString(),
+          aftername = user.Aftername.ToString(),
+          email = user.Email.ToString(),
+          profilePicture = user.ProfilePicture.ToString() 
         });
       }
     } else {
@@ -63,6 +64,8 @@ public class LoginAPIController : Controller
   }
   return Ok();
  } 
+
+
 
 
   [HttpGet("register")]
@@ -91,7 +94,7 @@ public class LoginAPIController : Controller
 
       // check username exist
       if(checkName == true) {
-        return BadRequest("brukernavn finnes allerede");
+        return BadRequest("userNameFound");
       }
 
       if(userr.ProfilePicture == null) {
@@ -99,7 +102,7 @@ public class LoginAPIController : Controller
       }
 
       if(checkEmail == true) {
-        return BadRequest("E-post finnes allerede");
+        return BadRequest("epostFound");
       }
       if(checkName == false && checkEmail == false) {
         _userDB.Users.Add(userr);

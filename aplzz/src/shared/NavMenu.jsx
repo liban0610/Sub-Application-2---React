@@ -9,12 +9,9 @@ const NavMenu = () => {
     window.location.href = '/';
   };
 
-<<<<<<< HEAD
 const user = sessionStorage.getItem("user")
 var userVl = JSON.parse(user);
 
-=======
->>>>>>> 6ebd6a5 (fiks)
   return (
     <Navbar 
       fixed="top" 
@@ -42,7 +39,6 @@ var userVl = JSON.parse(user);
               <i className="bi bi-house-door me-2"></i>
               Hjem
             </Nav.Link>
-<<<<<<< HEAD
             {userVl ? (
               <><Nav.Link
                 onClick={() => navigate('/posts/create')}
@@ -60,19 +56,6 @@ var userVl = JSON.parse(user);
                 <i class="bi-box-arrow-in-right"></i> Logg inn
               </Nav.Link></>
             )}
-=======
-            <Nav.Link 
-              onClick={() => navigate('/posts/create')}
-              className="mx-2 fw-medium py-1"
-            >
-              <i className="bi bi-plus-lg me-2"></i>
-              Nytt innlegg
-            </Nav.Link>
-            <Nav.Link className="mx-2 fw-medium py-1">
-              <i className="bi bi-person-circle me-2"></i>
-              Profil
-            </Nav.Link>
->>>>>>> 6ebd6a5 (fiks)
           </Nav>
         </Navbar.Collapse>
       </Container>

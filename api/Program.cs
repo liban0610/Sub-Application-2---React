@@ -54,6 +54,17 @@ builder.Logging.AddSerilog(logger);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("ReactApp", policy =>
+    {
+        policy.WithOrigins("http://localhost:3000") // URL til React-appen
+              .AllowCredentials() // Tillater bruk av cookies
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
@@ -71,7 +82,7 @@ app.UseSession();
 
 app.UseStaticFiles();
 app.UseRouting();
-app.UseCors("CorsPolicy");
+app.UseCors("ReactApp");
 app.MapControllerRoute(name: "api", pattern: "{controller}/{action=Index}/{id?}");
     
 app.Run();

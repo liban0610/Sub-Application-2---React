@@ -1,0 +1,18 @@
+2024-12-02 00:33:24.509 +01:00 [INF] User profile is available. Using 'C:\Users\ahmad\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-02 00:33:24.659 +01:00 [INF] Now listening on: https://localhost:7135
+2024-12-02 00:33:24.661 +01:00 [INF] Now listening on: http://localhost:5214
+2024-12-02 00:33:24.666 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-02 00:33:24.668 +01:00 [INF] Hosting environment: Development
+2024-12-02 00:33:24.669 +01:00 [INF] Content root path: C:\Users\ahmad\OneDrive\Skrivebord\Sub-Application-2---React\api
+2024-12-02 00:33:27.625 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/swagger/index.html - null null
+2024-12-02 00:33:27.691 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/swagger/index.html - 200 null text/html;charset=utf-8 67.9299ms
+2024-12-02 00:33:27.836 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/swagger/v1/swagger.json - null null
+2024-12-02 00:33:28.030 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 194.1181ms
+2024-12-02 00:34:20.027 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/swagger/index.html - null null
+2024-12-02 00:34:20.029 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/swagger/index.html - 200 null text/html;charset=utf-8 1.9309ms
+2024-12-02 00:34:20.068 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/swagger/v1/swagger.json - null null
+2024-12-02 00:34:20.142 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 73.9307ms
+2024-12-02 00:34:42.514 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/swagger/index.html - null null
+2024-12-02 00:34:42.516 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/swagger/index.html - 200 null text/html;charset=utf-8 2.5206ms
+2024-12-02 00:34:42.801 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/swagger/v1/swagger.json - null null
+2024-12-02 00:34:42.848 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 47.2497ms
