@@ -10,5 +10,5 @@ public class Comment
     public DateTime CommentedAt { get; set; }
     public int PostId { get; set; }
     public virtual Post? Post { get; set; }
-    public virtual User GetUser {get;set;}
+    public virtual User? GetUser {get;set;}
 }

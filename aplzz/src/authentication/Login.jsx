@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import Cookies from 'js-cookie';
 import '../Login.css';
 import '../App.css';
 import { Container } from 'react-bootstrap';
@@ -58,10 +57,11 @@ function Login() {
                         {email: email, password: password},
                         { withCredentials: true }
                     );
-                    var userData = response.json();
-                    Cookies.set("user", userData)
+                    var userData = await response.json();
+                    sessionStorage.setItem("user", JSON.stringify(userData))
+                    //sessionStorage.setItem("user", userData)
                     setError(null)
-
+                    window.location.href = "/"
                 }
             }
             catch (error) {

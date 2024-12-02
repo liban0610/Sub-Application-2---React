@@ -15,8 +15,6 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<PostDbContext>(options => {
     options.UseSqlite(builder.Configuration["ConnectionStrings:DatabaseConnection"]);});
 
-builder.Services.AddDbContext<AccountDbContext>(options => {
-    options.UseSqlite(builder.Configuration["ConnectionStrings:AccountDbContextConnection"]);});
 
 builder.Services.AddControllers();
 builder.Services.AddCors(options =>

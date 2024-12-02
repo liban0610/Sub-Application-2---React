@@ -36,13 +36,6 @@ namespace Aplzz.Controllers
         public async Task<IActionResult> Index(string username)
         {
             if(username == "" || username == null) {
-<<<<<<< HEAD
-                return BadRequest("Skriv et gyldig brukernavn");
-            }
-            var user = await _accountRepository.GetUserInfo(username);
-            if(user == null) {
-                return NotFound("Brukeren finnes ikke");
-=======
                 _logger.LogError("[AccountProfileController] username is null or empty");
                 return View("NotFound", username);
             }
@@ -50,7 +43,6 @@ namespace Aplzz.Controllers
             if(user == null) {
                  _logger.LogError("[AccountProfileController] user not found");
                 return View("NotFound", user);
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
             }
 
             var posts = await _postRepository.GellPostByUserId(user.IdUser);

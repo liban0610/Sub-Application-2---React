@@ -5,6 +5,11 @@ import { useNavigate } from 'react-router-dom';
 const NavMenu = () => {
   const navigate = useNavigate();
 
+
+  const handleLogoutClick = () => {
+    sessionStorage.removeItem("user");
+    window.location.href = "/user/login"
+  }
   const handleHomeClick = () => {
     window.location.href = '/';
   };
@@ -45,9 +50,18 @@ var userVl = JSON.parse(user);
                 className="mx-2 fw-medium py-1">
                 <i className="bi bi-plus-lg me-2"></i>
                 Nytt innlegg
-              </Nav.Link><Nav.Link className="mx-2 fw-medium py-1">
+              </Nav.Link>
+              <Nav.Link 
+              onClick={() => navigate(`/profile/${userVl.username}`)}
+              className="mx-2 fw-medium py-1">
                   <i className="bi bi-person-circle me-2"></i>
-                  Profil
+                  {userVl.username}
+                </Nav.Link>
+                <Nav.Link 
+              onClick={handleLogoutClick}
+              className="mx-2 fw-medium py-1">
+                  <i className="bi-box-arrow-in-left"></i>
+                  Logg av
                 </Nav.Link></>
             ) : (
               <><Nav.Link

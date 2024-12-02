@@ -2,13 +2,15 @@ import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-d
 import Container from 'react-bootstrap/Container';
 import HomePage from './home/HomePage';
 import NavMenu from './shared/NavMenu';
-import Cookies from 'js-cookie';
 import PostCreatePage from './posts/PostCreatePage.jsx';
 import PostUpdatePage from './posts/PostUpdatePage.jsx';
 import Login from './authentication/Login.jsx';
 import Register from './authentication/Register.jsx';
 import User from './authentication/User.jsx';
 import './App.css';
+// important for session (when login)
+const user = sessionStorage.getItem("user")
+var userVl = JSON.parse(user);
 
 function App() {
   return (

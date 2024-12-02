@@ -47,15 +47,13 @@ public class LoginAPIController : Controller
         HttpContext.Session.SetString("firstname", user.Firstname.ToString());
         HttpContext.Session.SetString("aftername", user.Aftername.ToString());
         HttpContext.Session.SetString("email", user.Email.ToString());
-        HttpContext.Session.SetString("profilePicture", user.ProfilePicture.ToString());
-
+        
         return Ok( new { 
           id = user.IdUser.ToString(),
           username = user.Username.ToString(),
           firstname = user.Firstname.ToString(),
           aftername = user.Aftername.ToString(),
-          email = user.Email.ToString(),
-          profilePicture = user.ProfilePicture.ToString() 
+          email = user.Email.ToString()
         });
       }
     } else {

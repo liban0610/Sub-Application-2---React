@@ -9,19 +9,11 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = api
 build_property.RootNamespace = api
-<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\ahmad\OneDrive\Skrivebord\Sub-Application-2---React\api\
-=======
-build_property.ProjectDir = C:\Users\vansa\Desktop\Subapp2\Sub-Application-2---React\api\
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-<<<<<<< HEAD
 build_property.MSBuildProjectDirectory = C:\Users\ahmad\OneDrive\Skrivebord\Sub-Application-2---React\api
-=======
-build_property.MSBuildProjectDirectory = C:\Users\vansa\Desktop\Subapp2\Sub-Application-2---React\api
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
 build_property._RazorSourceGeneratorDebug = 

@@ -2,10 +2,15 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import PostForm from './PostForm';
 import API_URL from '../config/api';
-
+const user = sessionStorage.getItem("user")
+var userVl = JSON.parse(user);
 const PostCreatePage = () => {
+  if(!user) {
+    // login first
+    window.location.href = "/user/login";
+  }
   const handlePostCreated = async (formData) => {
-    formData.append('userId', '1');
+    formData.append('userId', userVl.id);
     formData.append('createdAt', new Date().toISOString());
     try{
       const response = await fetch(`${API_URL}/api/postapi/create`, {

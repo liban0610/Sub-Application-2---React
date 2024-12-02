@@ -112,6 +112,7 @@ const User = () => {
     <Container className="py-4 bg-light min-vh-150 content-under-navbar">
       <p></p>
         <h1>{JSON.stringify(userData.getUserInfo?.username)}</h1>
+        <p>This page is still in development</p>
     </Container>
   );
 };

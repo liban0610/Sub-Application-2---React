@@ -3332,16 +3332,11 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
     "C:\\Users\\ahmad\\.nuget\\packages\\": {}
-=======
-    "C:\\Users\\vansa\\.nuget\\packages\\": {}
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\api.csproj",
       "projectName": "api",
       "projectPath": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\api.csproj",
@@ -3350,16 +3345,6 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ahmad\\AppData\\Roaming\\NuGet\\NuGet.Config"
-=======
-      "projectUniqueName": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\api.csproj",
-      "projectName": "api",
-      "projectPath": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\api.csproj",
-      "packagesPath": "C:\\Users\\vansa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\obj\\",
-      "projectStyle": "PackageReference",
-      "configFilePaths": [
-        "C:\\Users\\vansa\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       ],
       "originalTargetFrameworks": [
         "net8.0"

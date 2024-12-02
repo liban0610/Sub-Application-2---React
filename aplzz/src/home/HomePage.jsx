@@ -1,8 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { Card, Container, Form, Button } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
+//import Cookies from 'js-cookies'
 import API_URL from '../config/api';
 import PostService from '../services/PostService';
+const user = sessionStorage.getItem("user")
+var userVl = JSON.parse(user);
+
+
 
 const HomePage = () => {
   const [posts, setPosts] = useState([]);
@@ -12,7 +17,7 @@ const HomePage = () => {
   const [commentText, setCommentText] = useState('');
   const [commentError, setCommentError] = useState('');
   const navigate = useNavigate();
-  
+  const checkUser = sessionStorage.getItem("user")
   const fetchPosts = async () => {
     setLoading(true);
     setError(null);
@@ -30,6 +35,9 @@ const HomePage = () => {
 
   useEffect(() => {
     fetchPosts();
+    if(!user) {
+      window.location.href ="/user/login"
+    }
   }, []);
 
   const filteredPosts = posts.filter(post => 
@@ -85,6 +93,9 @@ const HomePage = () => {
   };
 
   const handleLike = async (postId) => {
+    if(!checkUser) {
+      window.location.href = "/user/login"
+    }
     try {
       const data = await PostService.likePost(postId);
       setPosts(posts.map(post => {
@@ -166,7 +177,7 @@ const HomePage = () => {
                   </small>
                 </div>
               </div>
-              {post.userId === 1 && (
+              {post.userId === parseInt(userVl.id) && (
                 <div className="d-flex gap-2">
                   <Button 
                     variant="outline-primary" 
@@ -205,12 +216,12 @@ const HomePage = () => {
               <div className="border-top pt-3">
                 <div className="d-flex justify-content-between align-items-center mb-3">
                   <button 
-                    className={`like-button ${post.likes?.some(like => like.userId === 1) ? 'liked' : ''}`}
+                    className={`like-button ${post.likes?.some(like => like.userId === parseInt(userVl.id)) ? 'liked' : ''}`}
                     onClick={() => handleLike(post.postId)}
                   >
-                    <i className={`bi ${post.likes?.some(like => like.userId === 1) ? 'bi-heart-fill' : 'bi-heart'}`}></i>
+                    <i className={`bi ${post.likes?.some(like => like.userId === parseInt(userVl.id)) ? 'bi-heart-fill' : 'bi-heart'}`}></i>
                     <span className="likes-count">
-                      {post.likes?.length || 0} {post.likes?.length === 1 ? 'like' : 'likes'}
+                      {post.likes?.length || 0} {post.likes?.length === parseInt(userVl.id) ? 'like' : 'likes'}
                     </span>
                   </button>
                   <small className="text-muted">
@@ -236,8 +247,9 @@ const HomePage = () => {
                       </div>
                     </div>
                   ))}
-
-                  <Form onSubmit={(e) => {
+                  {checkUser && 
+                    <>
+                    <Form onSubmit={(e) => {
                     e.preventDefault();
                     handleAddComment(post.postId);
                   }} className="mt-3">
@@ -261,6 +273,8 @@ const HomePage = () => {
                       <Form.Text className="text-danger">{commentError}</Form.Text>
                     )}
                   </Form>
+                    </>
+                  }
                 </div>
               </div>
             </Card.Body>

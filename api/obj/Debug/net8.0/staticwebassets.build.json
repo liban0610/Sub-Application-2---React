@@ -1,10 +1,6 @@
 {
   "Version": 1,
-<<<<<<< HEAD
   "Hash": "m4omI/rJcOh+WrHEsEZOtcmmmsTM3clgXXJE1Wrty4o=",
-=======
-  "Hash": "LJMUUgiPL6QkxveVouWES1MR74GhfYlbtCxUQomMT4k=",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
   "Source": "api",
   "BasePath": "_content/api",
   "Mode": "Default",
@@ -14,28 +10,17 @@
     {
       "Name": "api\\wwwroot",
       "Source": "api",
-<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\css\\site.css",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\css\\site.css",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -51,17 +36,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\favicon.ico",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\favicon.ico",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -77,17 +55,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\images\\0e931c77-b5a7-4e7b-a009-9e79be1b5402.png",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\images\\0e931c77-b5a7-4e7b-a009-9e79be1b5402.png",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "images/0e931c77-b5a7-4e7b-a009-9e79be1b5402.png",
       "AssetKind": "All",
@@ -103,17 +74,10 @@
       "OriginalItemSpec": "wwwroot\\images\\0e931c77-b5a7-4e7b-a009-9e79be1b5402.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\images\\2e0432fe-2d11-400d-97d1-cf5a18fc70e2.jpeg",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\images\\2e0432fe-2d11-400d-97d1-cf5a18fc70e2.jpeg",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "images/2e0432fe-2d11-400d-97d1-cf5a18fc70e2.jpeg",
       "AssetKind": "All",
@@ -129,17 +93,10 @@
       "OriginalItemSpec": "wwwroot\\images\\2e0432fe-2d11-400d-97d1-cf5a18fc70e2.jpeg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\images\\384e9f1b-3f57-4955-9965-ae0aeeb4ad31.jpeg",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\images\\384e9f1b-3f57-4955-9965-ae0aeeb4ad31.jpeg",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "images/384e9f1b-3f57-4955-9965-ae0aeeb4ad31.jpeg",
       "AssetKind": "All",
@@ -155,17 +112,10 @@
       "OriginalItemSpec": "wwwroot\\images\\384e9f1b-3f57-4955-9965-ae0aeeb4ad31.jpeg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\images\\62c17747-a633-492b-ac70-8ce751eb8b89.png",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\images\\62c17747-a633-492b-ac70-8ce751eb8b89.png",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "images/62c17747-a633-492b-ac70-8ce751eb8b89.png",
       "AssetKind": "All",
@@ -181,17 +131,10 @@
       "OriginalItemSpec": "wwwroot\\images\\62c17747-a633-492b-ac70-8ce751eb8b89.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\images\\7f4f9137-fb04-440a-8dae-a472b0f2cf4b.jpeg",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\images\\7f4f9137-fb04-440a-8dae-a472b0f2cf4b.jpeg",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "images/7f4f9137-fb04-440a-8dae-a472b0f2cf4b.jpeg",
       "AssetKind": "All",
@@ -207,17 +150,10 @@
       "OriginalItemSpec": "wwwroot\\images\\7f4f9137-fb04-440a-8dae-a472b0f2cf4b.jpeg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\images\\99a459bb96829d1c01030a763d3146ed~c5_1080x1080.jpeg",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\images\\99a459bb96829d1c01030a763d3146ed~c5_1080x1080.jpeg",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "images/99a459bb96829d1c01030a763d3146ed~c5_1080x1080.jpeg",
       "AssetKind": "All",
@@ -233,17 +169,10 @@
       "OriginalItemSpec": "wwwroot\\images\\99a459bb96829d1c01030a763d3146ed~c5_1080x1080.jpeg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\images\\ai.jpg",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\images\\ai.jpg",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "images/ai.jpg",
       "AssetKind": "All",
@@ -259,17 +188,10 @@
       "OriginalItemSpec": "wwwroot\\images\\ai.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\images\\aplzz.png",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\images\\aplzz.png",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "images/aplzz.png",
       "AssetKind": "All",
@@ -285,17 +207,10 @@
       "OriginalItemSpec": "wwwroot\\images\\aplzz.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\images\\b0934778-1662-4f75-924c-4b2512774bd1.jpg",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\images\\b0934778-1662-4f75-924c-4b2512774bd1.jpg",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "images/b0934778-1662-4f75-924c-4b2512774bd1.jpg",
       "AssetKind": "All",
@@ -311,17 +226,10 @@
       "OriginalItemSpec": "wwwroot\\images\\b0934778-1662-4f75-924c-4b2512774bd1.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\images\\b5f05370-2d0c-4ba2-bf64-323dcf303ad2.png",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\images\\b5f05370-2d0c-4ba2-bf64-323dcf303ad2.png",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "images/b5f05370-2d0c-4ba2-bf64-323dcf303ad2.png",
       "AssetKind": "All",
@@ -337,17 +245,10 @@
       "OriginalItemSpec": "wwwroot\\images\\b5f05370-2d0c-4ba2-bf64-323dcf303ad2.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\images\\bilde_oppgave.webp",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\images\\bilde_oppgave.webp",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "images/bilde_oppgave.webp",
       "AssetKind": "All",
@@ -363,17 +264,10 @@
       "OriginalItemSpec": "wwwroot\\images\\bilde_oppgave.webp"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\images\\Blank.jpeg",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\images\\Blank.jpeg",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "images/Blank.jpeg",
       "AssetKind": "All",
@@ -389,17 +283,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Blank.jpeg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\images\\c6ba57d6-3bcc-45f3-988e-c76507210ed6.jpeg",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\images\\c6ba57d6-3bcc-45f3-988e-c76507210ed6.jpeg",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "images/c6ba57d6-3bcc-45f3-988e-c76507210ed6.jpeg",
       "AssetKind": "All",
@@ -415,17 +302,10 @@
       "OriginalItemSpec": "wwwroot\\images\\c6ba57d6-3bcc-45f3-988e-c76507210ed6.jpeg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\images\\chickenleg.jpg",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\images\\chickenleg.jpg",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "images/chickenleg.jpg",
       "AssetKind": "All",
@@ -441,17 +321,10 @@
       "OriginalItemSpec": "wwwroot\\images\\chickenleg.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\images\\cider.jpg",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\images\\cider.jpg",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "images/cider.jpg",
       "AssetKind": "All",
@@ -467,17 +340,10 @@
       "OriginalItemSpec": "wwwroot\\images\\cider.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\images\\coke.jpg",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\images\\coke.jpg",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "images/coke.jpg",
       "AssetKind": "All",
@@ -493,17 +359,10 @@
       "OriginalItemSpec": "wwwroot\\images\\coke.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\images\\cookie memes.jpeg",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\images\\cookie memes.jpeg",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "images/cookie memes.jpeg",
       "AssetKind": "All",
@@ -519,17 +378,10 @@
       "OriginalItemSpec": "wwwroot\\images\\cookie memes.jpeg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\images\\data1100.jpeg",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\images\\data1100.jpeg",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "images/data1100.jpeg",
       "AssetKind": "All",
@@ -545,17 +397,10 @@
       "OriginalItemSpec": "wwwroot\\images\\data1100.jpeg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\images\\fishandchips.jpg",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\images\\fishandchips.jpg",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "images/fishandchips.jpg",
       "AssetKind": "All",
@@ -571,17 +416,10 @@
       "OriginalItemSpec": "wwwroot\\images\\fishandchips.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\images\\frenchfries.jpg",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\images\\frenchfries.jpg",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "images/frenchfries.jpg",
       "AssetKind": "All",
@@ -597,17 +435,10 @@
       "OriginalItemSpec": "wwwroot\\images\\frenchfries.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\images\\G.png",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\images\\G.png",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "images/G.png",
       "AssetKind": "All",
@@ -623,17 +454,10 @@
       "OriginalItemSpec": "wwwroot\\images\\G.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\images\\IMG_1404.PNG",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\images\\IMG_1404.PNG",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "images/IMG_1404.PNG",
       "AssetKind": "All",
@@ -649,17 +473,10 @@
       "OriginalItemSpec": "wwwroot\\images\\IMG_1404.PNG"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\images\\katt.jpg",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\images\\katt.jpg",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "images/katt.jpg",
       "AssetKind": "All",
@@ -675,17 +492,10 @@
       "OriginalItemSpec": "wwwroot\\images\\katt.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\images\\losning.png",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\images\\losning.png",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "images/losning.png",
       "AssetKind": "All",
@@ -701,17 +511,10 @@
       "OriginalItemSpec": "wwwroot\\images\\losning.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\images\\losning2.png",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\images\\losning2.png",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "images/losning2.png",
       "AssetKind": "All",
@@ -727,17 +530,10 @@
       "OriginalItemSpec": "wwwroot\\images\\losning2.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\images\\mountain.png",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\images\\mountain.png",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "images/mountain.png",
       "AssetKind": "All",
@@ -753,17 +549,10 @@
       "OriginalItemSpec": "wwwroot\\images\\mountain.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\images\\pexels.jpg",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\images\\pexels.jpg",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "images/pexels.jpg",
       "AssetKind": "All",
@@ -779,17 +568,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pexels.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\images\\pizza.jpg",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\images\\pizza.jpg",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "images/pizza.jpg",
       "AssetKind": "All",
@@ -805,17 +587,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pizza.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\images\\profile.jpg",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\images\\profile.jpg",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "images/profile.jpg",
       "AssetKind": "All",
@@ -831,17 +606,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\images\\ribs.jpg",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\images\\ribs.jpg",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "images/ribs.jpg",
       "AssetKind": "All",
@@ -857,17 +625,10 @@
       "OriginalItemSpec": "wwwroot\\images\\ribs.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\images\\scott.jpg",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\images\\scott.jpg",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "images/scott.jpg",
       "AssetKind": "All",
@@ -883,17 +644,10 @@
       "OriginalItemSpec": "wwwroot\\images\\scott.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\images\\Security-meme.png",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\images\\Security-meme.png",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "images/Security-meme.png",
       "AssetKind": "All",
@@ -909,17 +663,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Security-meme.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\images\\Skjermbilde 2023-03-14 225329.png",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\images\\Skjermbilde 2023-03-14 225329.png",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "images/Skjermbilde 2023-03-14 225329.png",
       "AssetKind": "All",
@@ -935,17 +682,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Skjermbilde 2023-03-14 225329.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\images\\Skjermbilde 2023-10-17 150422.png",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\images\\Skjermbilde 2023-10-17 150422.png",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "images/Skjermbilde 2023-10-17 150422.png",
       "AssetKind": "All",
@@ -961,17 +701,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Skjermbilde 2023-10-17 150422.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\images\\Skjermbilde 2024-01-22 155456.png",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\images\\Skjermbilde 2024-01-22 155456.png",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "images/Skjermbilde 2024-01-22 155456.png",
       "AssetKind": "All",
@@ -987,17 +720,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Skjermbilde 2024-01-22 155456.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\images\\tacos.jpg",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\images\\tacos.jpg",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "images/tacos.jpg",
       "AssetKind": "All",
@@ -1013,17 +739,10 @@
       "OriginalItemSpec": "wwwroot\\images\\tacos.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\images\\uploads\\9b8e03eb-1849-4403-915e-4e66bf62062d_cookie memes.jpeg",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\images\\uploads\\9b8e03eb-1849-4403-915e-4e66bf62062d_cookie memes.jpeg",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "images/uploads/9b8e03eb-1849-4403-915e-4e66bf62062d_cookie memes.jpeg",
       "AssetKind": "All",
@@ -1039,17 +758,10 @@
       "OriginalItemSpec": "wwwroot\\images\\uploads\\9b8e03eb-1849-4403-915e-4e66bf62062d_cookie memes.jpeg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\js\\bootstrap.js",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\js\\bootstrap.js",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "js/bootstrap.js",
       "AssetKind": "All",
@@ -1065,17 +777,10 @@
       "OriginalItemSpec": "wwwroot\\js\\bootstrap.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\js\\jquery.min.js",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\js\\jquery.min.js",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "js/jquery.min.js",
       "AssetKind": "All",
@@ -1091,17 +796,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\js\\site.js",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\js\\site.js",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1117,17 +815,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1143,17 +834,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1169,17 +853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1195,17 +872,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1221,17 +891,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1247,17 +910,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1273,17 +929,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1299,17 +948,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1325,17 +967,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1351,17 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1377,17 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1403,17 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1429,17 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1455,17 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1481,17 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1507,17 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1533,17 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1559,17 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1585,17 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1611,17 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1637,17 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1663,17 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1689,17 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1715,17 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1741,17 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1767,17 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1793,17 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1819,17 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1845,17 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1871,17 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1897,17 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1923,17 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1949,17 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1975,17 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2001,17 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2027,17 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2053,17 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2079,17 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2105,17 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2131,17 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2157,17 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2183,17 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2209,17 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2235,17 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2261,17 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\bootstrap\\LICENSE",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2287,17 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2313,17 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2339,17 +1708,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -2365,17 +1727,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2391,17 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2417,17 +1765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2443,17 +1784,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2469,17 +1803,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2495,17 +1822,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2521,17 +1841,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2547,17 +1860,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2573,17 +1879,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmad\\OneDrive\\Skrivebord\\Sub-Application-2---React\\api\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vansa\\Desktop\\Subapp2\\Sub-Application-2---React\\api\\wwwroot\\",
->>>>>>> 2b28220d42f0ede7ab3bf8254a649db7f949b3bb
       "BasePath": "_content/api",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",

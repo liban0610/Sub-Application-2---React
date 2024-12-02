@@ -3,7 +3,8 @@ import { useParams } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 import PostForm from './PostForm';
 import API_URL from '../config/api';
-
+const user = sessionStorage.getItem("user")
+var userVl = JSON.parse(user);
 const PostUpdatePage = () => {
   const { postId } = useParams();
   const [post, setPost] = useState(null);
@@ -12,6 +13,9 @@ const PostUpdatePage = () => {
 
   useEffect(() => {
     const fetchPost = async () => {
+      if(!user) {
+        window.location.href = "/user/login"
+      }
       try {
         const response = await fetch(`${API_URL}/api/postapi/${postId}`);
         if (!response.ok) {
@@ -49,6 +53,9 @@ const PostUpdatePage = () => {
   if (loading) return <div className="text-center">Laster...</div>;
   if (error) return <div className="text-center text-danger">{error}</div>;
   if (!post) return <div className="text-center">Fant ikke innlegget</div>;
+
+  if(post.userId != parseInt(userVl.id)) window.location.href = "/"
+
 
   return (
     <Container className="py-4 content-under-navbar">
