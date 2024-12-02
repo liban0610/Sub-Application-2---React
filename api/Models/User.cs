@@ -20,13 +20,12 @@ namespace Aplzz.Models
             public string Password {get;set;} = string.Empty;
             // regular expresstion for username
             [RegularExpression(@"^(?=[a-zA-Z0-9._]{8,20}$)(?!.*[_.]{2})[^_.].*[^_.]$", ErrorMessage ="Username is invalid, try another one")]
-            [Required(ErrorMessage = "Username is required")]
             public string Username {get;set;} = string.Empty;
             [RegularExpression(@"(0047|\+47|47)?\d{8} ", ErrorMessage ="Invalid norwegian number")]
             public string Phone {get;set;} = string.Empty;
             public DateTime Date_Started {get;set;}
             // regex for image
             [RegularExpression(@"([^\s]+(\.(?i)(jpe?g|png|gif|bmp))$)", ErrorMessage ="Please choose a picture (.jpeg, jpg, png file etc.)")]
-            public string ProfilePicture {get;set;} = string.Empty;
+            public string? ProfilePicture {get;set;}
         }
 }

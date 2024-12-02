@@ -1,0 +1,26 @@
+2024-12-01 11:15:06.938 +01:00 [INF] User profile is available. Using 'C:\Users\vansa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-01 11:15:07.097 +01:00 [INF] Now listening on: http://localhost:5214
+2024-12-01 11:15:07.108 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-01 11:15:07.109 +01:00 [INF] Hosting environment: Development
+2024-12-01 11:15:07.109 +01:00 [INF] Content root path: C:\Users\vansa\Desktop\Subapp2\Sub-Application-2---React\api
+2024-12-01 11:15:11.514 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/ - null null
+2024-12-01 11:15:11.587 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/ - 404 0 null 77.7322ms
+2024-12-01 11:15:11.592 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/, Response status code: 404
+2024-12-01 11:15:15.448 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/ - null null
+2024-12-01 11:15:15.453 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/ - 404 0 null 4.767ms
+2024-12-01 11:15:15.453 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/, Response status code: 404
+2024-12-01 11:15:16.164 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/ - null null
+2024-12-01 11:15:16.167 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/ - 404 0 null 2.5969ms
+2024-12-01 11:15:16.167 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/, Response status code: 404
+2024-12-01 11:15:16.764 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/ - null null
+2024-12-01 11:15:16.765 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/ - 404 0 null 1.0353ms
+2024-12-01 11:15:16.765 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/, Response status code: 404
+2024-12-01 11:15:21.922 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/ - null null
+2024-12-01 11:15:21.923 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/ - 404 0 null 0.8702ms
+2024-12-01 11:15:21.923 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/, Response status code: 404
+2024-12-01 11:15:23.989 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/ - null null
+2024-12-01 11:15:23.990 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/ - 404 0 null 0.5899ms
+2024-12-01 11:15:23.990 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/, Response status code: 404
+2024-12-01 11:15:24.680 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/ - null null
+2024-12-01 11:15:24.681 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/ - 404 0 null 0.7295ms
+2024-12-01 11:15:24.681 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/, Response status code: 404

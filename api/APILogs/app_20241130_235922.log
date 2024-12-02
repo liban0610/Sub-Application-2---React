@@ -1,6 +1,0 @@
-2024-11-30 23:59:23.571 +01:00 [INF] User profile is available. Using 'C:\Users\ahmad\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
-2024-11-30 23:59:23.683 +01:00 [INF] Now listening on: https://localhost:7135
-2024-11-30 23:59:23.684 +01:00 [INF] Now listening on: http://localhost:5214
-2024-11-30 23:59:23.688 +01:00 [INF] Application started. Press Ctrl+C to shut down.
-2024-11-30 23:59:23.690 +01:00 [INF] Hosting environment: Development
-2024-11-30 23:59:23.691 +01:00 [INF] Content root path: C:\Users\ahmad\OneDrive\Skrivebord\Sub-Application-2---React\api
